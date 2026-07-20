@@ -23,7 +23,7 @@ My long-term goal is to become a Cloud Security Engineer and eventually move int
 
 ## Current Progress
 
-### July 2026
+### July 20, 2026
 
 - ✅ Started NYU Bridge OnRamp
 - ⬜ Complete Unit 1: Precalculus
