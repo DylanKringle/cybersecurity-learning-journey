@@ -4,73 +4,43 @@
 
 Hi! I'm Dylan Kringle.
 
-I earned a B.A. in Economics from San Diego State University and am transitioning into cybersecurity. This repository documents my journey as I build a strong technical foundation through the NYU Tandon Bridge Program, hands-on projects, home labs, industry certifications, and continuous learning.
+I earned a B.A. in Economics from San Diego State University and am transitioning into cybersecurity. I'm documenting my learning as I build a strong foundation in computer science, information technology, and cloud security.
+
+My long-term goal is to become a Cloud Security Engineer and eventually move into security leadership.
 
 ---
 
-# Long-Term Goal
-
-Become a Cloud Security Engineer at a top technology or quantitative trading company and eventually grow into a Chief Information Security Officer (CISO).
-
----
-
-# Current Focus
+## What I'm Working On
 
 - NYU Tandon Bridge OnRamp
 - NYU Tandon Bridge Program
 - Home Lab
 - GitHub Portfolio
 - TryHackMe
+- Hands-on Projects
 
 ---
 
-# Current Roadmap
+## Current Progress
 
-## Phase 1
-- Complete NYU Bridge OnRamp
-- Complete NYU Bridge
-- Build GitHub portfolio
-- Build Home Lab
+### July 2026
 
-## Phase 2
-- SDCCE Desktop Technician
-- Windows System Administration
-- Linux Server Administration
-- Security Essentials
-
-## Phase 3
-Earn:
-
-- CompTIA A+
-- CompTIA Network+
-- CompTIA Security+
-- CompTIA Linux+
+- ✅ Started NYU Bridge OnRamp
+- ⬜ Complete Unit 1: Precalculus
+- ⬜ Complete Unit 2: Python
 
 ---
 
-# Portfolio
+## Repositories
 
 This repository serves as the central hub for my cybersecurity journey.
 
-Future repositories will include:
+As I continue learning, I'll add projects covering:
 
-- Home Lab
 - Python
 - C++
 - Networking
 - Linux
 - Windows Administration
-- Security Projects
-- Cloud Projects
-
----
-
-# Progress
-
-## July 2026
-
-✅ Started NYU Bridge OnRamp
-
-⬜ Complete Unit 1: Precalculus
-
-⬜ Complete Unit 2: Python
+- Security
+- Cloud
