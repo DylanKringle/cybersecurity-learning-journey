@@ -25,9 +25,11 @@ My long-term goal is to become a Cloud Security Engineer and eventually move int
 
 ### July 20, 2026
 
-- ✅ Started NYU Bridge OnRamp
-- ⬜ Complete Unit 1: Precalculus
-- ⬜ Complete Unit 2: Python
+- ✅ Started NYU Tandon Bridge OnRamp
+- ⬜ Complete Lesson 1 – Algebra & Expressions
+- ⬜ Complete Lesson 2 – Functions & Graphs
+- ⬜ Complete Lesson 3 – Polynomial & Rational Functions
+- ⬜ Complete Lesson 4 – Exponential & Logarithmic Functions
 
 ---
 
