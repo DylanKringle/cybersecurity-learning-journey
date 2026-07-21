@@ -23,16 +23,22 @@ My long-term goal is to become a Cloud Security Engineer and eventually move int
 
 ## Current Progress
 
-### July 20, 2026
+### July 21, 2026
 
 - ✅ Started NYU Tandon Bridge OnRamp
-- ⬜ Complete Lesson 1 – Algebra & Expressions
-- ⬜ Complete Lesson 2 – Functions & Graphs
-- ⬜ Complete Lesson 3 – Polynomial & Rational Functions
-- ⬜ Complete Lesson 4 – Exponential & Logarithmic Functions
+- ✅ Completed Lesson 1 – Algebra & Expressions
+- ✅ Knowledge Check: 100% (1st attempt)
 
+**Notes**
+- Reviewed factoring expressions after the lesson.
+- Ready to begin Lesson 2 – Functions & Graphs.
 ---
+## Unit 1 Checklist
 
+- ✅ Lesson 1 – Algebra & Expressions
+- ⬜ Lesson 2 – Functions & Graphs
+- ⬜ Lesson 3 – Polynomial & Rational Functions
+- ⬜ Lesson 4 – Exponential & Logarithmic Functions
 ## Repositories
 
 This repository serves as the central hub for my cybersecurity journey.
