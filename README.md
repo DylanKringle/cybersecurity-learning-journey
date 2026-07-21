@@ -32,7 +32,7 @@ My long-term goal is to become a Cloud Security Engineer and eventually move int
 
 ### Linux Home Lab
 - ✅ Installed Ubuntu 24.04.4 LTS in VirtualBox
-- ✅ Completed first Linux terminal lesson
+- ✅ Completed first Linux fundamentals lesson in the terminal
 
 ### Linux Concepts Learned
 - Linux terminal navigation (pwd, ls, cd)
