@@ -25,20 +25,26 @@ My long-term goal is to become a Cloud Security Engineer and eventually move int
 
 ### July 21, 2026
 
+### NYU Tandon Bridge OnRamp
 - ✅ Started NYU Tandon Bridge OnRamp
 - ✅ Completed Lesson 1 – Algebra & Expressions
 - ✅ Knowledge Check: 100% (1st attempt)
 
+### Linux Home Lab
+- ✅ Installed Ubuntu 24.04.4 LTS in VirtualBox
+- ✅ Completed first Linux terminal lesson
+
+### Linux Concepts Learned
+- Linux terminal navigation (pwd, ls, cd)
+- Creating directories and files (mkdir, touch)
+- Reading files (cat)
+- Writing to files (echo)
+- Output redirection (>)
+
 **Notes**
 - Reviewed factoring expressions after the lesson.
+- Completed first hands-on Linux lab.
 - Ready to begin Lesson 2 – Functions & Graphs.
----
-## Unit 1 Checklist
-
-- ✅ Lesson 1 – Algebra & Expressions
-- ⬜ Lesson 2 – Functions & Graphs
-- ⬜ Lesson 3 – Polynomial & Rational Functions
-- ⬜ Lesson 4 – Exponential & Logarithmic Functions
 ## Repositories
 
 This repository serves as the central hub for my cybersecurity journey.
