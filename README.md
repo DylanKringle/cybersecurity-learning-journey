@@ -60,7 +60,36 @@ My long-term goal is to become a Cloud Security Engineer and eventually move int
 - Piecewise Functions
 - Graph Transformations
 - Inverse Functions
+## July 23, 2026
 
+### Linux Home Lab
+
+- ✅ Completed Linux Fundamentals Lesson 2 – File Management
+
+### Linux Concepts Learned
+
+- Copying files (`cp`)
+- Renaming files (`mv`)
+- Moving files between directories (`mv`)
+- Searching for files (`find`)
+- Relative paths (`..` and `../`)
+- Understanding the difference between copying and moving files
+- Reading and interpreting Linux terminal error messages
+
+### Hands-On Practice
+
+- Copied `linux-notes.txt` to `linux-notes-copy.txt`
+- Renamed `linux-notes-copy.txt` to `linux-notes-backup.txt`
+- Moved `linux-notes-backup.txt` into the `notes` directory
+- Verified file locations using `ls`
+- Verified file contents using `cat`
+- Located files using `find`
+
+### Notes
+
+- Continued using Ubuntu VirtualBox home lab.
+- Focused on understanding what each command does before memorizing syntax.
+- Used a notebook as a reference while practicing commands.
 ### Linux Home Lab Progress
 
 - Continued working in Ubuntu VirtualBox.
@@ -75,7 +104,23 @@ practice/
 ...
 
 - Verified file creation and contents using the terminal.
-- Linux skills practiced
+### Linux Skills
+
+Navigation
+- pwd
+- ls
+- cd
+
+File Management
+- mkdir
+- touch
+- cat
+- echo
+- nano
+- rm
+- cp
+- mv
+- find
 - Navigated the Linux filesystem.
 - Created and organized directories.
 - Created, edited, viewed, and removed files.
