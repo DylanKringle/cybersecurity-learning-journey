@@ -75,16 +75,12 @@ practice/
 ...
 
 - Verified file creation and contents using the terminal.
-- Linux commands practiced:
-  - pwd
-  - ls
-  - cd
-  - mkdir
-  - touch
-  - cat
-  - echo
-  - rm
-  - nano
+- Linux skills practiced
+- Navigated the Linux filesystem.
+- Created and organized directories.
+- Created, edited, viewed, and removed files.
+- Used Nano to edit text files directly in the terminal.
+- Verified file changes using terminal commands.
 ## Repositories
 
 This repository serves as the central hub for my cybersecurity journey.
