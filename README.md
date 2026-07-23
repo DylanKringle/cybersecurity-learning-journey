@@ -44,7 +44,47 @@ My long-term goal is to become a Cloud Security Engineer and eventually move int
 **Notes**
 - Reviewed factoring expressions after the lesson.
 - Completed first hands-on Linux lab.
-- Ready to begin Lesson 2 – Functions & Graphs.
+- Completed Lesson 2 - Functions & Graphs (July 22, 2026)
+- ### July 22, 2026
+
+### NYU Tandon Bridge OnRamp
+
+- ✅ Completed Lesson 2 – Functions & Graphs
+- ✅ Knowledge Check: 100% (Second attempt)
+
+### Lesson 2 Concepts Learned
+
+- Functions
+- Domain
+- Range
+- Piecewise Functions
+- Graph Transformations
+- Inverse Functions
+
+### Linux Home Lab Progress
+
+- Continued working in Ubuntu VirtualBox.
+- Built a Linux workspace:
+
+```md
+Workspace structure:
+
+```text
+practice/
+└── cyber-labs/
+...
+
+- Verified file creation and contents using the terminal.
+- Linux commands practiced:
+  - pwd
+  - ls
+  - cd
+  - mkdir
+  - touch
+  - cat
+  - echo
+  - rm
+  - nano
 ## Repositories
 
 This repository serves as the central hub for my cybersecurity journey.
