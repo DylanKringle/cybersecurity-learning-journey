@@ -1,141 +1,75 @@
 # Cybersecurity Learning Journey
 
-## About Me
 
-Hi! I'm Dylan Kringle.
+This repository serves as the central hub for my transition from economics into cybersecurity. It documents my learning through structured study, hands-on labs, technical projects, and continuous skill development as I build the foundation for a career in cloud security.
+---
 
-I earned a B.A. in Economics from San Diego State University and am transitioning into cybersecurity. I'm documenting my learning as I build a strong foundation in computer science, information technology, and cloud security.
+# About Me
 
-My long-term goal is to become a Cloud Security Engineer and eventually move into security leadership.
+Hi, I'm Dylan Kringle.
+
+I earned a B.A. in Economics from San Diego State University and am now transitioning into cybersecurity. My goal is to build a strong technical foundation through computer science, Linux, networking, cloud technologies, and hands-on security projects while documenting my progress every step of the way.
 
 ---
 
-## What I'm Working On
+# Career Goal
+
+My goal is to begin my career as a Cloud Security Engineer and continue growing into security architecture and leadership roles throughout my career.
+
+---
+
+# What I'm Working On
 
 - NYU Tandon Bridge OnRamp
-- NYU Tandon Bridge Program
-- Home Lab
-- GitHub Portfolio
-- TryHackMe
-- Hands-on Projects
+- Building a Linux Home Lab
+- Networking & Security Fundamentals
+- Cloud Technologies
+- Building Hands-On Technical Skills
+
+  ---
+# Current Milestone
+
+🎯 Currently completing the NYU Tandon Bridge OnRamp while building hands-on Linux, networking, and cloud security skills in preparation for the NYU Tandon Bridge Program.
+---
+
+# Explore the Portfolio
+
+This repository is organized into dedicated learning areas that document my progress as I continue developing technical knowledge and practical cybersecurity skills.
+
+## 📘 NYU Tandon Bridge
+
+Building the mathematical and computer science foundation for the NYU Tandon Bridge Program and future graduate cybersecurity study.
+
+**Explore:** [NYU Bridge Progress](bridge-progress.md)
 
 ---
 
-## Current Progress
+## 🐧 Linux Home Lab
 
-### July 21, 2026
+Hands-on Linux learning using Ubuntu through terminal practice, labs, troubleshooting, and home lab development.
 
-### NYU Tandon Bridge OnRamp
-- ✅ Started NYU Tandon Bridge OnRamp
-- ✅ Completed Lesson 1 – Algebra & Expressions
-- ✅ Knowledge Check: 100% (1st attempt)
+**Explore:** [Linux Home Lab](linux-home-lab.md)
 
-### Linux Home Lab
-- ✅ Installed Ubuntu 24.04.4 LTS in VirtualBox
-- ✅ Completed first Linux fundamentals lesson in the terminal
+---
 
-### Linux Concepts Learned
-- Linux terminal navigation (pwd, ls, cd)
-- Creating directories and files (mkdir, touch)
-- Reading files (cat)
-- Writing to files (echo)
-- Output redirection (>)
+## 🗺 Cybersecurity Roadmap
 
-**Notes**
-- Reviewed factoring expressions after the lesson.
-- Completed first hands-on Linux lab.
-- Completed Lesson 2 - Functions & Graphs (July 22, 2026)
-- ### July 22, 2026
+My long-term learning plan outlining the progression from economics into cloud security.
 
-### NYU Tandon Bridge OnRamp
+**Explore:** [Cybersecurity Roadmap](roadmap.md)
 
-- ✅ Completed Lesson 2 – Functions & Graphs
-- ✅ Knowledge Check: 100% (Second attempt)
+---
 
-### Lesson 2 Concepts Learned
+# Featured Repository
 
-- Functions
-- Domain
-- Range
-- Piecewise Functions
-- Graph Transformations
-- Inverse Functions
-## July 23, 2026
+## 🔒 Google Cybersecurity Projects
 
-### Linux Home Lab
+Projects completed while working through the Google Cybersecurity Professional Certificate, demonstrating foundational cybersecurity concepts through hands-on assessments and documentation.
 
-- ✅ Completed Linux Fundamentals Lesson 2 – File Management
+**Explore:** [Google Cybersecurity Projects](...)
 
-### Linux Concepts Learned
+---
 
-- Copying files (`cp`)
-- Renaming files (`mv`)
-- Moving files between directories (`mv`)
-- Searching for files (`find`)
-- Relative paths (`..` and `../`)
-- Understanding the difference between copying and moving files
-- Reading and interpreting Linux terminal error messages
+# Philosophy
 
-### Hands-On Practice
-
-- Copied `linux-notes.txt` to `linux-notes-copy.txt`
-- Renamed `linux-notes-copy.txt` to `linux-notes-backup.txt`
-- Moved `linux-notes-backup.txt` into the `notes` directory
-- Verified file locations using `ls`
-- Verified file contents using `cat`
-- Located files using `find`
-
-### Notes
-
-- Continued using Ubuntu VirtualBox home lab.
-- Focused on understanding what each command does before memorizing syntax.
-- Used a notebook as a reference while practicing commands.
-### Linux Home Lab Progress
-
-- Continued working in Ubuntu VirtualBox.
-- Built a Linux workspace:
-
-```md
-Workspace structure:
-
-```text
-practice/
-└── cyber-labs/
-...
-
-- Verified file creation and contents using the terminal.
-### Linux Skills
-
-Navigation
-- pwd
-- ls
-- cd
-
-File Management
-- mkdir
-- touch
-- cat
-- echo
-- nano
-- rm
-- cp
-- mv
-- find
-- Navigated the Linux filesystem.
-- Created and organized directories.
-- Created, edited, viewed, and removed files.
-- Used Nano to edit text files directly in the terminal.
-- Verified file changes using terminal commands.
-## Repositories
-
-This repository serves as the central hub for my cybersecurity journey.
-
-As I continue learning, I'll add projects covering:
-
-- Python
-- C++
-- Networking
-- Linux
-- Windows Administration
-- Security
-- Cloud
+I believe strong technical skills are built through consistent practice, hands-on labs, real projects, and continuous learning. Rather than simply completing coursework, I document my progress and build practical experience as I work toward a career in cloud security.
