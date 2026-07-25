@@ -21,4 +21,4 @@ Create and organize a simulated incident investigation using Ubuntu and the Linu
 
 Organized an investigation workspace, reviewed browser history and download activity, and identified indicators of a possible malware download.
 
-➡️ **[View Case 001](https://github.com/DylanKringle/cybersecurity-learning-journey/blob/main/linux-cases/case-001-incident-investigation.md)**
+➡️ **[View Case 001](https://github.com/DylanKringle/cybersecurity-learning-journey/blob/main/linux-%20cases/case-001-incident-investigation.md)**
