@@ -1,14 +1,14 @@
 # Cybersecurity Learning Journey
 
 
-This repository serves as the central hub for my transition from economics into cybersecurity. It documents my learning through structured study, hands-on labs, technical projects, and continuous skill development as I build the foundation for a career in cloud security.
+This repository documents my transition from economics into cybersecurity through structured study, hands-on labs, technical projects, and continuous skill development as I build the foundation for a career in cloud security.
 ---
 
 # About Me
 
 Hi, I'm Dylan Kringle.
 
-I earned a B.A. in Economics from San Diego State University and am now transitioning into cybersecurity. My goal is to build a strong technical foundation through computer science, Linux, networking, cloud technologies, and hands-on security projects while documenting my progress every step of the way.
+I earned a B.A. in Economics from San Diego State University and am now transitioning into cybersecurity. My goal is to build a strong technical foundation through computer science, Linux, networking, cloud technologies, and hands-on security projects while documenting my learning journey and building a public portfolio of technical projects.
 
 ---
 
@@ -20,12 +20,11 @@ My goal is to begin my career as a Cloud Security Engineer and continue growing 
 
 # What I'm Working On
 
-- NYU Tandon Bridge OnRamp
-- Building a Linux Home Lab
-- Networking & Security Fundamentals
-- Cloud Technologies
-- Building Hands-On Technical Skills
-
+- 📘 NYU Tandon Bridge OnRamp
+- 🐧 Linux Home Lab
+- 🌐 Networking & Security Fundamentals
+- ☁️ Cloud Technologies
+- 🛠️ Hands-On Technical Projects
   ---
 # Current Milestone
 
@@ -72,4 +71,4 @@ Projects completed while working through the Google Cybersecurity Professional C
 
 # Philosophy
 
-I believe strong technical skills are built through consistent practice, hands-on labs, real projects, and continuous learning. Rather than simply completing coursework, I document my progress and build practical experience as I work toward a career in cloud security.
+I believe strong technical skills are built through consistent practice, hands-on labs, real projects, and continuous learning. Rather than only completing coursework, I focus on applying what I learn through documented projects, practical labs, and continuous technical skill development.
