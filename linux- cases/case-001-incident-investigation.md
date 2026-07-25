@@ -1,14 +1,14 @@
 #  Case 001: Incident Investigation
 
-## Project Goal
+## Case Objective
 
 Create and organize a simulated incident investigation using Ubuntu and the Linux command line.
 
-## Scenario
+## Incident Summary
 
 A user reported downloading a suspicious file and experiencing unusual system behavior. The task was to organize the available evidence, inspect the collected artifacts, and identify the most suspicious activity.
 
-## Project Structure
+## Evidence Structure
 
 ```text
 investigation-001/
