@@ -120,7 +120,7 @@ This unit introduces the fundamentals of Python programming, including expressio
 - Data type demonstrations
 - Variable practice
 - Interactive user input program
-- Independent Python practice program using variables and user input
+- Independent Python survey program using variables and user input
 
 ### Reflection
 
