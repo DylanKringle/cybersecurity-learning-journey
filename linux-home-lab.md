@@ -1,25 +1,24 @@
 # Linux Home Lab
 
-This page documents my hands-on Linux development through practical cybersecurity and system administration labs.
+This page documents my hands-on Linux practice through realistic cybersecurity investigations.
 
 ---
 
-## Lab 1: Incident Investigation ✅
+## Case 001: Incident Investigation ✅
 
-**Goal:** Use the Linux command line to create an investigation workspace, organize evidence, and identify suspicious activity.
+**Goal**
 
-**Scenario:** A user reported downloading a suspicious file and experiencing unusual system behavior.
+Create and organize a simulated incident investigation using Ubuntu and the Linux command line.
 
-**What I Did:**
-- Built an investigation directory structure
-- Created and organized evidence files
-- Reviewed browser history and download activity
-- Identified a suspicious website and executable
-- Documented the investigation findings
+**Skills Practiced**
 
-**Skills Practiced:**
-`pwd`, `ls`, `cd`, `mkdir`, `touch`, `nano`, `cat`, and `rm`
+- Linux navigation
+- File management
+- Evidence collection
+- Basic incident investigation
 
-**Key Finding:** Evidence connected `freegift.ru` with the suspicious download `free_game.exe`, suggesting a possible malware incident.
+**Summary**
 
-[View the full lab, evidence, and screenshots →](linux-labs/lab-01-incident-investigation.md)
+Organized an investigation workspace, reviewed browser history and download activity, and identified indicators of a possible malware download.
+
+➡️ **[View Case 001](linux-cases/case-001-incident-investigation.md)**
