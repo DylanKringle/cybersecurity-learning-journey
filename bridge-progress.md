@@ -90,3 +90,38 @@ This was the most challenging lesson in Unit 1. The biggest breakthrough came fr
 ### Overall Reflection
 
 Completing Unit 1 provided a strong mathematical foundation for the rest of the NYU Tandon Bridge OnRamp. The unit reinforced algebra, functions, graph interpretation, polynomial and rational functions, and exponential and logarithmic concepts. The progression from reviewing algebra to confidently solving exponential equations demonstrated the importance of building conceptual understanding rather than relying on memorization. Finishing Unit 1 represents the first major milestone in my journey toward the NYU Tandon Bridge Program and, ultimately, graduate study in cybersecurity.
+
+# Unit 2: Introduction to Python 🐍
+
+**Status:** 🚧 In Progress
+
+This unit introduces the fundamentals of Python programming, including expressions, data types, variables, user input, control flow, functions, and basic data structures. The goal is to build a strong programming foundation for later computer science and cybersecurity coursework.
+
+---
+
+## Module 1: Expressions
+
+### Lesson 1: Basics
+
+**Status:** ✅ Completed
+
+### Topics Covered
+
+- Displaying output using `print()`
+- Data types (`int`, `float`, and `str`)
+- Variables
+- Accepting user input with `input()`
+- Understanding that `input()` always returns a string
+- Basic use of `int()` and `float()` to convert user input
+
+### Practical Exercises
+
+- Hello, World! program
+- Data type demonstrations
+- Variable practice
+- Interactive user input program
+- Independent Python practice program using variables and user input
+
+### Reflection
+
+This lesson introduced the core building blocks of Python programming. I learned how to display information on the screen, store values in variables, accept user input, and distinguish between integers, floating-point numbers, and strings. The biggest conceptual takeaway was understanding that `input()` always returns a string, even when the user types numbers. By the end of the lesson, I was able to write small interactive Python programs independently instead of only following the lecture examples.
