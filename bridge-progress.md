@@ -125,3 +125,66 @@ This unit introduces the fundamentals of Python programming, including expressio
 ### Reflection
 
 This lesson introduced the core building blocks of Python programming. I learned how to display information on the screen, store values in variables, accept user input, and distinguish between integers, floating-point numbers, and strings. The biggest conceptual takeaway was understanding that `input()` always returns a string, even when the user types numbers. By the end of the lesson, I was able to write small interactive Python programs independently instead of only following the lecture examples.
+
+## Lesson 2: Arithmetic
+
+**Status:** ✅ Completed
+
+### Topics Covered
+
+- Expressions
+- Arithmetic operators
+  - Addition (`+`)
+  - Subtraction (`-`)
+  - Multiplication (`*`)
+  - Division (`/`)
+  - Whole-number division (`//`)
+  - Modulo (`%`)
+  - Exponentiation (`**`)
+- Order of operations
+- Converting user input into integers using `int()`
+- Using arithmetic with variables and user input
+
+### Practical Exercises
+
+- Arithmetic operator practice
+- Predicting program output
+- Restaurant bill calculator
+- Module 1 Problem Set
+
+### Major Milestone
+
+🎉 **Module 1 Problem Set:** **100/100**
+
+### Reflection
+
+This lesson focused on using Python to perform mathematical operations with variables and user input. The biggest conceptual breakthrough was understanding that variables store the **result of an expression**, not the expression itself. I also learned that `input()` always returns a string and that values often need to be converted using `int()` before they can be used in arithmetic. Completing the restaurant bill calculator and earning **100/100** on the Module 1 Problem Set demonstrated that I could independently translate a written specification into a working Python program by breaking the problem into smaller steps.
+
+## Module 1 Summary
+
+**Status:** ✅ Completed
+
+### Lessons Completed
+
+- ✅ Lesson 1: Basics
+- ✅ Lesson 2: Arithmetic
+
+### Skills Developed
+
+- Variables
+- Data Types
+- User Input
+- Expressions
+- Arithmetic Operators
+- Converting User Input
+- Writing Small Python Programs
+
+### Overall Achievement
+
+- Lessons Completed: **2 / 2**
+- Module Status: ✅ Complete
+- Final Module 1 Problem Set Score: **100/100**
+
+### Overall Reflection
+
+Module 1 introduced the fundamental concepts of Python programming, including variables, expressions, user input, and arithmetic operations. By the end of the module, I was able to build complete interactive programs, interpret written programming specifications, and solve problems by breaking them into smaller steps. Successfully earning **100/100** on the Module 1 Problem Set marked my first completed Python programming assignment in the NYU Tandon Bridge OnRamp.
