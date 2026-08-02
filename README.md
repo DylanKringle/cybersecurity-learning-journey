@@ -1,74 +1,72 @@
 # Cybersecurity Learning Journey
 
+Documenting my transition from economics into cybersecurity through structured study, hands-on labs, technical projects, and honest progress tracking as I build toward cloud security engineering.
 
-This repository documents my transition from economics into cybersecurity through structured study, hands-on labs, technical projects, and continuous skill development as I build the foundation for a career in cloud security.
----
-
-# About Me
+## About Me
 
 Hi, I'm Dylan Kringle.
 
-I earned a B.A. in Economics from San Diego State University and am now transitioning into cybersecurity. My goal is to build a strong technical foundation through computer science, Linux, networking, cloud technologies, and hands-on security projects while documenting my learning journey and building a public portfolio of technical projects.
+I am completing a B.A. in Economics at San Diego State University and building the technical foundation for graduate study and a future career in cloud security. This repository tracks my learning across programming, Linux, networking, cloud technologies, and cybersecurity labs.
 
----
+I use AI as a study coach and documentation assistant, but the work documented here is based on concepts I practice, explain, test, and verify myself.
 
-# Career Goal
+## Career Goal
 
-My goal is to begin my career as a Cloud Security Engineer and continue growing into security architecture and leadership roles throughout my career.
+My long-term goal is to become a Cloud Security Engineer, with continued growth toward security architecture, technical leadership, and cloud-security strategy.
 
----
+## Current Focus
 
-# What I'm Working On
+- NYU Tandon Bridge OnRamp preparation
+- Python programming foundations
+- Linux command-line practice
+- OverTheWire Bandit labs
+- GitHub documentation habits
+- Networking and cloud-security foundations
 
-- 📘 NYU Tandon Bridge OnRamp
-- 🐧 Linux Home Lab
-- 🌐 Networking & Security Fundamentals
-- ☁️ Cloud Technologies
-- 🛠️ Hands-On Technical Projects
-  ---
-# Current Milestone
+## Current Milestone
 
-🎯 Currently completing the NYU Tandon Bridge OnRamp while building hands-on Linux, networking, and cloud security skills in preparation for the NYU Tandon Bridge Program.
----
+I am building beginner technical fluency through Python, Linux, and documented labs while preparing for the NYU Tandon Bridge Program and a future M.S. in Cybersecurity.
 
-# Explore the Portfolio
+## Portfolio Areas
 
-This repository is organized into dedicated learning areas that document my progress as I continue developing technical knowledge and practical cybersecurity skills.
+### NYU Tandon Bridge / OnRamp
 
-## 📘 NYU Tandon Bridge
-
-Building the mathematical and computer science foundation for the NYU Tandon Bridge Program and future graduate cybersecurity study.
+Math and programming preparation for Bridge and future graduate cybersecurity study.
 
 **Explore:** [NYU Bridge Progress](bridge-progress.md)
 
----
+### Python Foundations
 
-## 🐧 Linux Home Lab
+Beginner Python practice focused on variables, conditionals, loops, functions, strings, debugging, and problem solving.
 
-Hands-on Linux learning using Ubuntu through terminal practice, labs, troubleshooting, and home lab development.
+**Explore:** [Python Module 3 Review](python/module-3-review.md)
+
+### Linux Home Lab
+
+Hands-on Linux learning using Ubuntu, terminal practice, troubleshooting, and controlled lab exercises.
 
 **Explore:** [Linux Home Lab](linux-home-lab.md)
 
----
+### Bandit / Command-Line Practice
 
-## 🗺 Cybersecurity Roadmap
+Sanitized notes from OverTheWire Bandit levels. Passwords are never stored or published.
 
-My long-term learning plan outlining the progression from economics into cloud security.
+**Explore:** [Bandit Notes](linux/bandit-notes.md)
+
+### Cybersecurity Roadmap
+
+My long-term learning plan from economics into cloud security.
 
 **Explore:** [Cybersecurity Roadmap](roadmap.md)
 
----
+## Learning Principles
 
-# Featured Repository
+- Understand concepts before memorizing commands.
+- Verify work with output, scores, or repeatable observations.
+- Document mistakes and fixes honestly.
+- Keep sensitive information out of GitHub.
+- Build small, explainable projects before larger portfolio work.
 
-## 🔒 Google Cybersecurity Projects
+## Repository Status
 
-Projects completed while working through the Google Cybersecurity Professional Certificate, demonstrating foundational cybersecurity concepts through hands-on assessments and documentation.
-
-**Explore:** [Google Cybersecurity Projects](...)
-
----
-
-# Philosophy
-
-I believe strong technical skills are built through consistent practice, hands-on labs, real projects, and continuous learning. Rather than only completing coursework, I focus on applying what I learn through documented projects, practical labs, and continuous technical skill development.
+This repository is currently a learning journal, not a finished professional portfolio. It will become more project-focused as my Linux, networking, scripting, and cloud-security skills develop.

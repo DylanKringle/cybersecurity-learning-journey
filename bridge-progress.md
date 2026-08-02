@@ -188,3 +188,41 @@ This lesson focused on using Python to perform mathematical operations with vari
 ### Overall Reflection
 
 Module 1 introduced the fundamental concepts of Python programming, including variables, expressions, user input, and arithmetic operations. By the end of the module, I was able to build complete interactive programs, interpret written programming specifications, and solve problems by breaking them into smaller steps. Successfully earning **100/100** on the Module 1 Problem Set marked my first completed Python programming assignment in the NYU Tandon Bridge OnRamp.
+
+
+## Module 3: Loops, Strings, and Debugging
+
+**Status:** Completed and reviewed
+
+**Overall Review Score:** 9.8/10
+
+### Programs Practiced
+
+- `analyze_text()`
+- `is_strong_pw(password)`
+- `numberify(word)`
+
+### Topics Covered
+
+- Loops over strings
+- Counters
+- Boolean switches
+- Building strings
+- String methods
+- Function definitions
+- Parameters and arguments
+- `return` versus `print`
+- `main()`
+- Debugging syntax, indentation, variable, type, and logic errors
+
+### Evidence
+
+- Rewrote programs
+- Debugged errors after running code
+- Answered conceptual questions
+- Solved modified practice problems
+- Passed all listed autograder tests
+
+### Reflection
+
+Module 3 strengthened my ability to break programming problems into smaller patterns: counting, remembering whether something happened, or building a new string. These patterns will be useful later for log analysis, password checks, input validation, and simple cybersecurity automation.
