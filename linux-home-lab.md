@@ -41,7 +41,7 @@ This page documents my hands-on Linux practice through Ubuntu, command-line exer
 
 Organized an investigation workspace, reviewed browser history and download activity, and identified indicators of a possible malware download.
 
-**Explore:** [View Case 001](https://github.com/DylanKringle/cybersecurity-learning-journey/blob/main/linux-%20cases/case-001-incident-investigation.md)
+**Explore:** [View Case 001](linux-%20cases/case-001-incident-investigation.md)
 
 ## Bandit Practice
 

@@ -14,20 +14,28 @@ I use AI as a study coach and documentation assistant, but the work documented h
 
 My long-term goal is to become a Cloud Security Engineer, with continued growth toward security architecture, technical leadership, and cloud-security strategy.
 
+## Current Status
+
+Current stage: foundation-building while beginning NYU Tandon Bridge preparation.
+
+Recent verified progress:
+
+- Completed NYU OnRamp Unit 1: Precalculus
+- Completed Python Module 3 review with an overall score of 9.8/10
+- Practiced beginner Linux commands in Ubuntu
+- Completed OverTheWire Bandit progress through Level 10 -> 11
+- Started organizing this repository as an honest learning journal
+
 ## Current Focus
 
-- NYU Tandon Bridge OnRamp preparation
+- NYU Tandon Bridge preparation
 - Python programming foundations
 - Linux command-line practice
 - OverTheWire Bandit labs
 - GitHub documentation habits
 - Networking and cloud-security foundations
 
-## Current Milestone
-
-I am building beginner technical fluency through Python, Linux, and documented labs while preparing for the NYU Tandon Bridge Program and a future M.S. in Cybersecurity.
-
-## Portfolio Areas
+## Explore The Repository
 
 ### NYU Tandon Bridge / OnRamp
 
@@ -58,6 +66,12 @@ Sanitized notes from OverTheWire Bandit levels. Passwords are never stored or pu
 My long-term learning plan from economics into cloud security.
 
 **Explore:** [Cybersecurity Roadmap](roadmap.md)
+
+## Related Work
+
+Earlier cybersecurity coursework and projects are kept separately from this learning journal.
+
+**Explore:** [Google Cybersecurity Projects](https://github.com/DylanKringle/Google-Cybersecurity-Projects)
 
 ## Learning Principles
 
