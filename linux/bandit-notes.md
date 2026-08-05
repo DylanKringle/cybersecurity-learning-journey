@@ -25,7 +25,7 @@ Completed:
 - Level 11 -> Level 12
 - Level 12 -> Level 13
 
-Level 11 -> Level 12 is not yet completed.
+Bandit Level 13 and later are not yet documented as complete.
 
 ## Commands Practiced
 
