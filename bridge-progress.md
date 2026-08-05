@@ -1,10 +1,10 @@
-# NYU Tandon Bridge OnRamp Progress
+# NYU Tandon Bridge Progress
 
-This page documents my progress through the NYU Tandon Bridge OnRamp, including lesson summaries, knowledge check results, reflections, and major milestones.
+This page documents my progress through NYU Tandon Bridge preparation and the Bridge program itself, including lesson summaries, knowledge check results, reflections, and major milestones.
 
 ---
 
-# Unit 1: Precalculus ✅
+# OnRamp Unit 1: Precalculus
 
 **Status:** Completed
 
@@ -14,42 +14,45 @@ Unit 1 established the mathematical foundation for the NYU Tandon Bridge Program
 
 ## Lesson 1: Algebra & Expressions
 
-**Status:** ✅ Completed
+**Status:** Completed
 
-**Knowledge Check:** 🎉 **100%**
+**Knowledge Check:** 100%
 
 ### Reflection
+
 Reviewed and strengthened core algebra skills that serve as the foundation for later Bridge coursework.
 
 ---
 
 ## Lesson 2: Functions & Graphs
 
-**Status:** ✅ Completed
+**Status:** Completed
 
-**Knowledge Check:** 🎉 **100%**
+**Knowledge Check:** 100%
 
 ### Reflection
+
 Developed a stronger conceptual understanding of functions, graphs, domain, range, and function notation.
 
 ---
 
 ## Lesson 3: Polynomial & Rational Functions
 
-**Status:** ✅ Completed
+**Status:** Completed
 
-**Knowledge Check:** **87.5%**
+**Knowledge Check:** 87.5%
 
 ### Reflection
+
 Strengthened algebraic reasoning through polynomial and rational function analysis while becoming more comfortable interpreting graphs and function behavior.
 
 ---
 
 ## Lesson 4: Exponential & Logarithmic Functions
 
-**Status:** ✅ Completed
+**Status:** Completed
 
-**Knowledge Check:** 🎉 **100%**
+**Knowledge Check:** 100%
 
 ### Topics Covered
 
@@ -62,133 +65,54 @@ Strengthened algebraic reasoning through polynomial and rational function analys
 
 ### Key Takeaways
 
-- Learned when to rewrite equations using the **same-base method**.
+- Learned when to rewrite equations using the same-base method.
 - Learned when logarithms are necessary to solve exponential equations.
-- Developed a conceptual understanding of logarithms by thinking of them as answering the question:
-
-> *"What exponent do I put on the base to get this number?"*
+- Developed a conceptual understanding of logarithms as the question: "What exponent do I put on the base to get this number?"
 
 ### Reflection
 
-This was the most challenging lesson in Unit 1. The biggest breakthrough came from understanding **why** logarithms are used instead of simply memorizing a sequence of steps. Learning to first ask whether an equation could be rewritten using the same base made solving exponential equations much more intuitive. Completing the lesson with a **100% Knowledge Check** marked the completion of **Unit 1: Precalculus** in the NYU Tandon Bridge OnRamp.
+This was the most challenging lesson in Unit 1. The biggest breakthrough came from understanding why logarithms are used instead of simply memorizing a sequence of steps. Completing the lesson with a 100% Knowledge Check marked the completion of OnRamp Unit 1: Precalculus.
 
 ---
 
-# Unit 1 Summary
+# OnRamp Unit 2: Introduction to Python
 
-**Status:** ✅ Completed
+**Status:** In Progress
 
-**Lessons Completed:** 4 / 4
-
-**Knowledge Check Scores**
-
-- Lesson 1: **100%**
-- Lesson 2: **100%**
-- Lesson 3: **87.5%**
-- Lesson 4: **100%**
-
-### Overall Reflection
-
-Completing Unit 1 provided a strong mathematical foundation for the rest of the NYU Tandon Bridge OnRamp. The unit reinforced algebra, functions, graph interpretation, polynomial and rational functions, and exponential and logarithmic concepts. The progression from reviewing algebra to confidently solving exponential equations demonstrated the importance of building conceptual understanding rather than relying on memorization. Finishing Unit 1 represents the first major milestone in my journey toward the NYU Tandon Bridge Program and, ultimately, graduate study in cybersecurity.
-
-# Unit 2: Introduction to Python 🐍
-
-**Status:** 🚧 In Progress
-
-This unit introduces the fundamentals of Python programming, including expressions, data types, variables, user input, control flow, functions, and basic data structures. The goal is to build a strong programming foundation for later computer science and cybersecurity coursework.
+This unit introduces the fundamentals of Python programming, including expressions, data types, variables, user input, control flow, functions, and basic data structures.
 
 ---
 
 ## Module 1: Expressions
 
-### Lesson 1: Basics
-
-**Status:** ✅ Completed
-
-### Topics Covered
-
-- Displaying output using `print()`
-- Data types (`int`, `float`, and `str`)
-- Variables
-- Accepting user input with `input()`
-- Understanding that `input()` always returns a string
-- Basic use of `int()` and `float()` to convert user input
-
-### Practical Exercises
-
-- Hello, World! program
-- Data type demonstrations
-- Variable practice
-- Interactive user input program
-- Independent Python survey program using variables and user input
-
-### Reflection
-
-This lesson introduced the core building blocks of Python programming. I learned how to display information on the screen, store values in variables, accept user input, and distinguish between integers, floating-point numbers, and strings. The biggest conceptual takeaway was understanding that `input()` always returns a string, even when the user types numbers. By the end of the lesson, I was able to write small interactive Python programs independently instead of only following the lecture examples.
-
-## Lesson 2: Arithmetic
-
-**Status:** ✅ Completed
-
-### Topics Covered
-
-- Expressions
-- Arithmetic operators
-  - Addition (`+`)
-  - Subtraction (`-`)
-  - Multiplication (`*`)
-  - Division (`/`)
-  - Whole-number division (`//`)
-  - Modulo (`%`)
-  - Exponentiation (`**`)
-- Order of operations
-- Converting user input into integers using `int()`
-- Using arithmetic with variables and user input
-
-### Practical Exercises
-
-- Arithmetic operator practice
-- Predicting program output
-- Restaurant bill calculator
-- Module 1 Problem Set
-
-### Major Milestone
-
-🎉 **Module 1 Problem Set:** **100/100**
-
-### Reflection
-
-This lesson focused on using Python to perform mathematical operations with variables and user input. The biggest conceptual breakthrough was understanding that variables store the **result of an expression**, not the expression itself. I also learned that `input()` always returns a string and that values often need to be converted using `int()` before they can be used in arithmetic. Completing the restaurant bill calculator and earning **100/100** on the Module 1 Problem Set demonstrated that I could independently translate a written specification into a working Python program by breaking the problem into smaller steps.
-
-## Module 1 Summary
-
-**Status:** ✅ Completed
+**Status:** Completed
 
 ### Lessons Completed
 
-- ✅ Lesson 1: Basics
-- ✅ Lesson 2: Arithmetic
+- Lesson 1: Basics
+- Lesson 2: Arithmetic
 
 ### Skills Developed
 
 - Variables
-- Data Types
-- User Input
+- Data types
+- User input
 - Expressions
-- Arithmetic Operators
-- Converting User Input
-- Writing Small Python Programs
+- Arithmetic operators
+- Converting user input
+- Writing small Python programs
 
 ### Overall Achievement
 
-- Lessons Completed: **2 / 2**
-- Module Status: ✅ Complete
-- Final Module 1 Problem Set Score: **100/100**
+- Lessons Completed: 2 / 2
+- Module Status: Complete
+- Final Module 1 Problem Set Score: 100/100
 
-### Overall Reflection
+### Reflection
 
-Module 1 introduced the fundamental concepts of Python programming, including variables, expressions, user input, and arithmetic operations. By the end of the module, I was able to build complete interactive programs, interpret written programming specifications, and solve problems by breaking them into smaller steps. Successfully earning **100/100** on the Module 1 Problem Set marked my first completed Python programming assignment in the NYU Tandon Bridge OnRamp.
+Module 1 introduced the fundamental concepts of Python programming, including variables, expressions, user input, and arithmetic operations. Successfully earning 100/100 on the Module 1 Problem Set marked my first completed Python programming assignment in the NYU Tandon Bridge OnRamp.
 
+---
 
 ## Module 3: Loops, Strings, and Debugging
 
@@ -226,3 +150,94 @@ Module 1 introduced the fundamental concepts of Python programming, including va
 ### Reflection
 
 Module 3 strengthened my ability to break programming problems into smaller patterns: counting, remembering whether something happened, or building a new string. These patterns will be useful later for log analysis, password checks, input validation, and simple cybersecurity automation.
+
+---
+
+# NYU Tandon Bridge Program
+
+**Status:** Started
+
+Bridge is now my highest-priority study track. The program structure includes Discrete Math, C++, Data Structures, and Networking & Operating Systems.
+
+---
+
+## Orientation
+
+**Status:** Completed
+
+### Topics Reviewed
+
+- Syllabus
+- Course information
+- Instructor information
+- Policies and procedures
+- Grading periods
+- Course tools
+- Unit 1 overview
+- Textbook information
+- Respondus and Gradescope expectations
+
+### Key Rule
+
+Knowledge checks and coding practice support learning, but the four unit exams determine the course grade.
+
+---
+
+## Unit 1: Discrete Math
+
+**Status:** In Progress
+
+---
+
+### Module 1, Lesson 1.1: Propositions & Connectives
+
+**Status:** Completed
+
+**Official Knowledge Check:** 100%
+
+### Work Completed
+
+- Reviewed the lecture
+- Reviewed textbook sections
+- Worked through examples
+- Completed guided practice
+- Completed the official NYU Knowledge Check
+
+### Concepts Practiced
+
+- Statements vs. non-statements
+- Atomic vs. molecular statements
+- Logical connectives
+- AND
+- OR
+- NOT
+- IF...THEN
+- IF AND ONLY IF
+- Truth tables
+- Predicates
+- Free variables
+- Quantifiers: for all / there exists
+- Translating professor terminology into plain English
+
+### Vocabulary
+
+- Statement: can be true or false
+- Predicate: needs more information
+- Conjunction: AND
+- Disjunction: OR
+- Negation: NOT
+- Conditional: IF...THEN
+- Biconditional: IF AND ONLY IF
+- Universal: for all
+- Existential: there exists
+- Truth value: true or false
+
+### Reflection
+
+This was the first technical Bridge lesson. The focus was on understanding the logic vocabulary in plain English first, then connecting it back to the professor's terminology and symbols. Translating symbols into English before solving helped make the concepts less abstract.
+
+---
+
+## Next Bridge Lesson
+
+Begin Lesson 1.2: Truth Tables & Equivalence.

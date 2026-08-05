@@ -47,19 +47,39 @@ Organized an investigation workspace, reviewed browser history and download acti
 
 **Status:** In progress
 
-Current verified state: logged in as `bandit11`.
+Current verified starting point: Bandit Level 13.
 
 Completed:
 
 - Level 8 -> Level 9
 - Level 9 -> Level 10
 - Level 10 -> Level 11
+- Level 11 -> Level 12
+- Level 12 -> Level 13
 
 **Explore:** [Bandit Notes](linux/bandit-notes.md)
 
+## Recent Commands Practiced
+
+- `cp`
+- `mv`
+- `mktemp`
+- `tr`
+- `xxd -r`
+- `file`
+- `gunzip`
+- `bunzip2`
+- `tar -xf`
+- `cat`
+- input/output redirection with `<` and `>`
+
+## Current Linux Takeaway
+
+The biggest improvement is using an investigation-first workflow: identify the file type, choose the matching command, test carefully, and verify the result.
+
 ## Next Linux Focus
 
-- Resume Bandit Level 11 -> Level 12
+- Continue Bandit Level 13
 - Practice absolute and relative paths
 - Practice copy, move, and rename commands
 - Continue documenting commands without publishing passwords or sensitive information

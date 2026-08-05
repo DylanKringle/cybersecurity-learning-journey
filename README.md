@@ -16,19 +16,21 @@ My long-term goal is to become a Cloud Security Engineer, with continued growth 
 
 ## Current Status
 
-Current stage: foundation-building while beginning NYU Tandon Bridge preparation.
+Current stage: NYU Tandon Bridge has started, with Bridge now the highest-priority study track.
 
 Recent verified progress:
 
 - Completed NYU OnRamp Unit 1: Precalculus
+- Completed NYU Bridge Unit 1, Module 1, Lesson 1.1: Propositions & Connectives
+- Earned 100% on the official Bridge Lesson 1.1 Knowledge Check
 - Completed Python Module 3 review with an overall score of 9.8/10
 - Practiced beginner Linux commands in Ubuntu
-- Completed OverTheWire Bandit progress through Level 10 -> 11
+- Completed OverTheWire Bandit progress through Level 12
 - Started organizing this repository as an honest learning journal
 
 ## Current Focus
 
-- NYU Tandon Bridge preparation
+- NYU Tandon Bridge: discrete math, logic, and computer science foundations
 - Python programming foundations
 - Linux command-line practice
 - OverTheWire Bandit labs
