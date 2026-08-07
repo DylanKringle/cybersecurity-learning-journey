@@ -12,10 +12,11 @@ Do not store or publish:
 - SSH private keys
 - Tokens
 - Personal credentials
+- Private-key contents
 
 ## Current Verified Progress
 
-Current verified starting point: Bandit Level 13.
+Current verified starting point: Bandit Level 15 -> 16.
 
 Completed:
 
@@ -25,8 +26,10 @@ Completed:
 - Level 10 -> Level 11
 - Level 11 -> Level 12
 - Level 12 -> Level 13
+- Level 13 -> Level 14
+- Level 14 -> Level 15
 
-Bandit Level 13 and later are not yet documented as complete.
+Bandit Level 15 -> 16 and later are not yet documented as complete.
 
 ## Earlier Bandit Progress: Levels 0-7
 
@@ -49,6 +52,44 @@ These early levels introduced basic command-line investigation and remote Linux 
 ### Documentation Note
 
 This section is a backfilled summary. It records the progression honestly without pretending to have detailed notes for every early level.
+
+## Recent Bandit Milestones
+
+### Level 13 -> Level 14
+
+**Concept:** SSH private-key authentication
+
+Skills practiced:
+
+- Identified an OpenSSH private key with `file`
+- Distinguished the remote Bandit server from the local Ubuntu VM
+- Copied a key file securely with `scp`
+- Corrected the port flag difference between `ssh -p` and `scp -P`
+- Used `chmod 600` to restrict private-key permissions
+- Verified permissions with `ls -l`
+- Used `ssh -i` to authenticate with an identity file
+
+Important lesson:
+
+SSH private keys must have restrictive permissions. The private-key permission warning was useful because it explained exactly why the key was ignored.
+
+### Level 14 -> Level 15
+
+**Concept:** localhost, ports, and Netcat
+
+Skills practiced:
+
+- Read the level goal carefully
+- Used `cat` to read the current-level password file without publishing it
+- Learned that `localhost` means the current machine
+- Learned that a port identifies a specific service/process endpoint
+- Connected to a TCP service with `nc localhost 30000`
+- Corrected a port typo from `3000` to `30000`
+- Used the service response as verification
+
+Important lesson:
+
+Netcat can connect directly to a network service. When the shell prompt disappears, the command may be waiting for input to send to that service.
 
 ## Commands Practiced
 
@@ -122,6 +163,26 @@ Used to create a temporary working directory.
 
 Used to copy, move, and rename files during investigation.
 
+### `scp -P 2220`
+
+Used to securely copy files over SSH while specifying the SSH port.
+
+### `ssh -i`
+
+Used to authenticate with a private identity file.
+
+### `chmod 600`
+
+Used to restrict a private key so only the owner can read and write it.
+
+### `ls -l`
+
+Used to inspect Unix file permissions.
+
+### `nc localhost 30000`
+
+Used to connect to a local TCP service with Netcat.
+
 ### Input and Output Redirection
 
 Practiced using `<` and `>` to control input and output.
@@ -136,24 +197,27 @@ Practiced using `<` and `>` to control input and output.
 - Identifying file types before choosing tools
 - Reversing a hexdump
 - Decompressing layered archive formats
+- SSH private-key authentication
+- Secure file transfer with `scp`
+- Linux file permissions
+- Local versus remote systems
+- Localhost and ports
+- Connecting to services with Netcat
 - Verifying progress by logging into the next level
 
 ## Investigation Workflow
 
-For the layered Bandit challenge, the workflow was:
+The general Bandit workflow is:
 
-1. Identify the file type with `file`.
-2. Choose the matching tool.
-3. Decompress or extract.
-4. Inspect the new file.
-5. Repeat until the useful text is found.
+1. Read the level goal.
+2. Inspect available files and hints.
+3. Identify file types or service requirements.
+4. Choose the tool that matches the evidence.
+5. Read errors carefully.
+6. Verify the result before recording progress.
 
-This was a shift away from guessing commands and toward evidence-based troubleshooting.
-
-## Reflection
-
-Bandit is helping me build comfort with the Linux command line in a controlled environment. The main skill is not memorizing commands, but learning how to read a clue, choose a tool, test carefully, and verify the result.
+This keeps the practice focused on reasoning instead of memorizing commands.
 
 ## Next Step
 
-Continue Bandit Level 13 using the same investigation-first approach.
+Continue Bandit Level 15 -> 16 using the same investigation-first approach.

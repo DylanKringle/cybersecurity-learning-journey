@@ -264,6 +264,55 @@ This was the first technical Bridge lesson. The focus was on understanding the l
 
 ---
 
-## Next Bridge Lesson
+### Module 1, Lesson 1.2: Truth Tables & Equivalence
 
-Begin Lesson 1.2: Truth Tables & Equivalence.
+**Status:** Completed
+
+**Official Knowledge Check DM1.2:** 3/3, 100%, Attempt 1
+
+### Work Completed
+
+- Watched the instructional video with captions
+- Reviewed lesson objectives
+- Practiced truth-table construction step by step
+- Worked examples by hand on graph paper
+- Completed the official Knowledge Check
+- Completed an additional 10-question handwritten review
+
+### Concepts Practiced
+
+- Constructing and interpreting truth tables
+- Evaluating compound statements
+- Determining logical equivalence
+- Row-count patterns
+- AND / OR / NOT
+- Implication
+- Double negation
+- Intermediate-column workflow
+- Handling negation outside parentheses
+
+### Key Takeaways
+
+- A truth table tests every possible truth-value combination.
+- Two statements are logically equivalent when their final columns match in every row.
+- Each added variable doubles the number of rows.
+- Implication is false only for `T -> F`.
+- Complex expressions are easier when built one intermediate column at a time.
+
+### Mistakes Corrected
+
+- Mixed an intermediate AND/OR result with a later implication rule.
+- Clarified why an implication can be true when the left side is false.
+- Clarified that `p` and `q` vary across truth-table rows.
+- Practiced handling outside negation after completing the expression inside parentheses.
+- Corrected a quiz-selection typo and a notation slip during extra practice.
+
+### Reflection
+
+The main breakthrough was treating each truth-table column as a separate calculation. Building intermediate columns first made larger expressions easier to understand and reduced the chance of mixing rules between different logical operations.
+
+---
+
+## Next Bridge Step
+
+Start the next Bridge lesson fresh in the next session.

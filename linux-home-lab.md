@@ -47,15 +47,18 @@ Organized an investigation workspace, reviewed browser history and download acti
 
 **Status:** In progress
 
-Current verified starting point: Bandit Level 13.
+Current verified starting point: Bandit Level 15 -> 16.
 
 Completed:
 
+- Earlier Bandit basics through Level 8
 - Level 8 -> Level 9
 - Level 9 -> Level 10
 - Level 10 -> Level 11
 - Level 11 -> Level 12
 - Level 12 -> Level 13
+- Level 13 -> Level 14
+- Level 14 -> Level 15
 
 **Explore:** [Bandit Notes](linux/bandit-notes.md)
 
@@ -71,15 +74,20 @@ Completed:
 - `bunzip2`
 - `tar -xf`
 - `cat`
+- `scp -P 2220`
+- `ssh -i`
+- `chmod 600`
+- `ls -l`
+- `nc localhost 30000`
 - input/output redirection with `<` and `>`
 
 ## Current Linux Takeaway
 
-The biggest improvement is using an investigation-first workflow: identify the file type, choose the matching command, test carefully, and verify the result.
+The biggest improvement is using an investigation-first workflow: identify the file type or service requirement, choose the matching command, read errors carefully, and verify the result.
 
 ## Next Linux Focus
 
-- Continue Bandit Level 13
-- Practice absolute and relative paths
-- Practice copy, move, and rename commands
+- Continue Bandit Level 15 -> 16
+- Practice local versus remote system awareness
+- Continue learning permissions and secure file handling
 - Continue documenting commands without publishing passwords or sensitive information
