@@ -114,6 +114,32 @@ Module 1 introduced the fundamental concepts of Python programming, including va
 
 ---
 
+## Module 2: Control Flow
+
+**Status:** Completed
+
+### Work Completed
+
+- Lesson 1 materials and lecture video
+- Lesson 2 materials and lecture video
+- Module 2 Problem Set #1
+- Module 2 Problem Set #2
+
+### Concepts Practiced
+
+- Comparison operators
+- Boolean operators
+- `if` / `elif` / `else` selection statements
+- While-loops
+- Sentinel-controlled loops
+- For-loops for iteration
+
+### Reflection
+
+Module 2 built the control-flow foundation needed to make programs choose between paths and repeat work. These ideas are important for later cybersecurity scripting because security tools often need to check conditions, loop through data, and respond differently depending on what they find.
+
+---
+
 ## Module 3: Loops, Strings, and Debugging
 
 **Status:** Completed and reviewed

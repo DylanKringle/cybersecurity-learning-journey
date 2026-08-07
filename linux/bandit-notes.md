@@ -19,6 +19,7 @@ Current verified starting point: Bandit Level 13.
 
 Completed:
 
+- Earlier Bandit basics through Level 8
 - Level 8 -> Level 9
 - Level 9 -> Level 10
 - Level 10 -> Level 11
@@ -26,6 +27,28 @@ Completed:
 - Level 12 -> Level 13
 
 Bandit Level 13 and later are not yet documented as complete.
+
+## Earlier Bandit Progress: Levels 0-7
+
+**Status:** Completed before detailed note-taking became consistent
+
+These early levels introduced basic command-line investigation and remote Linux practice. Detailed notes begin at Level 8, where documentation became more consistent.
+
+### Skills Introduced
+
+- Connecting to a remote Linux server with SSH
+- Navigating the filesystem
+- Reading files from the command line
+- Listing directory contents
+- Finding hidden files
+- Handling unusual filenames
+- Checking file types
+- Using clues from the level goal instead of guessing
+- Verifying progress by logging into the next level
+
+### Documentation Note
+
+This section is a backfilled summary. It records the progression honestly without pretending to have detailed notes for every early level.
 
 ## Commands Practiced
 
