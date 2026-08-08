@@ -23,7 +23,8 @@ Recent verified progress:
 - Completed NYU OnRamp Unit 1: Precalculus
 - Completed NYU Bridge Unit 1, Module 1, Lesson 1.1: Propositions & Connectives
 - Completed NYU Bridge Unit 1, Module 1, Lesson 1.2: Truth Tables & Equivalence
-- Earned 100% on official Bridge Knowledge Checks for Lessons 1.1 and 1.2
+- Completed NYU Bridge Unit 1, Module 1, Lesson 1.3: DeMorgan's Laws
+- Earned 100% on official Bridge Knowledge Checks for Lessons 1.1, 1.2, and 1.3
 - Completed Python Module 2: Control Flow
 - Completed Python Module 3 review with an overall score of 9.8/10
 - Practiced beginner Linux commands in Ubuntu

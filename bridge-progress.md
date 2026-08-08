@@ -313,6 +313,67 @@ The main breakthrough was treating each truth-table column as a separate calcula
 
 ---
 
+### Module 1, Lesson 1.3: DeMorgan's Laws
+
+**Status:** Completed
+
+**Official Knowledge Check DM1.3:** 3/3, 100%, Attempt 1
+
+### Work Completed
+
+- Reviewed the NYU Lesson 1.3 lecture video
+- Reviewed assigned reading
+- Practiced DeMorgan transformations
+- Completed law-recognition drills
+- Practiced tautology and contradiction recognition
+- Practiced algebraic logic proofs
+- Completed the official Knowledge Check
+
+### Practice Results
+
+- 20-question law-recognition drill: 17/20
+- Targeted 10-question drill: 9/10
+- Algebraic-proof mini quiz: 5/5
+- Final mixed review: 10/10
+
+### Concepts Practiced
+
+- DeMorgan's Laws
+- Identity
+- Universal Bound
+- Idempotent
+- Double Negation
+- Commutative
+- Associative
+- Distributive
+- Absorption
+- Negation
+- Tautology
+- Contradiction
+- Algebraic proof steps
+
+### Key Takeaways
+
+- When NOT is outside parentheses, apply the NOT to both pieces and flip AND/OR.
+- `NOT(P AND Q)` becomes `(NOT P) OR (NOT Q)`.
+- `NOT(P OR Q)` becomes `(NOT P) AND (NOT Q)`.
+- In proof-writing, use one law per line and annotate the law used.
+- Recognition by pattern worked better than trying to cold-memorize every law name.
+
+### Mistakes Corrected
+
+- DeMorgan's Law does not merely push NOT inward; AND/OR must also flip.
+- Double Negation should be shown as its own step in annotated algebraic proof work.
+- Commutative means swap; Associative means regroup; Distributive means spread/pair.
+- Identity means the variable survives; Universal Bound means True/False takes over.
+- Idempotent and Absorption are different: exact duplicate collapse versus a standalone variable absorbing a larger expression.
+
+### Reflection
+
+This lesson became easier after switching from memorizing law names to recognizing what changed in the expression. The strongest workflow was to identify one pattern, apply one law, write the new expression, annotate the law, and then repeat.
+
+---
+
 ## Next Bridge Step
 
-Start the next Bridge lesson fresh in the next session.
+Begin Lesson 1.4.
