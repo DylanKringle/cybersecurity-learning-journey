@@ -13,10 +13,9 @@ Do not store or publish:
 - Tokens
 - Personal credentials
 - Private-key contents
-
 ## Current Verified Progress
 
-Current verified starting point: Bandit Level 15 -> 16.
+Current verified starting point: Bandit Level 16 -> 17.
 
 Completed:
 
@@ -28,15 +27,14 @@ Completed:
 - Level 12 -> Level 13
 - Level 13 -> Level 14
 - Level 14 -> Level 15
+- Level 15 -> Level 16
 
-Bandit Level 15 -> 16 and later are not yet documented as complete.
-
+Bandit Level 16 -> 17 and later are not yet documented as complete.
 ## Earlier Bandit Progress: Levels 0-7
 
 **Status:** Completed before detailed note-taking became consistent
 
 These early levels introduced basic command-line investigation and remote Linux practice. Detailed notes begin at Level 8, where documentation became more consistent.
-
 ### Skills Introduced
 
 - Connecting to a remote Linux server with SSH
@@ -52,9 +50,7 @@ These early levels introduced basic command-line investigation and remote Linux 
 ### Documentation Note
 
 This section is a backfilled summary. It records the progression honestly without pretending to have detailed notes for every early level.
-
 ## Recent Bandit Milestones
-
 ### Level 13 -> Level 14
 
 **Concept:** SSH private-key authentication
@@ -70,9 +66,7 @@ Skills practiced:
 - Used `ssh -i` to authenticate with an identity file
 
 Important lesson:
-
 SSH private keys must have restrictive permissions. The private-key permission warning was useful because it explained exactly why the key was ignored.
-
 ### Level 14 -> Level 15
 
 **Concept:** localhost, ports, and Netcat
@@ -88,9 +82,22 @@ Skills practiced:
 - Used the service response as verification
 
 Important lesson:
-
 Netcat can connect directly to a network service. When the shell prompt disappears, the command may be waiting for input to send to that service.
+### Level 15 -> Level 16
 
+**Concept:** SSL/TLS service connection with OpenSSL
+
+Skills practiced:
+
+- Read the level goal and identified that the service required SSL/TLS encryption
+- Used OpenSSL's `s_client` mode as the matching client tool
+- Connected to a local encrypted service with `openssl s_client -connect localhost:30001`
+- Recognized that `read R BLOCK` meant the client was connected and waiting for input
+- Submitted the current-level password to the service without publishing it
+- Used the service response as verification before recording the level as complete
+
+Important lesson:
+Some services require an encrypted connection instead of plain Netcat. OpenSSL can act as a client for testing and interacting with SSL/TLS services in a controlled lab.
 ## Commands Practiced
 
 ### `sort`
@@ -120,7 +127,6 @@ Example pattern:
 ```bash
 strings data.txt | grep =
 ```
-
 ### `base64 -d`
 
 Used to decode Base64-encoded text.
@@ -154,7 +160,6 @@ Used to decompress bzip2-compressed files.
 ### `tar -xf`
 
 Used to extract files from a tar archive.
-
 ### `mktemp`
 
 Used to create a temporary working directory.
@@ -178,17 +183,18 @@ Used to restrict a private key so only the owner can read and write it.
 ### `ls -l`
 
 Used to inspect Unix file permissions.
-
 ### `nc localhost 30000`
 
 Used to connect to a local TCP service with Netcat.
 
+### `openssl s_client -connect localhost:30001`
+
+Used to connect to a local SSL/TLS service with OpenSSL.
+
 ### Input and Output Redirection
 
 Practiced using `<` and `>` to control input and output.
-
 ## Concepts Practiced
-
 - Reading a level goal carefully
 - Matching a clue to a command
 - Using pipes to send one command's output into another command
@@ -203,8 +209,8 @@ Practiced using `<` and `>` to control input and output.
 - Local versus remote systems
 - Localhost and ports
 - Connecting to services with Netcat
-- Verifying progress by logging into the next level
-
+- Connecting to SSL/TLS services with OpenSSL
+- Verifying progress by logging into the next level or receiving the expected service response
 ## Investigation Workflow
 
 The general Bandit workflow is:
@@ -220,4 +226,4 @@ This keeps the practice focused on reasoning instead of memorizing commands.
 
 ## Next Step
 
-Continue Bandit Level 15 -> 16 using the same investigation-first approach.
+Continue Bandit Level 16 -> 17 using the same investigation-first approach.
