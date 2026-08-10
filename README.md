@@ -22,7 +22,9 @@ Recent verified progress:
 - Completed NYU Bridge Unit 1, Module 1, Lesson 1.3: DeMorgan's Laws
 - Completed NYU Bridge Unit 1, Module 1, Lesson 1.4: Implication & Contrapositive
 - Completed Bridge Module 1: Logic
-- Earned 100% on official Bridge Knowledge Checks for Lessons 1.1, 1.2, 1.3, and 1.4
+- Started NYU Bridge Module 2: Proofs
+- Completed NYU Bridge Unit 1, Module 2, Lesson 2.1: What is a Proof? / Direct Proof
+- Earned 100% on official Bridge Knowledge Checks for Lessons 1.1, 1.2, 1.3, 1.4, and 2.1
 - Completed Python Module 2: Control Flow
 - Completed Python Module 3 review with an overall score of 9.8/10
 - Practiced beginner Linux commands in Ubuntu
@@ -30,10 +32,10 @@ Recent verified progress:
 - Started organizing this repository as an honest learning journal
 ## Current Focus
 
-- NYU Tandon Bridge: Module 2 Proofs, discrete math, logic, and computer science foundations
+- NYU Tandon Bridge: Lesson 2.2 Proof by Contrapositive
 - Python programming foundations
 - Linux command-line practice
-- OverTheWire Bandit labs
+- OverTheWire Bandit labs, currently at Level 16 -> 17
 - GitHub documentation habits
 - Networking and cloud-security foundations
 

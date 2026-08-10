@@ -434,6 +434,86 @@ Module 1 built the foundation for discrete math by moving from simple statements
 
 ---
 
+## Module 2: Proofs
+
+**Status:** In Progress
+
+Module 2 introduces proof-writing methods. The module begins with direct proof, then moves into proof by contrapositive, proof by contradiction, and predicates and quantifiers.
+
+---
+
+### Module 2, Lesson 2.1: What is a Proof? / Direct Proof
+
+**Status:** Completed
+
+**Official Knowledge Check DM2.1:** 3/3, 100%, Attempt 1
+
+### Work Completed
+
+- Opened Bridge Module 2: Proofs
+- Reviewed the Lesson 2.1 materials
+- Watched the Lesson 2.1 lecture video
+- Reviewed the assigned Section 1.4 preview and direct-proof reading
+- Practiced direct-proof structure
+- Practiced even, odd, and multiple definitions
+- Practiced algebra steps used inside proofs
+- Completed a final Lesson 2.1 review
+- Completed the official DM2.1 Knowledge Check
+- Completed post-quiz reinforcement practice
+
+### Practice Results
+
+- Final Lesson 2.1 review: 10/10
+- Official DM2.1 Knowledge Check: 3/3, 100%, Attempt 1
+- Post-quiz similar-wording practice: 3/3
+
+### Concepts Practiced
+
+- A proof is a logical argument showing why a statement must be true.
+- A direct proof of `P -> Q` starts by assuming `P` and reasoning forward until `Q` is established.
+- Universal statements require arbitrary variables, not one convenient example.
+- Even integer form: `n = 2k` for some integer `k`.
+- Odd integer form: `n = 2k + 1` for some integer `k`.
+- Multiple form: `n = ak` for some integer `k`.
+- To prove even, odd, or multiple statements, the remaining expression must be an integer.
+
+### Algebra Skills Practiced
+
+- Substitution
+- Squaring products, such as `(2k)^2 = 4k^2`
+- Factoring to expose even form
+- Rewriting expressions to expose odd form
+- Rewriting multiples into the target factor times an integer
+- Using different integer parameters for different arbitrary values
+
+### Proofs Practiced
+
+- If `n` is even, then `n^2` is even.
+- If `n` is even, then `n + c` is even for even constants.
+- If `n` is odd, then `n + c` is odd for even constants.
+- If `n` and `m` are even, then `n + m` is even.
+- If two integers are odd, then their sum is even.
+- If a number is a multiple of 24, then it is a multiple of 8.
+- If a number is a multiple of 28, then it is a multiple of 7.
+
+### Mistakes Corrected
+
+- Do not start a direct proof by assuming the conclusion.
+- One numerical example does not prove a universal statement.
+- Do not drop the parameter when rewriting a general multiple.
+- Use different parameters for different arbitrary numbers, such as `k` and `j`.
+- In an evenness proof, the inner expression only needs to be an integer; it does not need to be even.
+
+### Official Knowledge Check Notes
+
+The official DM2.1 Knowledge Check included counterexample reasoning, parity of expressions such as `2n + 1`, and ordering a direct proof that the negative of any even integer is even. The final proof used the structure: assume `n` is even, write `n = 2k`, rewrite `-n` as `2(-k)`, define the new integer, and conclude `-n` is even.
+
+### Reflection
+
+Lesson 2.1 shifted the work from evaluating logic statements to writing arguments. The most important idea was that a proof must work for an arbitrary case, not just a specific number that happens to work. Direct proof became clearer after using a repeatable structure: assume the hypothesis, unpack the definition, substitute or factor, explain why the new expression is an integer, and then conclude the target statement.
+
+---
+
 ## Next Bridge Step
 
-Begin Module 2: Proofs.
+Begin Lesson 2.2: Proof by Contrapositive.
