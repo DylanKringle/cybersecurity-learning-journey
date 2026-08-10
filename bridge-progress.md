@@ -514,6 +514,138 @@ Lesson 2.1 shifted the work from evaluating logic statements to writing argument
 
 ---
 
+### Module 2, Lesson 2.2: Proof by Contrapositive
+
+**Status:** Completed
+
+**Official Knowledge Check DM2.2:** 3/3, 100%, Attempt 1
+
+### Work Completed
+
+- Reviewed the Lesson 2.2 materials
+- Watched and reviewed the lecture video
+- Reviewed assigned textbook Examples 1.4.9 through 1.4.11
+- Practiced rewriting implications into contrapositive form
+- Practiced deciding when contrapositive is more useful than direct proof
+- Practiced DeMorgan's Law inside contrapositive proofs
+- Completed multiple independent contrapositive proofs
+- Completed the official DM2.2 Knowledge Check
+- Reviewed hidden implications in English wording after the quiz
+
+### Core Structure
+
+For an implication:
+
+```text
+P -> Q
+```
+
+The contrapositive is:
+
+```text
+not Q -> not P
+```
+
+The working shortcut:
+
+```text
+Contrapositive = switch + negate both
+```
+
+A proof by contrapositive starts by assuming `not Q` and reasoning forward until `not P` is established. Because an implication and its contrapositive are logically equivalent, proving the contrapositive proves the original statement.
+
+### Concepts Practiced
+
+- Switching and negating are separate steps.
+- The inverse is not the same as the contrapositive.
+- DeMorgan's Law is needed when negating OR or AND statements.
+- `not(P or Q)` becomes `(not P) and (not Q)`.
+- `not(P and Q)` becomes `(not P) or (not Q)`.
+- Direct proof is often shorter when the original hypothesis gives a useful algebraic form immediately.
+- Contrapositive is often better when the negated conclusion gives a cleaner starting point.
+
+### Algebra Skills Reinforced
+
+- Even integer form: `n = 2k`
+- Odd integer form: `n = 2k + 1`
+- Separate parameters for different arbitrary integers, such as `k` and `j`
+- Odd square expansion: `(2k + 1)^2 = 4k^2 + 4k + 1`
+- Rewriting odd square form as `2(2k^2 + 2k) + 1`
+- Product of two odd integers:
+
+```text
+(2k + 1)(2j + 1) = 2(2kj + k + j) + 1
+```
+
+- Sum of two even integers:
+
+```text
+2k + 2j = 2(k + j)
+```
+
+### Independent Proofs Completed
+
+- If `n^2` is odd, then `n` is odd.
+- If `n + 3` is odd, then `n` is even.
+- If `n + 7` is even, then `n` is odd.
+- If `n^2` is even, then `n` is even.
+- If `ab` is even, then `a` is even or `b` is even.
+- If `a + b` is odd, then `a` is odd or `b` is odd.
+
+### Final Review Results
+
+- Contrapositive structure: correct
+- Starting assumption: correct
+- Negation of divisibility: correct
+- DeMorgan OR/AND: correct
+- Direct vs. contrapositive method choice: correct
+- Two-variable algebra: correct
+- Independent full proofs: correct
+- Additional 4-problem transfer set: all correct
+
+### Official Knowledge Check Notes
+
+The official DM2.2 Knowledge Check tested contraposition with inequalities and OR conclusions, contraposition hidden inside ordinary English wording, and contraposition involving an AND statement with DeMorgan's Law. The verified result was 3/3, 100%, Attempt 1.
+
+### Mistakes Corrected
+
+- Do not confuse the inverse with the contrapositive. The contrapositive requires both switching and negating.
+- Do not start a contrapositive proof with `P`; start with `not Q`.
+- Under DeMorgan's Law, OR changes to AND and AND changes to OR.
+- Do not mix addition and multiplication algebra patterns.
+- For odd expressions, the goal is the full form `2(integer) + 1`.
+- The expression inside the final `2(...)` or `2(...) + 1` is the integer witness that must be justified.
+
+### Hidden-Implication Strategy
+
+One important gap was recognizing implication structure when the sentence was written in ordinary English instead of obvious IF/THEN form.
+
+Strategy:
+
+1. Translate the sentence into IF/THEN form first.
+2. Identify `P` and `Q`.
+3. Form the contrapositive by switching and negating both sides.
+
+Example pattern:
+
+```text
+The reciprocal of any integer is rational.
+```
+
+Rewrite first:
+
+```text
+If a number is an integer, then its reciprocal is rational.
+```
+
+Then form the contrapositive.
+
+### Reflection
+
+Lesson 2.2 strengthened the proof-writing process by showing that sometimes the cleanest path is not to prove the original implication directly. The main breakthrough was learning to compare the original hypothesis with the negated conclusion and choose the method that gives the cleaner starting point. The most important language lesson was to translate unusual English wording into IF/THEN form before trying to build the contrapositive.
+
+---
+
 ## Next Bridge Step
 
-Begin Lesson 2.2: Proof by Contrapositive.
+Begin Lesson 2.3: Proof by Contradiction.
