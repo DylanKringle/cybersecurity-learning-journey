@@ -646,6 +646,99 @@ Lesson 2.2 strengthened the proof-writing process by showing that sometimes the 
 
 ---
 
+### Module 2, Lesson 2.3: Proof by Contradiction
+
+**Status:** Completed
+
+**Official Knowledge Check DM2.3 Highest Grade:** 3/3, 100%
+
+**Attempts:** Attempt 1: 2/3; Attempt 2: 3/3; Attempt 3: 3/3
+
+### Work Completed
+
+- Reviewed Lesson 2.3: Proof by Contradiction
+- Practiced the proof-by-contradiction structure
+- Compared direct proof, proof by contrapositive, and proof by contradiction
+- Practiced identifying valid contradictions
+- Reviewed parity, divisibility, rational-number, and smallest-number contradiction examples
+- Completed the official DM2.3 Knowledge Check
+- Reviewed mistakes from the first attempt and corrected the weak area
+
+### Core Idea
+
+To prove a statement `S` by contradiction:
+
+1. Assume the opposite, `not S`.
+2. Follow the consequences of that temporary assumption.
+3. Derive something impossible.
+4. Conclude the temporary assumption was false, so the original statement must be true.
+
+For an implication:
+
+```text
+P -> Q
+```
+
+A contradiction proof assumes:
+
+```text
+P and not Q
+```
+
+In plain English: "P happened, but Q failed."
+
+### Proof-Style Comparison
+
+- Direct proof: assume `P`, prove `Q`.
+- Proof by contrapositive: assume `not Q`, prove `not P`.
+- Proof by contradiction: assume the claim is false, then derive an impossibility.
+
+### Contradictions Practiced
+
+- An integer cannot be both even and odd.
+- An equation like `2(integer) = 1` forces an even number to equal an odd number.
+- A fraction cannot be in lowest terms if both numerator and denominator share a common factor.
+- There is no smallest positive rational number because a smaller positive rational number can always be constructed.
+- A valid contradiction must conflict with the temporary assumption, not merely with the original claim.
+
+### Definitions Strengthened
+
+- Even integer: `2k` for some integer `k`
+- Odd integer: `2k + 1` for some integer `k`
+- Divisible by 4: equals `4k` for some integer `k`
+- Prime: a whole number greater than 1 with exactly two positive factors, 1 and itself
+- Composite: a whole number greater than 1 with more than two positive factors
+- Rational number: a number that can be written as `a/b`, where `a` and `b` are integers and `b` is not 0
+- Lowest terms: numerator and denominator have no common factor greater than 1
+
+### Proof Patterns Practiced
+
+- Parity contradiction
+- Divisibility contradiction
+- Existence contradiction
+- Smallest-number contradiction
+
+### DM2.3 Knowledge Check Notes
+
+- Attempt 1: 2/3, 66.67%. This exposed one select-all mistake.
+- Attempt 2: 3/3, 100%. This covered proof ordering, faulty-proof analysis, and prime/composite reasoning.
+- Attempt 3: 3/3, 100%. This covered rational numbers, longer proof ordering, and an invalid fixed-variable argument.
+
+### Mistakes Corrected
+
+- Do not stop at an equation merely because it looks unusual; explain exactly why it is impossible.
+- Do not assume both a statement and its negation at the start.
+- Do not confuse contradicting the original claim with contradicting the temporary assumption.
+- Do not fix an arbitrary variable to one convenient value and treat that single case as a universal proof.
+- One example cannot prove a statement about every object in a set.
+- When two expressions both equal the same variable, set them equal; do not add them together.
+
+### Reflection
+
+Lesson 2.3 strengthened my understanding of proof strategy. The biggest takeaway was that contradiction proof is not just "find something that feels wrong." The contradiction has to directly break the temporary assumption. The first DM2.3 attempt exposed a select-all weakness, but the later attempts and review showed the proof-ordering and reasoning patterns more clearly.
+
+---
+
 ## Next Bridge Step
 
-Begin Lesson 2.3: Proof by Contradiction.
+Begin Lesson 2.4.

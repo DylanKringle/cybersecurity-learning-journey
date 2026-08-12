@@ -25,7 +25,8 @@ Recent verified progress:
 - Started NYU Bridge Module 2: Proofs
 - Completed NYU Bridge Unit 1, Module 2, Lesson 2.1: What is a Proof? / Direct Proof
 - Completed NYU Bridge Unit 1, Module 2, Lesson 2.2: Proof by Contrapositive
-- Earned 100% on official Bridge Knowledge Checks for Lessons 1.1, 1.2, 1.3, 1.4, 2.1, and 2.2
+- Completed NYU Bridge Unit 1, Module 2, Lesson 2.3: Proof by Contradiction
+- Earned 100% highest scores on official Bridge Knowledge Checks through Lesson 2.3, with attempts documented in the detailed Bridge notes
 - Completed Python Module 2: Control Flow
 - Completed Python Module 3 review with an overall score of 9.8/10
 - Practiced beginner Linux commands in Ubuntu
@@ -33,7 +34,7 @@ Recent verified progress:
 - Started organizing this repository as an honest learning journal
 ## Current Focus
 
-- NYU Tandon Bridge: Lesson 2.3 Proof by Contradiction
+- NYU Tandon Bridge: Lesson 2.4
 - Python programming foundations
 - Linux command-line practice
 - OverTheWire Bandit labs, currently at Level 16 -> 17
