@@ -739,6 +739,104 @@ Lesson 2.3 strengthened my understanding of proof strategy. The biggest takeaway
 
 ---
 
+### Module 2, Lesson 2.4: Predicates & Quantifiers
+
+**Status:** Completed
+
+**Official Knowledge Check DM2.4 Highest Grade:** 3/3, 100%
+
+**Attempts:** Attempt 1: 3/3; Attempt 2: 3/3; Attempt 3: 1/3; Attempt 4: 3/3
+
+### Work Completed
+
+- Completed Lesson 2.4: Predicates & Quantifiers
+- Completed the Lesson 2.4 Knowledge Check
+- Completed the Module 2 Wrap-Up
+- Reviewed new concepts exposed by later quiz attempts
+- Corrected weak areas around unique existence, square-root truth tests, and careful symbol reading
+
+### Concepts Practiced
+
+- Predicates and free variables
+- Domains
+- Integers, represented by `Z`
+- Real numbers, represented by `R`
+- Universal quantifier: for all / every
+- Existential quantifier: there exists / at least one
+- Unique existence: there exists exactly one
+- Translating English to symbols
+- Translating symbols to English
+- Negating quantified statements
+- Multiple quantifier order
+
+### Key Reasoning Rules
+
+- A predicate depends on the value of its variable until the variable is assigned or bound by a quantifier.
+- The domain controls which values are allowed.
+- A universal statement is false if even one counterexample exists.
+- An existential statement is true as soon as one working example exists.
+- A unique-existence statement is true only when exactly one solution exists.
+- Negating a quantified statement switches the quantifier and negates the condition.
+- Quantifier order matters.
+
+### Translation Patterns
+
+- "Every A is B" becomes a universal implication.
+- "Some A is B" becomes an existential conjunction.
+- "Not every" means at least one counterexample exists.
+- "There does not exist" means every possible value fails the condition.
+
+### Multiple Quantifier Takeaway
+
+The order of quantifiers can change the meaning of a statement.
+
+```text
+for all x, there exists y
+```
+
+allows `y` to depend on `x`.
+
+```text
+there exists y such that for all x
+```
+
+requires one fixed `y` to work for every `x`.
+
+### DM2.4 Knowledge Check Notes
+
+- Attempt 1: 3/3, 100%. Strong first-pass performance on quantifier translation, finite domains, and equivalent statements.
+- Attempt 2: 3/3, 100%. Confirmed quantifier order and equivalent English phrasing.
+- Attempt 3: 1/3, 33.33%. Exposed new material: unique existence, square-root truth tests, and the need to read every symbol carefully. One answer was affected by an assistant misread of `n^2 = 2` as `n^2 = 0`.
+- Attempt 4: 3/3, 100%. Verified recovery and mastery after reviewing the new material.
+
+### Reflection
+
+Lesson 2.4 connected logic back to language. The biggest improvement was learning to slow down and identify the domain, the quantifier, and the exact condition before judging whether a statement is true or false. The third attempt exposed useful new material rather than just a grade issue, and the final attempt showed that the weak areas were corrected.
+
+---
+
+### Module 2: Proofs Wrap-Up
+
+**Status:** Completed
+
+### Lessons Completed
+
+- Lesson 2.1: Direct Proof
+- Lesson 2.2: Proof by Contrapositive
+- Lesson 2.3: Proof by Contradiction
+- Lesson 2.4: Predicates & Quantifiers
+- Module 2 Wrap-Up
+
+### Module 2 Milestone
+
+Module 2 is complete. This module developed proof-writing foundations, including direct proof, contrapositive proof, contradiction proof, predicates, quantifiers, domains, and symbolic translation.
+
+### Reflection
+
+Module 2 was a major step because it moved from evaluating logical expressions into writing and judging mathematical arguments. The most important skill was learning to start from the correct assumption, use definitions carefully, justify each algebraic step, and explain exactly why a conclusion or contradiction follows.
+
+---
+
 ## Next Bridge Step
 
-Begin Lesson 2.4.
+Begin Module 3: Induction & Number Theory.
