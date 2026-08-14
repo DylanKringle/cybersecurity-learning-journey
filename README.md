@@ -17,16 +17,11 @@ Current stage: NYU Tandon Bridge has started, with Bridge now the highest-priori
 
 Recent verified progress:
 - Completed NYU OnRamp Unit 1: Precalculus
-- Completed NYU Bridge Unit 1, Module 1, Lesson 1.1: Propositions & Connectives
-- Completed NYU Bridge Unit 1, Module 1, Lesson 1.2: Truth Tables & Equivalence
-- Completed NYU Bridge Unit 1, Module 1, Lesson 1.3: DeMorgan's Laws
-- Completed NYU Bridge Unit 1, Module 1, Lesson 1.4: Implication & Contrapositive
-- Completed Bridge Module 1: Logic
+- Completed NYU Bridge Unit 1, Module 1: Logic
 - Completed NYU Bridge Unit 1, Module 2: Proofs
-- Completed NYU Bridge Unit 1, Module 2, Lesson 2.1: What is a Proof? / Direct Proof
-- Completed NYU Bridge Unit 1, Module 2, Lesson 2.2: Proof by Contrapositive
-- Completed NYU Bridge Unit 1, Module 2, Lesson 2.3: Proof by Contradiction
-- Completed NYU Bridge Unit 1, Module 2, Lesson 2.4: Predicates & Quantifiers
+- Started NYU Bridge Unit 1, Module 3: Induction & Number Theory
+- Completed NYU Bridge Unit 1, Module 3, Lesson 3.1: Divisibility & Quotient-Remainder
+- Completed DM3.1 with 3/3, 100% on all three randomized attempts
 - Completed Python Module 2: Control Flow
 - Completed Python Module 3 review with an overall score of 9.8/10
 - Practiced beginner Linux commands in Ubuntu
@@ -34,7 +29,7 @@ Recent verified progress:
 - Started organizing this repository as an honest learning journal
 ## Current Focus
 
-- NYU Tandon Bridge: Module 3 Induction & Number Theory
+- NYU Tandon Bridge: Lesson 3.2 Mathematical Induction
 - Python programming foundations
 - Linux command-line practice
 - OverTheWire Bandit labs, currently at Level 16 -> 17

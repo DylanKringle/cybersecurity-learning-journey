@@ -837,6 +837,109 @@ Module 2 was a major step because it moved from evaluating logical expressions i
 
 ---
 
+## Module 3: Induction & Number Theory
+
+**Status:** In Progress
+
+Module 3 begins the next part of the discrete math sequence, focusing on induction and number theory.
+
+---
+
+### Module 3, Lesson 3.1: Divisibility & Quotient-Remainder
+
+**Status:** Completed
+
+**Official Knowledge Check DM3.1:** 3/3, 100% on Attempts 1, 2, and 3
+
+### Work Completed
+
+- Completed Lesson 3.1 lecture
+- Completed assigned Section 6.2 focus material on divisibility and remainder classes
+- Completed guided practice
+- Completed mixed review
+- Completed independent practice
+- Completed DM3.1 across three randomized attempts
+
+### Practice Results
+
+- Mixed review: 10/10
+- Independent check: strong, with two small fixes
+- DM3.1 Attempt 1: 3/3, 100%
+- DM3.1 Attempt 2: 3/3, 100%
+- DM3.1 Attempt 3: 3/3, 100%
+
+### Concepts Practiced
+
+- Divisibility
+- Special divisibility cases
+- Quotient-Remainder Theorem
+- Dividend, divisor, quotient, and remainder
+- Negative divisors
+- Remainder classes
+- Congruence modulo `n`
+- `div` versus `mod`
+- Divisibility properties
+- GCD property
+- Sum property
+- Transitivity
+
+### Key Rules
+
+- `b | a` means `a = bk` for some integer `k`.
+- A valid remainder must satisfy `0 <= r < |b|`.
+- The absolute value matters when the divisor is negative.
+- `a ≡ b (mod n)` means `a` and `b` have the same remainder modulo `n`.
+- An equivalent congruence test is `n | (a - b)`.
+- `a div b` gives the quotient.
+- `a mod b` gives the remainder.
+- Transitivity: if `A | B` and `B | C`, then `A | C`.
+
+### Quotient-Remainder Form
+
+The textbook form used was:
+
+```text
+a = qb + r
+```
+
+with:
+
+```text
+0 <= r < |b|
+```
+
+In this form:
+
+- `a` is the dividend
+- `b` is the divisor
+- `q` is the quotient
+- `r` is the remainder
+
+### Negative Divisor Example
+
+An example practiced was:
+
+```text
+25 = (-3)(-7) + 4
+```
+
+This shows that the quotient can be negative while the remainder stays nonnegative and smaller than `|b|`.
+
+### Corrections Made
+
+- Corrected one `k`-labeling slip.
+- Corrected one incomplete transitivity conclusion.
+- Reinforced reading `b | a` in the correct direction: `b` divides `a`.
+- Reinforced keeping `div` and `mod` separate.
+- Reinforced using `|b|` in the remainder bound when the divisor is negative.
+- Reinforced checking congruence either by comparing remainders or by seeing whether the modulus divides the difference.
+
+### Reflection
+
+Lesson 3.1 introduced number theory tools that show up constantly in computer science and cybersecurity. Divisibility and remainders connect directly to modular arithmetic, hashing, cryptography foundations, parity checks, and how computers reason about integers. The strongest improvement was learning to read divisibility in the correct direction and to separate quotient from remainder instead of blending `div` and `mod`.
+
+---
+
 ## Next Bridge Step
 
-Begin Module 3: Induction & Number Theory.
+Begin Lesson 3.2: Mathematical Induction.
