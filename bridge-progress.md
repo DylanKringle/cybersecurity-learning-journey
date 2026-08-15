@@ -1078,6 +1078,119 @@ Lesson 3.2 introduced induction as a structured way to prove infinitely many int
 
 ---
 
+### Module 3, Lesson 3.3: Strong Induction
+
+**Status:** Completed
+
+**Official Knowledge Check DM3.3:** 3/3, 100% on Attempts 1, 2, and 3
+
+### Work Completed
+
+- Completed Lesson 3.3 materials
+- Reviewed weak induction versus strong induction
+- Practiced expanded inductive hypotheses
+- Practiced recurrence-relation reasoning
+- Practiced prime-factor reasoning
+- Completed Lesson 3.3 practice
+- Completed DM3.3 across three randomized attempts
+
+### Practice Results
+
+- Lesson 3.3 practice: completed
+- DM3.3 Attempt 1: 3/3, 100%
+- DM3.3 Attempt 2: 3/3, 100%
+- DM3.3 Attempt 3: 3/3, 100%
+
+### Concepts Practiced
+
+- Strong induction
+- Expanded inductive hypothesis
+- Multiple earlier cases
+- Recurrence relations
+- Prime-factor reasoning
+- Choosing weak induction versus strong induction
+
+### Weak vs. Strong Induction
+
+Weak induction assumes:
+
+```text
+P(k)
+```
+
+Strong induction assumes:
+
+```text
+P(n0), P(n0 + 1), ..., P(k)
+```
+
+Both methods still aim to prove:
+
+```text
+P(k + 1)
+```
+
+### When Strong Induction Is Useful
+
+Strong induction is more natural when the next case may depend on multiple earlier cases, not just the immediately previous case.
+
+Examples:
+
+- Recurrence relations
+- Divide-and-conquer reasoning
+- Prime-factor arguments
+- Situations where `P(k+1)` depends on several previous values
+
+### Carry-Forward Rules
+
+- Assume every relevant previous case through `P(k)`.
+- Do not assume `P(k+1)`.
+- The goal is still to prove `P(k+1)`.
+- Strong induction does not automatically mean multiple base cases.
+- The number of base cases depends on the problem.
+- Use weak induction when one previous case is enough.
+- Use strong induction when multiple earlier cases may be needed.
+
+### Reflection
+
+Lesson 3.3 expanded the induction toolkit. Weak induction was enough when the next case depended mainly on the previous case, but strong induction gave a better structure for recurrences and factorization arguments where earlier cases matter. The key boundary is simple but important: assume all relevant previous cases through `P(k)`, but never assume the target case `P(k+1)`.
+
+---
+
+### Module 3: Induction & Number Theory Wrap-Up
+
+**Status:** Completed
+
+### Lessons Completed
+
+- Lesson 3.1: Divisibility & Quotient-Remainder
+- Lesson 3.2: Mathematical Induction
+- Lesson 3.3: Strong Induction
+
+### Knowledge Check Results
+
+- DM3.1: 3/3, 100% on Attempts 1, 2, and 3
+- DM3.2: 3/3, 100% on Attempts 1, 2, and 3
+- DM3.3: 3/3, 100% on Attempts 1, 2, and 3
+
+### Module 3 Milestone
+
+Module 3 is complete. This module combined number theory and induction, moving from divisibility and quotient-remainder reasoning into weak induction and strong induction.
+
+### Carry-Forward Notes
+
+- Divisibility: finish as `d` times an integer.
+- Weak induction: assume `P(k)`, prove `P(k+1)`.
+- Strong induction: assume all relevant previous cases through `P(k)`, prove `P(k+1)`.
+- Base cases depend on the problem.
+- Examples suggest patterns; they do not prove them.
+
+### Reflection
+
+Module 3 strengthened the connection between algebra, proof structure, and computer science reasoning. Divisibility and modular thinking are important for later topics like cryptography and hashing, while induction is central for reasoning about algorithms, recursion, data structures, and correctness proofs.
+
+---
+
 ## Next Bridge Step
 
-Begin Lesson 3.3.
+Begin Module 4: Set Theory, Relations, Functions & Graphs.
