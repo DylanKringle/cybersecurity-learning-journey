@@ -940,6 +940,144 @@ Lesson 3.1 introduced number theory tools that show up constantly in computer sc
 
 ---
 
+### Module 3, Lesson 3.2: Mathematical Induction
+
+**Status:** Completed
+
+**Official Knowledge Check DM3.2:** 3/3, 100% on Attempts 1, 2, and 3
+
+### Work Completed
+
+- Completed the Lesson 3.2 overview and objectives
+- Completed the lecture video and transcript
+- Reviewed Section 4.1 sequence foundations
+- Completed Section 4.5 Mathematical Induction reading
+- Completed guided practice
+- Completed mixed review
+- Completed independent practice
+- Completed targeted corrections before DM3.2
+- Completed DM3.2 across three randomized attempts
+
+### Practice Results
+
+- Mixed review: 10 questions
+- Independent check: strong, with two targeted fixes
+- DM3.2 Attempt 1: 3/3, 100%
+- DM3.2 Attempt 2: 3/3, 100%
+- DM3.2 Attempt 3: 3/3, 100%
+
+### Concepts Practiced
+
+- Purpose of induction
+- Standard / weak induction
+- Base case
+- Inductive hypothesis
+- Inductive step
+- Why induction works
+- Sequence notation
+- Closed formulas
+- Recursive definitions
+- Summation induction proofs
+- Divisibility induction proofs
+- Inequality induction proofs
+
+### Core Memory Rule
+
+- Base case = start the chain.
+- Assume `P(k)` = current arbitrary case.
+- Prove `P(k+1)` = next case.
+
+The base case starts the chain, and the inductive step keeps the chain going. Together, they prove all cases from the starting point onward.
+
+### Proof Patterns Practiced
+
+#### Summation Formulas
+
+For the claim:
+
+```text
+1 + 2 + ... + n = n(n + 1) / 2
+```
+
+the base case is `n = 1`. The inductive hypothesis assumes:
+
+```text
+1 + 2 + ... + k = k(k + 1) / 2
+```
+
+To prove the next case, add `k + 1` to both sides and simplify until the expression becomes:
+
+```text
+(k + 1)(k + 2) / 2
+```
+
+#### Divisibility Proofs
+
+For a claim such as `7^n - 1` being divisible by 6, the inductive hypothesis can be written:
+
+```text
+7^k - 1 = 6j
+```
+
+for some integer `j`. Rearranging gives:
+
+```text
+7^k = 6j + 1
+```
+
+Then:
+
+```text
+7^(k+1) - 1 = 7(6j + 1) - 1 = 42j + 6 = 6(7j + 1)
+```
+
+This reused the Lesson 3.1 divisibility definition: to prove divisibility, rewrite the expression as the divisor times an integer.
+
+#### Inequality Proofs
+
+For a claim such as:
+
+```text
+n^2 < 2^n for n >= 5
+```
+
+the base case is `n = 5`. The inductive hypothesis assumes:
+
+```text
+k^2 < 2^k
+```
+
+The goal is:
+
+```text
+(k + 1)^2 < 2^(k + 1)
+```
+
+### Mistakes Corrected
+
+- Do not skip the base case.
+- Use the smallest integer in the stated range as the base case.
+- Do not assume `P(k+1)`; `P(k+1)` is the goal.
+- Checking several examples suggests a pattern but does not prove it.
+- The inductive step must explicitly show how `P(k)` leads to `P(k+1)`.
+- Keep the range/domain consistent, such as positive integer meaning `n >= 1`.
+- In a summation base case, stop at the correct first term.
+- Corrected one arithmetic slip in a divisibility proof.
+
+### Carry-Forward Notes
+
+- Base case = smallest allowed integer.
+- Assume `P(k)`, never `P(k+1)`.
+- Prove `P(k+1)` by explicitly using the inductive hypothesis.
+- For divisibility, finish in the form `d` times an integer.
+- Checking several examples is evidence of a pattern, not a proof.
+
+### Reflection
+
+Lesson 3.2 introduced induction as a structured way to prove infinitely many integer-indexed cases. The main breakthrough was seeing induction as a chain: prove the first link, then prove every link leads to the next. The strongest habit to carry forward is to clearly separate the base case, the inductive hypothesis, and the inductive step.
+
+---
+
 ## Next Bridge Step
 
-Begin Lesson 3.2: Mathematical Induction.
+Begin Lesson 3.3.

@@ -21,7 +21,8 @@ Recent verified progress:
 - Completed NYU Bridge Unit 1, Module 2: Proofs
 - Started NYU Bridge Unit 1, Module 3: Induction & Number Theory
 - Completed NYU Bridge Unit 1, Module 3, Lesson 3.1: Divisibility & Quotient-Remainder
-- Completed DM3.1 with 3/3, 100% on all three randomized attempts
+- Completed NYU Bridge Unit 1, Module 3, Lesson 3.2: Mathematical Induction
+- Completed DM3.2 with 3/3, 100% on all three randomized attempts
 - Completed Python Module 2: Control Flow
 - Completed Python Module 3 review with an overall score of 9.8/10
 - Practiced beginner Linux commands in Ubuntu
@@ -29,7 +30,7 @@ Recent verified progress:
 - Started organizing this repository as an honest learning journal
 ## Current Focus
 
-- NYU Tandon Bridge: Lesson 3.2 Mathematical Induction
+- NYU Tandon Bridge: Lesson 3.3
 - Python programming foundations
 - Linux command-line practice
 - OverTheWire Bandit labs, currently at Level 16 -> 17
