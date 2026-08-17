@@ -1191,6 +1191,157 @@ Module 3 strengthened the connection between algebra, proof structure, and compu
 
 ---
 
+## Module 4: Set Theory, Relations, Functions & Graphs
+
+**Status:** In Progress
+
+Module 4 begins the next discrete math section, focused on set theory and related structures.
+
+---
+
+### Module 4, Lesson 4.1: Sets, Subsets & Set Operations
+
+**Status:** Completed
+
+**Official Knowledge Check DM4.1:** 3/3, 100% on Attempts 1, 2, and 3
+
+### Work Completed
+
+- Completed Lesson 4.1 overview and objectives
+- Completed lecture video and transcript
+- Completed Section 5.1 reading
+- Completed guided practice
+- Completed mixed review
+- Completed independent practice
+- Completed targeted corrections
+- Completed DM4.1 across three attempts
+
+### Practice Results
+
+- Mixed review: 10 questions
+- Independent check: strong, with two targeted fixes
+- DM4.1 Attempt 1: 3/3, 100%
+- DM4.1 Attempt 2: 3/3, 100%
+- DM4.1 Attempt 3: 3/3, 100%
+
+### Concepts Practiced
+
+- Sets
+- Membership
+- Subsets
+- Proper subsets
+- Empty set
+- Cardinality
+- Union
+- Intersection
+- Difference
+- Complement
+- Disjoint sets
+- Partitions
+- Venn-diagram interpretation
+
+### Core Memory Rules
+
+- Sets ignore order and duplicates.
+- `in` means element of.
+- `subseteq` means subset of.
+- `subseteq` allows equality.
+- Proper subset does not allow equality.
+- Union means combine.
+- Intersection means common elements.
+- `A - B` means start with `A` and remove elements also in `B`.
+- `A^c` means everything in the universal set outside `A`.
+
+### Membership vs. Subset
+
+Membership and subset are different relationships.
+
+For example, if:
+
+```text
+A = {1, 2, 3}
+```
+
+then:
+
+```text
+2 in A
+```
+
+is true because `2` is an element of `A`.
+
+Also:
+
+```text
+{2} subseteq A
+```
+
+is true because the set `{2}` has no elements outside `A`.
+
+But writing:
+
+```text
+2 subseteq A
+```
+
+is not meaningful in this context because subset notation compares sets.
+
+### Empty Set Distinction
+
+- The empty set has 0 elements.
+- The set containing the empty set has 1 element.
+
+This matters because:
+
+```text
+|empty set| = 0
+```
+
+but:
+
+```text
+|{empty set}| = 1
+```
+
+### Set Operations
+
+Using example sets:
+
+```text
+A = {1, 2, 3}
+B = {2, 3, 4, 5}
+U = {1, 2, 3, 4, 5, 6, 7}
+```
+
+the operations are:
+
+- `A union B = {1, 2, 3, 4, 5}`
+- `A intersection B = {2, 3}`
+- `A - B = {1}`
+- `A^c = {4, 5, 6, 7}`
+
+### Partitions
+
+A collection of smaller sets forms a partition only when all three conditions hold:
+
+- every piece is nonempty
+- every pair of pieces is disjoint
+- the union of all pieces equals the original set
+
+### Mistakes Corrected
+
+- Corrected one union error.
+- Reinforced that union does not duplicate elements.
+- Corrected the empty-set cardinality distinction:
+  - `|empty set| = 0`
+  - `|{empty set}| = 1`
+
+### Reflection
+
+Lesson 4.1 introduced the language and operations of set theory. The biggest practical improvement was separating element membership from subset relationships and being careful with the empty set. Sets also connect directly to computer science because collections, membership checks, filtering, intersections, and complements show up in databases, permissions, access control, networking groups, and security rules.
+
+---
+
 ## Next Bridge Step
 
-Begin Module 4: Set Theory, Relations, Functions & Graphs.
+Begin Lesson 4.2: DeMorgan's Laws for Sets.
