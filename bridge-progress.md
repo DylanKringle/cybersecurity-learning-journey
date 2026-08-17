@@ -1342,6 +1342,136 @@ Lesson 4.1 introduced the language and operations of set theory. The biggest pra
 
 ---
 
+### Module 4, Lesson 4.2: DeMorgan's Laws for Sets
+
+**Status:** Completed
+
+**Official Knowledge Check DM4.2:** 3/3, 100% on Attempts 1, 2, and 3
+
+### Work Completed
+
+- Completed Lesson 4.2 overview
+- Completed NYU lecture slides/video
+- Completed supplemental written content
+- Completed guided practice
+- Completed mixed review
+- Completed independent check
+- Completed DM4.2 across three attempts
+- Reviewed and corrected one compound-expression simplification issue
+
+### Practice Results
+
+- Mixed review: 10 questions
+- Independent check: 5/5
+- DM4.2 Attempt 1: 3/3, 100%
+- DM4.2 Attempt 2: 3/3, 100%
+- DM4.2 Attempt 3: 3/3, 100%
+
+### Concepts Practiced
+
+- DeMorgan's Laws for sets
+- Complements
+- Double complements
+- Universal set dependence
+- Union and intersection transformations
+- Venn-diagram interpretation
+- Numerical verification of set identities
+- Compound-expression simplification
+
+### Core Memory Rule
+
+DeMorgan = complement each piece and flip the operation.
+
+### The Two Laws
+
+Complement of a union:
+
+```text
+(A union B)^c = A^c intersection B^c
+```
+
+Complement of an intersection:
+
+```text
+(A intersection B)^c = A^c union B^c
+```
+
+Double complement:
+
+```text
+(A^c)^c = A
+```
+
+### How To Apply DeMorgan
+
+1. Identify the outer complement.
+2. Move the complement inward to each set.
+3. Flip union to intersection, or intersection to union.
+4. Simplify any double complements.
+
+### Venn-Diagram Meaning
+
+- `(A union B)^c` means everything in `U` outside both circles.
+- `(A intersection B)^c` means everything in `U` except the overlap.
+- `A^c intersection B^c` means outside `A` and outside `B`.
+- `A^c union B^c` means outside `A` or outside `B`.
+
+### Worked Numerical Verification
+
+Using:
+
+```text
+U = {1, 2, 3, 4, 5, 6}
+A = {1, 2, 3}
+B = {3, 4}
+```
+
+Then:
+
+```text
+A union B = {1, 2, 3, 4}
+(A union B)^c = {5, 6}
+A^c = {4, 5, 6}
+B^c = {1, 2, 5, 6}
+A^c intersection B^c = {5, 6}
+```
+
+Both sides match, confirming:
+
+```text
+(A union B)^c = A^c intersection B^c
+```
+
+### Mistakes Corrected
+
+- Do not complement each set without flipping the operation.
+- A complement is always relative to the universal set `U`.
+- `A^c` is what is outside `A` in `U`, not `A` itself.
+- Do not forget double-complement cancellation.
+- Do not stop too early on compound expressions; more simplification may be needed.
+
+### Compound Simplification Lesson
+
+For an expression such as:
+
+```text
+(A^c union B^c) intersection (B^c intersection C^c)
+```
+
+the second factor already requires `B^c` and `C^c`. Since `B^c` makes the first OR-condition true, the whole expression simplifies to:
+
+```text
+B^c intersection C^c
+```
+
+This was the main subtle point on the final randomized attempt, and it was reviewed and understood.
+
+### Reflection
+
+Lesson 4.2 connected set operations back to earlier logic work. The main pattern is familiar from logical DeMorgan's Laws: complement everything and flip the operation. The important set-specific habit is to always keep the universal set in mind, because complements only make sense relative to `U`.
+
+---
+
 ## Next Bridge Step
 
-Begin Lesson 4.2: DeMorgan's Laws for Sets.
+Begin Lesson 4.3: Cartesian Products & Power Sets.
