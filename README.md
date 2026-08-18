@@ -23,7 +23,8 @@ Recent verified progress:
 - Started NYU Bridge Unit 1, Module 4: Set Theory, Relations, Functions & Graphs
 - Completed NYU Bridge Unit 1, Module 4, Lesson 4.1: Sets, Subsets & Set Operations
 - Completed NYU Bridge Unit 1, Module 4, Lesson 4.2: DeMorgan's Laws for Sets
-- Completed DM4.2 with 3/3, 100% on all three attempts
+- Completed NYU Bridge Unit 1, Module 4, Lesson 4.3: Cartesian Products & Power Sets
+- Completed DM4.3 with 3/3, 100% on all three attempts
 - Completed Python Module 2: Control Flow
 - Completed Python Module 3 review with an overall score of 9.8/10
 - Practiced beginner Linux commands in Ubuntu
@@ -31,7 +32,7 @@ Recent verified progress:
 - Started organizing this repository as an honest learning journal
 ## Current Focus
 
-- NYU Tandon Bridge: Lesson 4.3 Cartesian Products & Power Sets
+- NYU Tandon Bridge: Lesson 4.4 Properties of Relations
 - Python programming foundations
 - Linux command-line practice
 - OverTheWire Bandit labs, currently at Level 16 -> 17
