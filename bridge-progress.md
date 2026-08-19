@@ -1594,6 +1594,111 @@ Lesson 4.3 strengthened the difference between constructing mathematical objects
 
 ---
 
+### Module 4, Lesson 4.4: Properties of Relations
+
+**Status:** Completed
+
+**Official Knowledge Check DM4.4:** 3/3, 100% on Attempts 1, 2, and 3
+
+### Work Completed
+
+- Completed Lesson 4.4 overview and objectives
+- Completed NYU lecture slides
+- Completed textbook Section 2.6 on Relations and Graphs
+- Completed guided practice
+- Completed mixed review
+- Completed independent check
+- Completed targeted corrections
+- Completed DM4.4 across three attempts
+
+### Practice Results
+
+- Mixed review: 10 questions
+- Independent check: strong
+- DM4.4 Attempt 1: 3/3, 100%
+- DM4.4 Attempt 2: 3/3, 100%
+- DM4.4 Attempt 3: 3/3, 100%
+
+### Concepts Practiced
+
+- Relations as subsets of `A x A`
+- Ordered-pair notation
+- Reflexive relations
+- Symmetric relations
+- Antisymmetric relations
+- Transitive relations
+- Equivalence relations
+- Relation graphs
+- Equivalence classes
+- Partitions from equivalence classes
+
+### Core Memory Rules
+
+- Reflexive = every self-pair `(a,a)` is present.
+- Symmetric = every `(a,b)` has reverse `(b,a)`.
+- Antisymmetric = if both directions occur, the elements must be equal.
+- Transitive = `(a,b)` and `(b,c)` require `(a,c)`.
+- Equivalence relation = reflexive + symmetric + transitive.
+
+### How To Test Each Property
+
+Reflexive:
+
+- Check every `a` in `A` for `(a,a)`.
+- On a graph, every vertex needs a loop.
+
+Symmetric:
+
+- For every `(a,b)`, check for `(b,a)`.
+- On a graph, arrows between distinct vertices must come in both directions.
+
+Antisymmetric:
+
+- If both `(a,b)` and `(b,a)` occur, then `a = b`.
+- Different elements cannot be connected both ways.
+
+Transitive:
+
+- If `(a,b)` and `(b,c)` are in the relation, then `(a,c)` must also be in the relation.
+- On a graph, a two-step path needs the shortcut.
+
+### Equivalence Relations, Classes, And Partitions
+
+An equivalence relation is reflexive, symmetric, and transitive.
+
+For an equivalence relation, `[a]` means the full set of elements related to `a`.
+
+Equivalence classes partition the original set:
+
+- every element appears in exactly one class
+- classes do not overlap
+- together, the classes cover the whole set
+
+### Graph Interpretation
+
+- A loop on `a` means `(a,a)` is in the relation.
+- An arrow `a -> b` means `(a,b)` is in the relation.
+- A two-step path `a -> b -> c` requires shortcut `a -> c` for transitivity.
+- Arrow color has no mathematical meaning; only the start and end points matter.
+
+### Mistakes Corrected
+
+- Reflexive does not just mean all ordered pairs use valid elements; it specifically requires every self-pair.
+- Symmetry requires the reverse pair, not just one ordered pair.
+- Transitive shortcuts may already be existing pairs, especially when self-pairs are involved.
+- Antisymmetric is not simply "not symmetric."
+- A relation can be neither symmetric nor antisymmetric.
+- A light-colored loop on a graph still counts as a loop.
+- One written reverse-pair typo needed correction.
+- Attempt 2 included one transitivity correction before submission.
+- Attempt 3 included one antisymmetry correction before submission.
+
+### Reflection
+
+Lesson 4.4 connected Cartesian products to relations by treating a relation as a set of ordered pairs. The biggest improvement was learning to test each property with a specific checklist instead of relying on intuition. Graphs also helped make the properties visible: loops for reflexive, reverse arrows for symmetric, no two-way arrows between different elements for antisymmetric, and shortcuts for transitive.
+
+---
+
 ## Next Bridge Step
 
-Begin Lesson 4.4: Properties of Relations.
+Continue to the next NYU Tandon Bridge lesson after opening its lesson page, materials, lecture, and assigned reading.
