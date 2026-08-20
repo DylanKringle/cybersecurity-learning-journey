@@ -1699,6 +1699,146 @@ Lesson 4.4 connected Cartesian products to relations by treating a relation as a
 
 ---
 
+### Module 4, Lesson 4.5: Functions
+
+**Status:** Completed
+
+**Official Knowledge Check DM4.5:** 3/3, 100% on Attempts 1, 2, and 3
+
+### Work Completed
+
+- Completed Lesson 4.5 overview
+- Completed NYU lecture slides
+- Completed Section 5.2 reading
+- Completed guided practice
+- Completed mixed review
+- Completed independent check
+- Completed targeted corrections
+- Completed DM4.5 across three attempts
+
+### Practice Results
+
+- Mixed review: 10 questions
+- Independent check: strong after targeted correction
+- DM4.5 Attempt 1: 3/3, 100%
+- DM4.5 Attempt 2: 3/3, 100%
+- DM4.5 Attempt 3: 3/3, 100%
+
+### Concepts Practiced
+
+- Functions
+- Domain
+- Codomain
+- Range
+- Injective / one-to-one
+- Surjective / onto
+- Bijective
+- Image of a set
+- Inverse image
+- Inverse functions
+- Number-set notation: `Z`, `Z+`, `N`, and `in`
+
+### Core Memory Rules
+
+- Function = every input has exactly one output.
+- Domain = allowed inputs.
+- Codomain = allowed outputs.
+- Range = outputs actually hit.
+- Injective / one-to-one = no repeated outputs.
+- Surjective / onto = no missed codomain values.
+- Bijective = injective and surjective.
+
+### Function Test
+
+A mapping is a function when every input in the domain has exactly one output.
+
+Not a function:
+
+- one input has two different outputs
+- one input has no output
+
+Still a function:
+
+- two different inputs share one output
+
+If two inputs share one output, the mapping can still be a function, but it is not injective.
+
+### Domain, Codomain, And Range
+
+Example:
+
+```text
+f : {a, b, c, d} -> {1, 2, 3, 4, 5}
+a -> 2
+b -> 4
+c -> 2
+d -> 5
+```
+
+Then:
+
+- domain = `{a, b, c, d}`
+- codomain = `{1, 2, 3, 4, 5}`
+- range = `{2, 4, 5}`
+
+The output `2` is listed only once because the range is a set.
+
+### Classification Shortcuts
+
+Injective:
+
+- look for repeated outputs
+- repeated output means not injective
+
+Surjective:
+
+- check whether every codomain value is hit
+- missed codomain value means not surjective
+
+Bijective:
+
+- check both injective and surjective
+- any repeat or any miss means not bijective
+
+### Images, Inverse Images, And Inverse Functions
+
+Image of a set:
+
+- outputs produced by selected inputs
+
+Inverse image:
+
+- input or inputs that map to selected output values
+- can be found for any function
+
+Inverse function:
+
+- a full function that reverses the original mapping
+- tied to bijections in this lesson
+
+### Number-Set Notation
+
+- `Z` = all integers, including negative integers and 0
+- `Z+` = positive integers
+- `N` = natural numbers, with `0, 1, 2, 3, ...` in this course context unless stated otherwise
+- `in` means "is an element of"
+
+### Mistakes Corrected
+
+- Do not use "no repeated outputs" to decide whether something is a function; that checks injectivity.
+- Surjective / onto means no codomain value is missed; repeated outputs are allowed.
+- Do not confuse codomain with range.
+- Do not confuse inverse image with inverse function.
+- Read `Z` as all integers, not `Z+`.
+- Clarified positive-integer notation before submission.
+- Corrected `Z` versus `Z+` interpretation before submission.
+
+### Reflection
+
+Lesson 4.5 connected relations to functions by adding the rule that every input must have exactly one output. The biggest improvement was separating three different questions: first, is it a function; second, is it injective; third, is it surjective. Keeping domain, codomain, and range separate also made function classification much clearer.
+
+---
+
 ## Next Bridge Step
 
 Continue to the next NYU Tandon Bridge lesson after opening its lesson page, materials, lecture, and assigned reading.
