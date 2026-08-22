@@ -21,8 +21,9 @@ Recent verified progress:
 - Completed NYU Bridge Unit 1, Module 2: Proofs
 - Completed NYU Bridge Unit 1, Module 3: Induction & Number Theory
 - Completed NYU Bridge Unit 1, Module 4: Set Theory, Relations, Functions & Graphs
-- Completed NYU Bridge Unit 1, Module 4, Lesson 4.6: Graph Theory (Intro)
-- Completed DM4.6 with 3/3, 100% on all three attempts
+- Started NYU Bridge Unit 1, Module 5: Probability & Counting
+- Completed NYU Bridge Unit 1, Module 5, Lesson 5.1: Counting & Probability 1
+- Completed DM5.1 with 3/3, 100% on all three attempts
 - Completed Python Module 2: Control Flow
 - Completed Python Module 3 review with an overall score of 9.8/10
 - Practiced beginner Linux commands in Ubuntu
@@ -30,7 +31,7 @@ Recent verified progress:
 - Started organizing this repository as an honest learning journal
 ## Current Focus
 
-- NYU Tandon Bridge: Module 5 Probability & Counting
+- NYU Tandon Bridge: Lesson 5.2 Counting & Probability 2
 - Python programming foundations
 - Linux command-line practice
 - OverTheWire Bandit labs, currently at Level 16 -> 17

@@ -2027,6 +2027,120 @@ Module 4 connected set theory to structures that are central in computer science
 
 ---
 
+## Module 5: Probability & Counting
+
+**Status:** In Progress
+
+Module 5 is the final Unit 1 module before the Unit 1 exam.
+
+---
+
+### Module 5, Lesson 5.1: Counting & Probability 1
+
+**Status:** Completed
+
+**Official Knowledge Check DM5.1:** 3/3, 100% on Attempts 1, 2, and 3
+
+### Work Completed
+
+- Completed Lesson 5.1 overview
+- Completed NYU lecture slides
+- Completed Section 3.7 Preview + Computing Probabilities reading
+- Completed guided practice
+- Completed 10-question mixed review
+- Completed independent check
+- Completed targeted corrections
+- Completed DM5.1 across three attempts
+
+### Practice Results
+
+- Mixed review: 10 questions
+- Independent check: strong after one correction
+- DM5.1 Attempt 1: 3/3, 100%
+- DM5.1 Attempt 2: 3/3, 100%
+- DM5.1 Attempt 3: 3/3, 100%
+
+### Concepts Practiced
+
+- Sample spaces
+- Outcomes
+- Events
+- Uniform probability
+- Basic probability
+- Random variables
+- Discrete random variables
+- Probability mass functions
+- Probability language: exactly, at least, at most
+
+### Core Memory Rules
+
+- `S` = everything that can be recorded.
+- `E` = favorable subset.
+- `|E|` = number of favorable outcomes.
+- `P(E) = |E| / |S|`.
+- Every probability lies between 0 and 1.
+- Before counting, ask: what exactly is the experiment recording?
+
+### Uniform Probability
+
+Uniform probability means each outcome in the sample space is equally likely.
+
+For an event `E` inside a sample space `S`:
+
+```text
+P(E) = |E| / |S|
+```
+
+Example:
+
+```text
+Experiment: roll one fair die
+S = {1, 2, 3, 4, 5, 6}
+E = even result = {2, 4, 6}
+P(E) = 3/6 = 1/2
+```
+
+### Random Variables And PMFs
+
+A random variable assigns a number to each outcome in the sample space.
+
+Example:
+
+```text
+Experiment: flip two fair coins
+S = {HH, HT, TH, TT}
+X = number of heads
+```
+
+Probability mass function:
+
+```text
+P(X = 0) = 1/4
+P(X = 1) = 2/4 = 1/2
+P(X = 2) = 1/4
+```
+
+### Pitfalls Corrected
+
+- The event must be a subset of the sample space.
+- Do not include impossible outcomes in an event.
+- Distinguish the event `E` from the size of the event `|E|`.
+- "At least one" and "exactly one" are different probability conditions.
+- `P(X = 4)` means count outcomes where the random variable equals 4; do not automatically put 4 in the numerator.
+- Sample spaces are sets, so duplicate entries do not create new outcomes.
+- The sample space depends on what the experiment records.
+- If two dice are rolled but only the first die is recorded, the sample space has 6 outcomes, not 36.
+- For a standard deck question asking for "black and even-numbered," both conditions must be true.
+- Corrected a duplicate entry in a three-coin-flip sample space during independent practice.
+- Corrected the "record only the first die" interpretation before DM5.1 Attempt 2.
+- Corrected the black-and-even deck count before DM5.1 Attempt 3.
+
+### Reflection
+
+Lesson 5.1 introduced probability as careful counting over the correct sample space. The biggest idea was that probability depends on what the experiment records and which outcomes satisfy the event. This lesson also introduced random variables and probability mass functions, which will matter later for data analysis, risk reasoning, detection logic, and cybersecurity problems that involve uncertainty.
+
+---
+
 ## Next Bridge Step
 
-Begin Module 5: Probability & Counting.
+Begin Lesson 5.2: Counting & Probability 2.
