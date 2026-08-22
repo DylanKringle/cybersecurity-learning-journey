@@ -1839,6 +1839,194 @@ Lesson 4.5 connected relations to functions by adding the rule that every input 
 
 ---
 
+### Module 4, Lesson 4.6: Graph Theory (Intro)
+
+**Status:** Completed
+
+**Official Knowledge Check DM4.6:** 3/3, 100% on Attempts 1, 2, and 3
+
+### Work Completed
+
+- Completed Lesson 4.6 overview
+- Completed NYU lecture slides
+- Completed Section 2.1 reading
+- Completed guided practice
+- Completed mixed review
+- Completed independent check
+- Completed targeted corrections
+- Completed DM4.6 across three attempts
+
+### Practice Results
+
+- Mixed review: 10 questions
+- Independent check: strong after targeted correction
+- DM4.6 Attempt 1: 3/3, 100%
+- DM4.6 Attempt 2: 3/3, 100%
+- DM4.6 Attempt 3: 3/3, 100%
+
+### Concepts Practiced
+
+- Graphs written as `G = (V, E)`
+- Vertices / nodes
+- Edges
+- Adjacent vertices
+- Incident edges
+- Isolated vertices
+- Degree
+- Loops
+- Directed graphs / digraphs
+- Graph diagrams
+- Adjacency lists
+- Adjacency matrices
+- Handshake Lemma
+- Complete graphs
+
+### Core Memory Rules
+
+- Adjacent = vertex-to-vertex.
+- Incident = edge-to-vertex.
+- Degree = count incident edges.
+- A loop counts twice toward degree.
+- Directed edges use ordered pairs such as `(a,b)`.
+
+### Graph Representations
+
+Diagrams:
+
+- vertices are dots
+- edges are lines or arrows
+- direct connections can be traced visually
+
+Adjacency lists:
+
+- each vertex is followed by its direct neighbors
+- for an ordinary simple graph, the number of listed neighbors gives the degree
+
+Adjacency matrices:
+
+- rows and columns are vertices
+- `1` means adjacent
+- `0` means not adjacent
+- for an undirected graph, the matrix is symmetric across the main diagonal
+
+### Degree And The Handshake Lemma
+
+The Handshake Lemma:
+
+```text
+sum of all vertex degrees = 2 * number of edges
+```
+
+So:
+
+```text
+|E| = degree sum / 2
+```
+
+Example:
+
+```text
+degree sequence = (4, 4, 3, 3, 2, 2)
+degree sum = 18
+number of edges = 18 / 2 = 9
+```
+
+### Odd-Degree Rule
+
+The number of odd-degree vertices must be even.
+
+Important correction: individual vertices can have odd degree. What must be even is the count of odd-degree vertices.
+
+### Complete Graphs
+
+A complete graph `K_n` connects every pair of distinct vertices.
+
+For `K_n`:
+
+```text
+degree of each vertex = n - 1
+number of edges = n(n - 1) / 2
+```
+
+Examples:
+
+- `K_5` has degree 4 at each vertex and 10 edges.
+- `K_9` has degree 8 at each vertex and 36 edges.
+
+### Directed vs. Undirected Graphs
+
+Simple undirected graph:
+
+- no loops
+- no repeated edges
+- direction does not matter
+- `A-B` and `B-A` are the same edge
+- edge notation uses unordered sets such as `{a,b}`
+
+Directed graph / digraph:
+
+- arrow direction matters
+- `a -> b` and `b -> a` can be different edges
+- edge notation uses ordered pairs such as `(a,b)`
+
+### Mistakes Corrected
+
+- A loop contributes 2 toward degree.
+- Not every degree must be even; the number of odd-degree vertices must be even.
+- Degree is a number; adjacent vertices are vertex names.
+- `n - 1` is the degree of each vertex in `K_n`, not the total number of edges.
+- Total edges in `K_n` are `n(n - 1) / 2`.
+- In an undirected graph, `A-B` and `B-A` are the same edge.
+- Directed edges use ordered pairs, not unordered sets.
+- Corrected simple-undirected interpretation before DM4.6 Attempt 1.
+- DM4.6 Attempt 2 was clean with no corrections.
+- Reinforced ordered pairs versus unordered sets before DM4.6 Attempt 3.
+
+### Reflection
+
+Lesson 4.6 introduced graph theory as a way to model connections. The most important shift was separating vertex-to-vertex language from edge-to-vertex language: adjacent describes vertices, incident connects edges to vertices, and degree counts incident edges. This material connects naturally to networks, routing, dependency graphs, access relationships, and graph-based security analysis.
+
+---
+
+### Module 4: Set Theory, Relations, Functions & Graphs Wrap-Up
+
+**Status:** Completed
+
+### Lessons Completed
+
+- Lesson 4.1: Sets, Subsets & Set Operations
+- Lesson 4.2: DeMorgan's Laws for Sets
+- Lesson 4.3: Cartesian Products & Power Sets
+- Lesson 4.4: Properties of Relations
+- Lesson 4.5: Functions
+- Lesson 4.6: Graph Theory (Intro)
+
+### Knowledge Check Results
+
+- DM4.1: 3/3, 100% on Attempts 1, 2, and 3
+- DM4.2: 3/3, 100% on Attempts 1, 2, and 3
+- DM4.3: 3/3, 100% on Attempts 1, 2, and 3
+- DM4.4: 3/3, 100% on Attempts 1, 2, and 3
+- DM4.5: 3/3, 100% on Attempts 1, 2, and 3
+- DM4.6: 3/3, 100% on Attempts 1, 2, and 3
+
+### Module 4 Milestone
+
+Module 4 is complete. This module covered sets, set operations, relations, functions, and introductory graph theory.
+
+### Carry-Forward Toolkit
+
+- Sets: identify and combine collections precisely.
+- Relations: classify pair-based structures using reflexive, symmetric, antisymmetric, and transitive properties.
+- Functions: every input has exactly one output; injective = no repeats; surjective = no misses; bijective = both.
+- Graphs: model connections using vertices and edges; use degree and the Handshake Lemma to reason about structure.
+
+### Reflection
+
+Module 4 connected set theory to structures that are central in computer science. Sets support precise collection logic, relations describe pair-based structure, functions model controlled mappings, and graphs model networks and connections. This module is especially relevant for cybersecurity because access control, network topology, dependency relationships, and identity mappings all rely on these kinds of structures.
+
+---
+
 ## Next Bridge Step
 
-Continue to the next NYU Tandon Bridge lesson after opening its lesson page, materials, lecture, and assigned reading.
+Begin Module 5: Probability & Counting.
