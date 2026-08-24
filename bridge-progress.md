@@ -2141,6 +2141,114 @@ Lesson 5.1 introduced probability as careful counting over the correct sample sp
 
 ---
 
+### Module 5, Lesson 5.2: Counting & Probability 2
+
+**Status:** Completed
+
+**Official Knowledge Check DM5.2:** 3/3, 100% on Attempts 1, 2, and 3
+
+### Work Completed
+
+- Completed Lesson 5.2 lesson and source reading
+- Completed guided and mixed practice
+- Practiced factorial notation
+- Practiced permutations and k-permutations
+- Practiced combinations and k-combinations
+- Practiced arrangement-vs-selection reasoning
+- Practiced prize assignments, book-ordering problems, object selections, and structured binary strings
+- Completed DM5.2 across three attempts
+
+### Practice Results
+
+- Formula recognition: strong
+- Decision-making: improved by identifying what one outcome actually looks like before choosing a formula
+- DM5.2 Attempt 1: 3/3, 100%
+- DM5.2 Attempt 2: 3/3, 100%
+- DM5.2 Attempt 3: 3/3, 100%
+
+### Concepts Practiced
+
+- Factorials
+- Permutations
+- k-permutations of n objects
+- Combinations
+- k-combinations of n objects
+- Ordered sequences and assignments
+- Unordered selections and subsets
+- Relationship between permutations and combinations
+- Counting structured binary strings
+
+### Core Memory Rules
+
+- `n!` means `n(n - 1)(n - 2)...2 * 1`.
+- `0! = 1`.
+- Permutation = ordered sequence / arrangement.
+- Combination = unordered selection / set.
+- `P(n,k) = n! / (n - k)!`.
+- `C(n,k) = n! / ((n - k)!k!)`.
+- `P(n,k) = C(n,k) * k!`.
+- Before choosing a formula, ask what one outcome actually looks like.
+
+### Permutations
+
+Use a permutation when order matters because the outcome is an arrangement, sequence, or assignment to distinct roles.
+
+Examples:
+
+```text
+Arrange 3 distinct books:
+3! = 6
+```
+
+```text
+Award 2 distinct prizes to 5 contestants:
+P(5,2) = 5 * 4 = 20
+```
+
+```text
+Arrange 4 objects chosen from 6:
+P(6,4) = 6 * 5 * 4 * 3
+```
+
+### Combinations
+
+Use a combination when order does not matter because the outcome is only a selected group.
+
+Examples:
+
+```text
+Choose 2 objects from 5:
+C(5,2) = 10
+```
+
+```text
+Choose a 5-player group from 12 when positions are ignored:
+C(12,5)
+```
+
+### Decision Rule
+
+Instead of only asking "does order matter?", identify what one outcome is:
+
+- If one outcome is a sequence, arrangement, role assignment, or ordered string, use a permutation.
+- If one outcome is a set, group, subset, or selection, use a combination.
+- If you first choose a group and then arrange that group, multiply by `k!`.
+
+### Pitfalls Corrected
+
+- Do not use `n!` when only `k` slots are being filled.
+- Use `P(n,k)` when arranging `k` objects chosen from `n`.
+- Use combinations for pure selections when rearranging the same selected objects does not create a new outcome.
+- Use permutations for distinct roles or prizes.
+- Keep `k!` and `(n-k)!` straight in formulas.
+- For binary strings, first identify whether the task is choosing positions or arranging distinct objects.
+
+### Reflection
+
+Lesson 5.2 strengthened the skill of choosing the correct counting model before calculating. The main improvement was learning to define what a single outcome looks like: an ordered sequence points to permutations, while an unordered selection points to combinations. This matters for cybersecurity and computing because counting shows up in password spaces, key spaces, probability, sampling, and risk estimation.
+
+---
+
 ## Next Bridge Step
 
-Begin Lesson 5.2: Counting & Probability 2.
+Continue to the next Module 5 Bridge checkpoint after Lesson 5.2.
