@@ -2249,6 +2249,129 @@ Lesson 5.2 strengthened the skill of choosing the correct counting model before 
 
 ---
 
+### Module 5, Lesson 5.3: Expected Value & Binomial Probability
+
+**Status:** Completed
+
+**Official Knowledge Check DM5.3:** 3/3, 100% on Attempts 1, 2, and 3
+
+### Work Completed
+
+- Completed Lesson 5.3 overview
+- Completed instructional video
+- Completed assigned supplemental reading
+- Completed guided practice
+- Completed 10-question mixed review
+- Completed targeted 5-question review
+- Completed targeted corrections
+- Completed DM5.3 across three attempts
+
+### Practice Results
+
+- Mixed review: 7/10
+- Targeted review: 4/5
+- DM5.3 Attempt 1: 3/3, 100%
+- DM5.3 Attempt 2: 3/3, 100%
+- DM5.3 Attempt 3: 3/3, 100%
+
+### Concepts Practiced
+
+- Expected value
+- Binomial settings
+- Binomial probability
+- Combination term `C(n,k)` inside the binomial formula
+- Binomial expected value
+- Binomial variance
+- Independence
+- Exact-success probability
+
+### Core Memory Rules
+
+- Expected value is the long-run average outcome of a random process.
+- For a discrete random variable, multiply each outcome by its probability and add the results.
+- A binomial setting requires fixed `n`, two outcome categories, constant `p`, and independent trials.
+- `n` = total trials.
+- `k` = successes wanted.
+- `p` = probability of one success.
+- `1 - p` = probability of one failure.
+- `C(n,k)` counts where the successes can occur.
+- For `X ~ Binomial(n,p)`, `E[X] = np`.
+- For `X ~ Binomial(n,p)`, `Var(X) = np(1-p)`.
+
+### Binomial Formula
+
+For exactly `k` successes in `n` independent trials:
+
+```text
+P(X = k) = C(n,k)p^k(1-p)^(n-k)
+```
+
+Where:
+
+- `C(n,k)` counts the number of ways to choose which trials are successes.
+- `p^k` gives the probability of the `k` successes.
+- `(1-p)^(n-k)` gives the probability of the remaining failures.
+
+Example:
+
+```text
+Question: exactly 2 sixes in 4 fair die rolls
+n = 4
+k = 2
+p = 1/6
+1 - p = 5/6
+
+P(X = 2) = C(4,2)(1/6)^2(5/6)^2
+```
+
+### Binomial Setting Checklist
+
+- Is the number of trials fixed in advance?
+- Can each trial be classified as success or failure?
+- Is the probability of success the same on every trial?
+- Are the trials independent?
+
+Important correction: drawing cards without replacement is usually not binomial because the deck changes, so the success probability changes and trials are dependent.
+
+### Expected Value And Variance
+
+Expected value gives the long-run average:
+
+```text
+E[X] = np
+```
+
+Variance measures spread around the expected value:
+
+```text
+Var(X) = np(1-p)
+```
+
+Example:
+
+```text
+n = 12
+p = 0.4
+
+E[X] = 12(0.4) = 4.8
+Var(X) = 12(0.4)(0.6) = 2.88
+```
+
+### Pitfalls Corrected
+
+- Improved binomial-setting recognition.
+- Improved general expected value setup.
+- Separated expected value from variance.
+- Corrected that `E[X] = np`, while `Var(X) = np(1-p)`.
+- Corrected variance before DM5.3 Attempt 2.
+- Checked the independence requirement before DM5.3 Attempt 3.
+
+### Reflection
+
+Lesson 5.3 connected probability formulas to interpretation. The biggest improvement was separating average behavior from spread: expected value describes the long-run average, while variance describes how much outcomes vary around that average. The binomial checklist also made it clearer when a formula applies and when a situation, such as drawing without replacement, breaks the assumptions.
+
+---
+
 ## Next Bridge Step
 
-Continue to the next Module 5 Bridge checkpoint after Lesson 5.2.
+Open the next NYU Tandon Bridge Module 5 lesson and collect its overview, lecture, and assigned reading before starting new instruction.

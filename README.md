@@ -26,6 +26,8 @@ Recent verified progress:
 - Completed DM5.1 with 3/3, 100% on all three attempts
 - Completed NYU Bridge Unit 1, Module 5, Lesson 5.2: Counting & Probability 2
 - Completed DM5.2 with 3/3, 100% on all three attempts
+- Completed NYU Bridge Unit 1, Module 5, Lesson 5.3: Expected Value & Binomial Probability
+- Completed DM5.3 with 3/3, 100% on all three attempts
 - Completed Python Module 2: Control Flow
 - Completed Python Module 3 review with an overall score of 9.8/10
 - Practiced beginner Linux commands in Ubuntu
@@ -33,7 +35,7 @@ Recent verified progress:
 - Started organizing this repository as an honest learning journal
 ## Current Focus
 
-- NYU Tandon Bridge: next Module 5 checkpoint after Lesson 5.2
+- NYU Tandon Bridge: next Module 5 checkpoint after Lesson 5.3
 - Python programming foundations
 - Linux command-line practice
 - OverTheWire Bandit labs, currently at Level 16 -> 17
