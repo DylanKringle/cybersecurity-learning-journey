@@ -2372,6 +2372,150 @@ Lesson 5.3 connected probability formulas to interpretation. The biggest improve
 
 ---
 
+### Module 5, Lesson 5.4: Conditional Probability & Bayes' Theorem
+
+**Status:** Completed
+
+**Official Knowledge Check DM5.4:** 3/3, 100% on Attempts 1, 2, and 3
+
+### Work Completed
+
+- Completed Lesson 5.4 overview
+- Completed instructional video
+- Completed assigned reading
+- Completed guided practice
+- Completed 10-question mixed review
+- Completed independent check
+- Completed targeted corrections
+- Completed DM5.4 across three attempts
+
+### Practice Results
+
+- Mixed review: 8/10
+- Independent check: completed with targeted corrections
+- DM5.4 Attempt 1: 3/3, 100%
+- DM5.4 Attempt 2: 3/3, 100%
+- DM5.4 Attempt 3: 3/3, 100%
+
+### Concepts Practiced
+
+- Conditional probability
+- `P(A|B)` notation
+- "Given that" probability language
+- Shrinking the sample space after known information
+- Conditional probability formula
+- Independence
+- Dependence
+- Bayes' Theorem
+- Updating probability after evidence
+- Total probability of evidence
+- Dependent sampling without replacement
+
+### Core Memory Rules
+
+- `P(A|B)` means "probability of A given B."
+- The event before the bar is what I want.
+- The event after the bar is what I already know.
+- For "given that" problems, shrink the sample space to the known condition first.
+- If `P(A|B) = P(A)`, then learning `B` did not change the probability of `A`.
+- If learning one event changes the probability of another event, the events are dependent.
+- Bayes' Theorem updates a probability after new evidence.
+- For Bayes problems, the denominator must include all ways the evidence can happen.
+- Without replacement usually creates dependence because the available outcomes change.
+
+### Conditional Probability Formula
+
+For events `A` and `B`, when `P(B) > 0`:
+
+```text
+P(A|B) = P(A and B) / P(B)
+```
+
+Plain English:
+
+```text
+probability of what I want, restricted to what I already know
+```
+
+Example:
+
+```text
+Question: P(even | greater than 2) for one fair die
+
+Known condition: greater than 2
+Reduced sample space: {3, 4, 5, 6}
+Wanted event inside that space: {4, 6}
+
+P(even | greater than 2) = 2/4 = 1/2
+```
+
+### Independence Check
+
+Events are independent when the conditional probability stays the same as the original probability.
+
+```text
+P(A|B) = P(A)
+```
+
+Equivalent multiplication rule:
+
+```text
+P(A and B) = P(A)P(B)
+```
+
+Important correction: Bayes' Theorem does not require independence. Bayes is often useful because evidence changes how likely an event is.
+
+### Bayes' Theorem
+
+Bayes' Theorem is a probability update. It starts with an original probability, adds evidence, and updates the probability of the explanation I care about.
+
+Working structure:
+
+```text
+P(cause | evidence) = P(cause and evidence) / P(evidence)
+```
+
+For the denominator, I need the total probability of the evidence. That means:
+
+```text
+multiply along each evidence path
+add across all evidence paths
+```
+
+### Bayes Path Method
+
+1. Identify what I want and what I know from `P(WANT|KNOW)`.
+2. List each possible source or path that could produce the known evidence.
+3. Multiply along each path.
+4. Add all evidence paths to get the total probability of the evidence.
+5. Divide the want-and-evidence path by the total evidence probability.
+
+### Dependent Sampling
+
+Sampling without replacement changes the available outcomes. Because the sample space changes after a draw, later probability information can depend on earlier draws.
+
+Example idea:
+
+```text
+With replacement: the original probabilities stay the same.
+Without replacement: the deck, bag, or sample space changes.
+```
+
+### Pitfalls Corrected
+
+- Improved building the total evidence probability in Bayes problems.
+- Reinforced that Bayes' Theorem does not require independence.
+- Practiced using complementary probability when an evidence path required it.
+- Corrected edge-case conditional probability selections before DM5.4 submissions.
+- Reinforced that without-replacement situations are dependent.
+- Practiced separating the event I want from the event I already know.
+
+### Reflection
+
+Lesson 5.4 made probability feel more like updating information instead of only counting outcomes from the original sample space. The biggest improvement was learning to read `P(A|B)` as "want given know" and shrink the sample space before doing any calculation. Bayes' Theorem was harder because the denominator requires all possible ways the evidence can happen, not only the path I care about. After targeted corrections, the path method made Bayes problems more manageable and connected the math to real cybersecurity-style reasoning, where evidence changes how likely an explanation is.
+
+---
+
 ## Next Bridge Step
 
 Open the next NYU Tandon Bridge Module 5 lesson and collect its overview, lecture, and assigned reading before starting new instruction.
