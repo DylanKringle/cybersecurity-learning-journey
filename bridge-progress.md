@@ -2029,7 +2029,7 @@ Module 4 connected set theory to structures that are central in computer science
 
 ## Module 5: Probability & Counting
 
-**Status:** In Progress
+**Status:** Completed
 
 Module 5 is the final Unit 1 module before the Unit 1 exam.
 
@@ -2516,6 +2516,103 @@ Lesson 5.4 made probability feel more like updating information instead of only 
 
 ---
 
+### Module 5, Lesson 5.5: Pigeonhole Principle
+
+**Status:** Completed
+
+**Official Knowledge Check DM5.5:** 3/3, 100% on Attempts 1, 2, and 3
+
+### Work Completed
+
+- Completed Lesson 5.5 materials
+- Completed mixed review
+- Completed independent check
+- Completed targeted corrections
+- Completed DM5.5 across three attempts
+
+### Practice Results
+
+- Mixed review: 6/10
+- Independent check: 3/5
+- Targeted corrections: completed
+- DM5.5 Attempt 1: 3/3, 100%
+- DM5.5 Attempt 2: 3/3, 100%
+- DM5.5 Attempt 3: 3/3, 100%; all initial selections correct before review
+
+### Concepts Practiced
+
+- Basic Pigeonhole Principle
+- Generalized Pigeonhole Principle
+- Ceiling functions
+- Floor functions
+- Direct guarantee problems
+- Reverse guarantee problems
+- Hidden pigeonhole structures
+- Remainder classes
+- Complementary number pairs
+- Existence proofs
+
+### Core Memory Rules
+
+- If more objects than categories are placed into those categories, at least one category must contain more than one object.
+- The generalized Pigeonhole Principle uses a ceiling calculation to guarantee a minimum occupancy.
+- Direct generalized problems ask what must happen after a number of objects are placed into categories.
+- Reverse guarantee problems ask how many objects are needed to force a target result.
+- Remainder-class problems often hide the pigeonholes inside possible remainders.
+- If two integers have the same remainder modulo `n`, their difference is divisible by `n`.
+
+### Pitfalls Corrected
+
+- Direct-versus-reverse generalized Pigeonhole setups initially caused confusion.
+- Remainder-class problems required extra work to identify the actual pigeonholes.
+- Some problems required stating the full guarantee in words, not only calculating a number.
+- Repeated practice improved method selection before the final randomized attempt.
+
+### Reflection
+
+Lesson 5.5 helped connect counting to guarantee-style reasoning. The main shift was recognizing that the Pigeonhole Principle is not about finding an exact arrangement; it is about proving that some outcome must happen when enough objects are placed into limited categories. The hardest part was choosing the correct setup for generalized and reverse guarantee problems. After targeted corrections, hidden pigeonhole structures such as remainder classes became clearer.
+
+---
+
+### Module 5: Probability & Counting Wrap-Up
+
+**Status:** Completed
+
+### Lessons Completed
+
+- Lesson 5.1: Counting & Probability 1
+- Lesson 5.2: Permutations & Combinations
+- Lesson 5.3: Expected Value & Binomial Probability
+- Lesson 5.4: Conditional Probability & Bayes' Theorem
+- Lesson 5.5: Pigeonhole Principle
+
+### Knowledge Check Results
+
+- DM5.1: 3/3, 100% on Attempts 1, 2, and 3
+- DM5.2: 3/3, 100% on Attempts 1, 2, and 3
+- DM5.3: 3/3, 100% on Attempts 1, 2, and 3
+- DM5.4: 3/3, 100% on Attempts 1, 2, and 3
+- DM5.5: 3/3, 100% on Attempts 1, 2, and 3
+
+### Module 5 Milestone
+
+Module 5 is complete. Across this module, I practiced probability, counting, permutations, combinations, expected value, binomial probability, conditional probability, Bayes' Theorem, and the Pigeonhole Principle.
+
+### Unit 1 Status
+
+- Module 1: Logic - complete
+- Module 2: Proofs - complete
+- Module 3: Induction & Number Theory - complete
+- Module 4: Set Theory, Relations, Functions & Graphs - complete
+- Module 5: Probability & Counting - complete
+- Unit 1 Exam: pending; not yet attempted and not claimed as complete
+
+### Reflection
+
+Completing Module 5 finishes the instructional module sequence for Unit 1 Discrete Math. The next phase is not a new module; it is cumulative Unit 1 review before the exam. Review should include older material that may have faded, especially logic/proof structure, induction, set and relation classifications, function and graph distinctions, and the specific Module 5 weak spots around variance, Bayes denominators, and generalized Pigeonhole setups.
+
+---
+
 ## Next Bridge Step
 
-Open the next NYU Tandon Bridge Module 5 lesson and collect its overview, lecture, and assigned reading before starting new instruction.
+Begin cumulative Unit 1 Discrete Math review before the Unit 1 exam. Do not mark the Unit 1 exam complete until it is actually attempted and verified.
