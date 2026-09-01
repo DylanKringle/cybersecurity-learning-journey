@@ -35,6 +35,9 @@ Recent verified progress:
 - Completed NYU Bridge Unit 1, Module 5: Probability & Counting
 - Completed NYU Bridge Unit 1 instructional modules: DM1-DM5
 - Unit 1 Discrete Math exam is pending and not yet claimed as complete
+- Started NYU Bridge Unit 2: C++
+- Completed NYU Bridge Unit 2, Module C1: Positional Number Systems
+- Completed C1 Knowledge Checks with 3/3, 100% on all three attempts
 - Completed Python Module 2: Control Flow
 - Completed Python Module 3 review with an overall score of 9.8/10
 - Practiced beginner Linux commands in Ubuntu
@@ -42,7 +45,7 @@ Recent verified progress:
 - Started organizing this repository as an honest learning journal
 ## Current Focus
 
-- NYU Tandon Bridge: cumulative Unit 1 Discrete Math review before the Unit 1 exam
+- NYU Tandon Bridge: Unit 2 C2 - Hello World in C++ and cumulative Unit 1 exam review
 - Python programming foundations
 - Linux command-line practice
 - OverTheWire Bandit labs, currently at Level 16 -> 17

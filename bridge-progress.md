@@ -2613,6 +2613,83 @@ Completing Module 5 finishes the instructional module sequence for Unit 1 Discre
 
 ---
 
+## Unit 1 Exam Status
+
+The Unit 1 Discrete Math exam is pending. It has not been attempted and should not be marked complete until there is verified exam evidence.
+
+---
+
+# Unit 2: C++
+
+**Status:** In Progress
+
+Unit 2 begins the C++ portion of the Bridge program. This unit moves from discrete math into how computers represent data and how programs are written, compiled, executed, tested, and debugged.
+
+---
+
+## Module C1: Positional Number Systems
+
+**Status:** Completed
+
+**Completed:** 2026-08-31
+
+**Official Knowledge Checks:** 3/3, 100% on Attempts 1, 2, and 3
+
+### Work Completed
+
+- Completed Module C1 instructional content
+- Watched 13 instructional videos
+- Completed approximately 1 hour 36 minutes of video content
+- Completed C1 Knowledge Check Attempt 1
+- Completed C1 Knowledge Check Attempt 2
+- Completed C1 Knowledge Check Attempt 3
+
+### Practice Results
+
+- Attempt 1: 3/3, 100%
+- Attempt 2: 3/3, 100%
+- Attempt 3: 3/3, 100%
+- Combined practice evidence: 9/9, 100%
+
+### Concepts Practiced
+
+- Digital data representation
+- Positional notation
+- Base systems
+- Valid digits in different bases
+- Place values as powers of the base
+- Base conversion
+- Decimal, binary, octal, and hexadecimal representations
+- Binary arithmetic
+- Octal arithmetic
+- Addition and subtraction in non-decimal bases
+- Carry and borrow behavior
+- Unsigned number ranges
+- Signed number ranges
+- 8-bit two's-complement representation
+
+### Core Memory Rules
+
+- In base `B`, each place value is a power of `B`.
+- Decimal uses base 10.
+- Binary uses base 2 and digits `0` and `1`.
+- Octal uses base 8 and digits `0` through `7`.
+- Hexadecimal uses base 16 and digits `0` through `9` plus `A` through `F`.
+- For decimal-to-base conversion, repeated division uses the target base.
+- In repeated division, remainders are read from last to first.
+- An unsigned 8-bit value can represent `0` through `255`.
+- An 8-bit two's-complement value can represent `-128` through `127`.
+
+### Why This Matters For Cybersecurity
+
+Number systems are part of how computers store and interpret data. Binary, hexadecimal, signed values, and two's-complement representation show up in low-level programming, memory analysis, networking, packet inspection, encoding, debugging, malware analysis, and security tooling.
+
+### Reflection
+
+Module C1 shifted Bridge from pure discrete math into computer representation. The main idea was that numbers are not stored magically; they are encoded using positional systems. Understanding binary, octal, hexadecimal, and two's complement gives me a better foundation for later C++, memory, networking, and systems/security topics.
+
+---
+
 ## Next Bridge Step
 
-Begin cumulative Unit 1 Discrete Math review before the Unit 1 exam. Do not mark the Unit 1 exam complete until it is actually attempted and verified.
+Continue with Unit 2, Module C2: Hello World in C++. Also keep cumulative Unit 1 Discrete Math review active because the Unit 1 exam is still pending and not yet claimed as complete.
