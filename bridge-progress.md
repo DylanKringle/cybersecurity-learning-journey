@@ -2690,6 +2690,90 @@ Module C1 shifted Bridge from pure discrete math into computer representation. T
 
 ---
 
+## Module C2: Hello World in C++
+
+**Status:** Completed
+
+**Completed:** 2026-09-01
+
+**Official Knowledge Check:** Highest score 3/3, 100%
+
+### Work Completed
+
+- Completed Module C2 instructional content
+- Watched 7 instructional videos
+- Completed approximately 42 minutes 37 seconds of video content
+- Reviewed assigned Savitch reading from Chapter 1, Sections 1.1-1.4
+- Practiced tracing a first C++ program from source code to execution
+- Practiced basic input and output with `cin` and `cout`
+- Practiced identifying simple syntax errors
+- Completed C2 Knowledge Check attempts and final verification
+
+### Practice Results
+
+- Attempt 1: 2/3, 66.67%
+- Attempt 2: 3/3, 100%
+- Attempt 3: 2/3, 66.67%
+- Attempt 4: 3/3, 100%
+- Highest recorded result: 3/3, 100%
+
+### Concepts Practiced
+
+- Source code
+- Object code
+- Executable files
+- Compiler role
+- Linker role
+- Loader role
+- CPU execution
+- RAM as volatile memory
+- HDD/SSD as non-volatile secondary storage
+- Basic C++ program structure
+- `#include <iostream>`
+- `using namespace std;`
+- `int main()`
+- `cout <<`
+- `cin >>`
+- `endl`
+- `return 0;`
+
+### Build And Run Flow
+
+```text
+C++ source (.cpp) -> Compiler -> Object code (.o/.obj) -> Linker -> Executable
+Executable on HDD/SSD -> Loader -> RAM -> CPU executes instructions
+```
+
+### Core Program Pattern
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "Hello World!!!" << endl;
+    return 0;
+}
+```
+
+### Corrections Made
+
+- Separated build-time concepts from run-time concepts.
+- Clarified that compiled source becomes object code before linking into an executable.
+- Clarified that an executable is stored on HDD/SSD, loaded into RAM, and then executed by the CPU.
+- Kept `cin >>` for input separate from `cout <<` for output.
+- Reviewed simple syntax details such as braces and semicolons.
+
+### Why This Matters For Cybersecurity
+
+C2 connects programming syntax to the system underneath it. Understanding how source code becomes an executable, where a program is stored, and how it is loaded into memory is foundational for later C++, debugging, operating systems, malware analysis, secure coding, and cloud security work.
+
+### Reflection
+
+Module C2 established the first practical C++ workflow: write a small program, understand how it is compiled and linked, and trace how it runs on a computer. The biggest improvement was separating the roles of the compiler, linker, loader, RAM, CPU, and secondary storage instead of treating "running a program" as one vague step.
+
+---
+
 ## Next Bridge Step
 
-Continue with Unit 2, Module C2: Hello World in C++. Also keep cumulative Unit 1 Discrete Math review active because the Unit 1 exam is still pending and not yet claimed as complete.
+Continue with Unit 2, Module C3: Variables, Data Types, & Expressions. Also keep cumulative Unit 1 Discrete Math review active because the Unit 1 exam is still pending and not yet claimed as complete.
