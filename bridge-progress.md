@@ -2774,6 +2774,81 @@ Module C2 established the first practical C++ workflow: write a small program, u
 
 ---
 
+## Module C3: Variables, Data Types, & Expressions
+
+**Status:** Completed
+
+**Completed:** 2026-09-03
+
+**Official Knowledge Checks:** 100% on all three attempts
+
+**Autograder Evidence:** Homework 1: 100/100; Homework 3: 100/100
+
+### Work Completed
+
+- Completed Module C3 lesson material
+- Completed three C3 Knowledge Check attempts with 100% each
+- Completed Homework 1 with 100/100
+- Completed Homework 3 with 100/100
+- Installed and verified Visual Studio Community for C++ development
+- Created and ran C++ Console App projects
+- Submitted only required source files to Gradescope
+- Verified additional test cases beyond the autograder examples
+
+### Concepts Practiced
+
+- Variables and identifiers
+- Declaration, assignment, and initialization
+- Core data types: `int`, `float`, `double`, `char`, `bool`, and `string`
+- Integer division and truncation
+- Modulus as remainder
+- Casting and mixed-type expressions
+- Character values and ASCII
+- Escape sequences
+- String concatenation
+- Boolean logic
+- Relational comparisons
+- Operator precedence
+- Basic `if` / `else` control flow
+- Translating word problems into variables, formulas, and output
+
+### Core C++ Reminders
+
+- A variable is a named memory location that stores a value.
+- A variable must be declared before it is used.
+- Identifiers can use letters, numbers, and underscores, but cannot start with a number.
+- Use meaningful variable names that describe the value being stored.
+- Integer division drops the fractional part when both operands are integers.
+- The `/` operator gives full groups, while `%` gives leftovers.
+- Casting can force a value to be treated as another type for an expression.
+- `char` values can be used as characters or as numeric ASCII values depending on the expression.
+- `=` assigns a value; `==` compares two values.
+- Parentheses are the safest way to make intended precedence clear.
+
+### Practice And Homework Evidence
+
+- Homework 1 practiced arithmetic, integer division, modulus, and value conversion problems.
+- Homework 3 practiced rectangle calculations, even/odd decisions with `%`, and finding the largest of three integers without a loop.
+- Additional tests included alternate coin totals, minute/hour carry cases, zero and negative even/odd inputs, ties, and all-negative largest-value cases.
+
+### Development Setup Notes
+
+- Visual Studio Community was installed on Windows with the Desktop development with C++ workload.
+- C++ projects were created as Console Apps.
+- Source files were saved with the required `.cpp` filenames.
+- Programs were run with Start Without Debugging.
+- Only required source files were submitted, not solution files, executables, project folders, or build-output folders.
+
+### Why This Matters For Cybersecurity
+
+C3 builds the programming foundation needed for secure coding and systems work. Variables, types, arithmetic, casting, Boolean logic, and conditionals all show up later in input validation, memory behavior, parsing, debugging, log analysis, and security tooling.
+
+### Reflection
+
+Module C3 moved the C++ work from recognizing a basic program into actually reasoning about data. The biggest improvements were tracing variable values by hand, knowing when division stays integer-based, using modulus for leftovers, and distinguishing assignment from comparison. The homework also made the syntax more practical because each program had to produce correct output and pass tests.
+
+---
+
 ## Next Bridge Step
 
-Continue with Unit 2, Module C3: Variables, Data Types, & Expressions. Also keep cumulative Unit 1 Discrete Math review active because the Unit 1 exam is still pending and not yet claimed as complete.
+Continue with the next Unit 2 C++ module. Also keep cumulative Unit 1 Discrete Math review active because the Unit 1 exam is still pending and not yet claimed as complete.

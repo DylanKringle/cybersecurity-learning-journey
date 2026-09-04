@@ -40,6 +40,10 @@ Recent verified progress:
 - Completed C1 Knowledge Checks with 3/3, 100% on all three attempts
 - Completed NYU Bridge Unit 2, Module C2: Hello World in C++
 - Completed C2 Knowledge Check with highest score 3/3, 100%
+- Completed NYU Bridge Unit 2, Module C3: Variables, Data Types, & Expressions
+- Completed C3 Knowledge Checks with 100% on all three attempts
+- Completed C++ Homework 1 and Homework 3 with 100/100 on each autograder
+- Installed and verified Visual Studio Community for C++ development
 - Completed Python Module 2: Control Flow
 - Completed Python Module 3 review with an overall score of 9.8/10
 - Practiced beginner Linux commands in Ubuntu
@@ -47,7 +51,7 @@ Recent verified progress:
 - Started organizing this repository as an honest learning journal
 ## Current Focus
 
-- NYU Tandon Bridge: Unit 2 C3 - Variables, Data Types, & Expressions and cumulative Unit 1 exam review
+- NYU Tandon Bridge: next Unit 2 C++ module and cumulative Unit 1 exam review
 - Python programming foundations
 - Linux command-line practice
 - OverTheWire Bandit labs, currently at Level 16 -> 17
