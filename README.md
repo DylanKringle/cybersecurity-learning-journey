@@ -1,105 +1,40 @@
-# Cybersecurity Learning Journey
+# GitHub Sep 05 Unit 2 C4 Update Pack
 
-Documenting my transition from economics into cybersecurity through structured study, hands-on labs, technical projects, and honest progress tracking as I build toward cloud security engineering.
-## About Me
+This folder contains the clean GitHub update files for Dylan's cybersecurity learning journal.
 
-Hi, I'm Dylan Kringle.
+## Files Included
 
-I am completing a B.A. in Economics at San Diego State University and building the technical foundation for graduate study and a future career in cloud security. This repository tracks my learning across programming, Linux, networking, cloud technologies, and cybersecurity labs.
+### `APPLY-SEP05-UNIT2-C4-UPDATE.md`
 
-I use AI as a study coach and documentation assistant, but the work documented here is based on concepts I practice, explain, test, and verify myself.
-## Career Goal
+Instructions for applying the update, checking the diff, committing, and pushing to GitHub.
 
-My long-term goal is to become a Cloud Security Engineer, with continued growth toward security architecture, technical leadership, and cloud-security strategy.
-## Current Status
+### `bridge-progress.md`
 
-Current stage: NYU Tandon Bridge has started, with Bridge now the highest-priority study track.
+The updated GitHub progress file. This is the file that should replace the existing `bridge-progress.md` in the `cybersecurity-learning-journey` repository.
 
-Recent verified progress:
-- Completed NYU OnRamp Unit 1: Precalculus
-- Completed NYU Bridge Unit 1, Module 1: Logic
-- Completed NYU Bridge Unit 1, Module 2: Proofs
-- Completed NYU Bridge Unit 1, Module 3: Induction & Number Theory
-- Completed NYU Bridge Unit 1, Module 4: Set Theory, Relations, Functions & Graphs
-- Started NYU Bridge Unit 1, Module 5: Probability & Counting
-- Completed NYU Bridge Unit 1, Module 5, Lesson 5.1: Counting & Probability 1
-- Completed DM5.1 with 3/3, 100% on all three attempts
-- Completed NYU Bridge Unit 1, Module 5, Lesson 5.2: Counting & Probability 2
-- Completed DM5.2 with 3/3, 100% on all three attempts
-- Completed NYU Bridge Unit 1, Module 5, Lesson 5.3: Expected Value & Binomial Probability
-- Completed DM5.3 with 3/3, 100% on all three attempts
-- Completed NYU Bridge Unit 1, Module 5, Lesson 5.4: Conditional Probability & Bayes' Theorem
-- Completed DM5.4 with 3/3, 100% on all three attempts
-- Completed NYU Bridge Unit 1, Module 5, Lesson 5.5: Pigeonhole Principle
-- Completed DM5.5 with 3/3, 100% on all three attempts
-- Completed NYU Bridge Unit 1, Module 5: Probability & Counting
-- Completed NYU Bridge Unit 1 instructional modules: DM1-DM5
-- Unit 1 Discrete Math exam is pending and not yet claimed as complete
-- Started NYU Bridge Unit 2: C++
-- Completed NYU Bridge Unit 2, Module C1: Positional Number Systems
-- Completed C1 Knowledge Checks with 3/3, 100% on all three attempts
-- Completed NYU Bridge Unit 2, Module C2: Hello World in C++
-- Completed C2 Knowledge Check with highest score 3/3, 100%
-- Completed NYU Bridge Unit 2, Module C3: Variables, Data Types, & Expressions
-- Completed C3 Knowledge Checks with 100% on all three attempts
-- Completed C++ Homework 1 and Homework 3 with 100/100 on each autograder
-- Installed and verified Visual Studio Community for C++ development
-- Completed Python Module 2: Control Flow
-- Completed Python Module 3 review with an overall score of 9.8/10
-- Practiced beginner Linux commands in Ubuntu
-- Completed OverTheWire Bandit progress through Level 15 -> 16
-- Started organizing this repository as an honest learning journal
-## Current Focus
+## What This Update Covers
 
-- NYU Tandon Bridge: next Unit 2 C++ module and cumulative Unit 1 exam review
-- Python programming foundations
-- Linux command-line practice
-- OverTheWire Bandit labs, currently at Level 16 -> 17
-- GitHub documentation habits
-- Networking and cloud-security foundations
+- Bridge Unit 2 C4: Branching Statements
+- 13 instructional videos completed
+- C4 Knowledge Checks: 3/3, 100% on all three attempts
+- Homework 2: 100/100
+- Homework 2 autograder: 21/21 tests passed
+- Branching with `if`, `if` / `else`, `else if`, nested decisions, and `switch`
+- Corrected weak areas around independent `if` statements, nested blocks, fall-through, boundaries, and `switch` syntax
+- Next step updated to Module C5
 
-## Explore The Repository
+## Public GitHub Safety Check
 
-### NYU Tandon Bridge / OnRamp
+This update is written for a public learning journal. It summarizes real progress without publishing:
 
-Math and programming preparation for Bridge and future graduate cybersecurity study.
+- Private course screenshots
+- Exact quiz questions
+- Copyrighted course material
+- Passwords, keys, or private files
+- Claims that go beyond the evidence
 
-**Explore:** [NYU Bridge Progress](bridge-progress.md)
-### Python Foundations
+## Suggested Commit Message
 
-Beginner Python practice focused on variables, conditionals, loops, functions, strings, debugging, and problem solving.
-
-**Explore:** [Python Module 3 Review](python/module-3-review.md)
-
-### Linux Home Lab
-
-Hands-on Linux learning using Ubuntu, terminal practice, troubleshooting, and controlled lab exercises.
-
-**Explore:** [Linux Home Lab](linux-home-lab.md)
-### Bandit / Command-Line Practice
-
-Sanitized notes from OverTheWire Bandit levels. Passwords are never stored or published.
-
-**Explore:** [Bandit Notes](linux/bandit-notes.md)
-
-### Cybersecurity Roadmap
-
-My long-term learning plan from economics into cloud security.
-
-**Explore:** [Cybersecurity Roadmap](roadmap.md)
-## Related Work
-
-Earlier cybersecurity coursework and projects are kept separately from this learning journal.
-
-**Explore:** [Google Cybersecurity Projects](https://github.com/DylanKringle/Google-Cybersecurity-Projects)
-
-## Learning Principles
-
-- Understand concepts before memorizing commands.
-- Verify work with output, scores, or repeatable observations.
-- Document mistakes and fixes honestly.
-- Keep sensitive information out of GitHub.
-- Build small, explainable projects before larger portfolio work.
-## Repository Status
-
-This repository is currently a learning journal, not a finished professional portfolio. It will become more project-focused as my Linux, networking, scripting, and cloud-security skills develop.
+```text
+Update Bridge C++ C4 progress
+```

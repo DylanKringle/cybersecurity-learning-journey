@@ -2029,7 +2029,7 @@ Module 4 connected set theory to structures that are central in computer science
 
 ## Module 5: Probability & Counting
 
-**Status:** Completed
+**Status:** In Progress
 
 Module 5 is the final Unit 1 module before the Unit 1 exam.
 
@@ -2376,143 +2376,38 @@ Lesson 5.3 connected probability formulas to interpretation. The biggest improve
 
 **Status:** Completed
 
-**Official Knowledge Check DM5.4:** 3/3, 100% on Attempts 1, 2, and 3
+**Completion Date:** 2026-08-25
+
+**Official Knowledge Check:** 100% on all recorded attempts
 
 ### Work Completed
 
-- Completed Lesson 5.4 overview
-- Completed instructional video
-- Completed assigned reading
-- Completed guided practice
-- Completed 10-question mixed review
-- Completed independent check
-- Completed targeted corrections
-- Completed DM5.4 across three attempts
-
-### Practice Results
-
-- Mixed review: 8/10
-- Independent check: completed with targeted corrections
-- DM5.4 Attempt 1: 3/3, 100%
-- DM5.4 Attempt 2: 3/3, 100%
-- DM5.4 Attempt 3: 3/3, 100%
+- Reviewed conditional probability
+- Practiced Bayes' Theorem
+- Worked through guided examples
+- Completed mixed review and targeted corrections
+- Completed the official NYU Knowledge Check attempts
 
 ### Concepts Practiced
 
 - Conditional probability
-- `P(A|B)` notation
-- "Given that" probability language
-- Shrinking the sample space after known information
-- Conditional probability formula
-- Independence
-- Dependence
+- Reading `P(A | B)` as "probability of A given B"
+- Restricted sample spaces
 - Bayes' Theorem
-- Updating probability after evidence
-- Total probability of evidence
-- Dependent sampling without replacement
+- Independence
+- False positives and false negatives
+- Probability trees and total probability
 
-### Core Memory Rules
+### Key Takeaways
 
-- `P(A|B)` means "probability of A given B."
-- The event before the bar is what I want.
-- The event after the bar is what I already know.
-- For "given that" problems, shrink the sample space to the known condition first.
-- If `P(A|B) = P(A)`, then learning `B` did not change the probability of `A`.
-- If learning one event changes the probability of another event, the events are dependent.
-- Bayes' Theorem updates a probability after new evidence.
-- For Bayes problems, the denominator must include all ways the evidence can happen.
-- Without replacement usually creates dependence because the available outcomes change.
-
-### Conditional Probability Formula
-
-For events `A` and `B`, when `P(B) > 0`:
-
-```text
-P(A|B) = P(A and B) / P(B)
-```
-
-Plain English:
-
-```text
-probability of what I want, restricted to what I already know
-```
-
-Example:
-
-```text
-Question: P(even | greater than 2) for one fair die
-
-Known condition: greater than 2
-Reduced sample space: {3, 4, 5, 6}
-Wanted event inside that space: {4, 6}
-
-P(even | greater than 2) = 2/4 = 1/2
-```
-
-### Independence Check
-
-Events are independent when the conditional probability stays the same as the original probability.
-
-```text
-P(A|B) = P(A)
-```
-
-Equivalent multiplication rule:
-
-```text
-P(A and B) = P(A)P(B)
-```
-
-Important correction: Bayes' Theorem does not require independence. Bayes is often useful because evidence changes how likely an event is.
-
-### Bayes' Theorem
-
-Bayes' Theorem is a probability update. It starts with an original probability, adds evidence, and updates the probability of the explanation I care about.
-
-Working structure:
-
-```text
-P(cause | evidence) = P(cause and evidence) / P(evidence)
-```
-
-For the denominator, I need the total probability of the evidence. That means:
-
-```text
-multiply along each evidence path
-add across all evidence paths
-```
-
-### Bayes Path Method
-
-1. Identify what I want and what I know from `P(WANT|KNOW)`.
-2. List each possible source or path that could produce the known evidence.
-3. Multiply along each path.
-4. Add all evidence paths to get the total probability of the evidence.
-5. Divide the want-and-evidence path by the total evidence probability.
-
-### Dependent Sampling
-
-Sampling without replacement changes the available outcomes. Because the sample space changes after a draw, later probability information can depend on earlier draws.
-
-Example idea:
-
-```text
-With replacement: the original probabilities stay the same.
-Without replacement: the deck, bag, or sample space changes.
-```
-
-### Pitfalls Corrected
-
-- Improved building the total evidence probability in Bayes problems.
-- Reinforced that Bayes' Theorem does not require independence.
-- Practiced using complementary probability when an evidence path required it.
-- Corrected edge-case conditional probability selections before DM5.4 submissions.
-- Reinforced that without-replacement situations are dependent.
-- Practiced separating the event I want from the event I already know.
+- The condition after the vertical bar tells me what information is already known.
+- "Given that" means the sample space gets smaller.
+- Bayes' Theorem is useful when I need to reverse a conditional probability.
+- For total evidence probability, I need to multiply along each path and then add the paths together.
 
 ### Reflection
 
-Lesson 5.4 made probability feel more like updating information instead of only counting outcomes from the original sample space. The biggest improvement was learning to read `P(A|B)` as "want given know" and shrink the sample space before doing any calculation. Bayes' Theorem was harder because the denominator requires all possible ways the evidence can happen, not only the path I care about. After targeted corrections, the path method made Bayes problems more manageable and connected the math to real cybersecurity-style reasoning, where evidence changes how likely an explanation is.
+This lesson made probability feel more practical because conditional probability is about updating what I know when new information is available. That kind of thinking connects directly to cybersecurity, where alerts, test results, and risk signals often need to be interpreted with context instead of treated as isolated facts.
 
 ---
 
@@ -2520,335 +2415,271 @@ Lesson 5.4 made probability feel more like updating information instead of only 
 
 **Status:** Completed
 
-**Official Knowledge Check DM5.5:** 3/3, 100% on Attempts 1, 2, and 3
+**Completion Date:** 2026-08-26
+
+**Official Knowledge Check:** 100% on all recorded attempts
 
 ### Work Completed
 
-- Completed Lesson 5.5 materials
-- Completed mixed review
-- Completed independent check
-- Completed targeted corrections
-- Completed DM5.5 across three attempts
-
-### Practice Results
-
-- Mixed review: 6/10
-- Independent check: 3/5
-- Targeted corrections: completed
-- DM5.5 Attempt 1: 3/3, 100%
-- DM5.5 Attempt 2: 3/3, 100%
-- DM5.5 Attempt 3: 3/3, 100%; all initial selections correct before review
+- Reviewed the Pigeonhole Principle
+- Practiced identifying pigeons and boxes
+- Completed guided examples
+- Completed mixed review and targeted corrections
+- Completed the official NYU Knowledge Check attempts
+- Completed Module 5
 
 ### Concepts Practiced
 
-- Basic Pigeonhole Principle
+- Pigeonhole Principle
 - Generalized Pigeonhole Principle
-- Ceiling functions
-- Floor functions
-- Direct guarantee problems
-- Reverse guarantee problems
-- Hidden pigeonhole structures
-- Remainder classes
-- Complementary number pairs
-- Existence proofs
+- Minimum guaranteed outcomes
+- Counting objects into categories
+- Translating word problems into pigeons and boxes
 
-### Core Memory Rules
+### Key Takeaways
 
-- If more objects than categories are placed into those categories, at least one category must contain more than one object.
-- The generalized Pigeonhole Principle uses a ceiling calculation to guarantee a minimum occupancy.
-- Direct generalized problems ask what must happen after a number of objects are placed into categories.
-- Reverse guarantee problems ask how many objects are needed to force a target result.
-- Remainder-class problems often hide the pigeonholes inside possible remainders.
-- If two integers have the same remainder modulo `n`, their difference is divisible by `n`.
-
-### Pitfalls Corrected
-
-- Direct-versus-reverse generalized Pigeonhole setups initially caused confusion.
-- Remainder-class problems required extra work to identify the actual pigeonholes.
-- Some problems required stating the full guarantee in words, not only calculating a number.
-- Repeated practice improved method selection before the final randomized attempt.
+- The Pigeonhole Principle is about what must happen, not just what might happen.
+- The hardest part is usually identifying what counts as the objects and what counts as the categories.
+- Ceiling division helps find the minimum guaranteed number in one category.
 
 ### Reflection
 
-Lesson 5.5 helped connect counting to guarantee-style reasoning. The main shift was recognizing that the Pigeonhole Principle is not about finding an exact arrangement; it is about proving that some outcome must happen when enough objects are placed into limited categories. The hardest part was choosing the correct setup for generalized and reverse guarantee problems. After targeted corrections, hidden pigeonhole structures such as remainder classes became clearer.
+Lesson 5.5 completed the Probability and Counting module. The main improvement was learning to recognize guarantee-based counting problems and explain why an outcome must occur.
 
 ---
 
-### Module 5: Probability & Counting Wrap-Up
+## Unit 1 Discrete Math Milestone
 
-**Status:** Completed
+**Status:** Instructional Modules Completed
 
-### Lessons Completed
+As of 2026-08-26, I completed the NYU Bridge Unit 1 instructional modules:
 
-- Lesson 5.1: Counting & Probability 1
-- Lesson 5.2: Permutations & Combinations
-- Lesson 5.3: Expected Value & Binomial Probability
-- Lesson 5.4: Conditional Probability & Bayes' Theorem
-- Lesson 5.5: Pigeonhole Principle
+- Module 1: Logic
+- Module 2: Proofs
+- Module 3: Induction and Number Theory
+- Module 4: Sets, Relations, Functions, and Graphs
+- Module 5: Probability and Counting
 
-### Knowledge Check Results
-
-- DM5.1: 3/3, 100% on Attempts 1, 2, and 3
-- DM5.2: 3/3, 100% on Attempts 1, 2, and 3
-- DM5.3: 3/3, 100% on Attempts 1, 2, and 3
-- DM5.4: 3/3, 100% on Attempts 1, 2, and 3
-- DM5.5: 3/3, 100% on Attempts 1, 2, and 3
-
-### Module 5 Milestone
-
-Module 5 is complete. Across this module, I practiced probability, counting, permutations, combinations, expected value, binomial probability, conditional probability, Bayes' Theorem, and the Pigeonhole Principle.
-
-### Unit 1 Status
-
-- Module 1: Logic - complete
-- Module 2: Proofs - complete
-- Module 3: Induction & Number Theory - complete
-- Module 4: Set Theory, Relations, Functions & Graphs - complete
-- Module 5: Probability & Counting - complete
-- Unit 1 Exam: pending; not yet attempted and not claimed as complete
-
-### Reflection
-
-Completing Module 5 finishes the instructional module sequence for Unit 1 Discrete Math. The next phase is not a new module; it is cumulative Unit 1 review before the exam. Review should include older material that may have faded, especially logic/proof structure, induction, set and relation classifications, function and graph distinctions, and the specific Module 5 weak spots around variance, Bayes denominators, and generalized Pigeonhole setups.
+The Unit 1 exam is still pending and should not be marked complete yet.
 
 ---
 
-## Unit 1 Exam Status
-
-The Unit 1 Discrete Math exam is pending. It has not been attempted and should not be marked complete until there is verified exam evidence.
-
----
-
-# Unit 2: C++
+## Unit 2: C++ Programming
 
 **Status:** In Progress
 
-Unit 2 begins the C++ portion of the Bridge program. This unit moves from discrete math into how computers represent data and how programs are written, compiled, executed, tested, and debugged.
+Unit 2 begins the programming portion of NYU Tandon Bridge. This section focuses on C++ fundamentals, number systems, development setup, variables, data types, expressions, Boolean logic, and early programming assignments.
 
 ---
 
-## Module C1: Positional Number Systems
+### Module C1: Positional Number Systems
 
 **Status:** Completed
 
-**Completed:** 2026-08-31
+**Completion Date:** 2026-08-31
 
-**Official Knowledge Checks:** 3/3, 100% on Attempts 1, 2, and 3
+**Knowledge Checks:** 100% on all recorded attempts
 
 ### Work Completed
 
-- Completed Module C1 instructional content
-- Watched 13 instructional videos
-- Completed approximately 1 hour 36 minutes of video content
-- Completed C1 Knowledge Check Attempt 1
-- Completed C1 Knowledge Check Attempt 2
-- Completed C1 Knowledge Check Attempt 3
-
-### Practice Results
-
-- Attempt 1: 3/3, 100%
-- Attempt 2: 3/3, 100%
-- Attempt 3: 3/3, 100%
-- Combined practice evidence: 9/9, 100%
+- Watched the assigned instructional videos
+- Reviewed positional number systems
+- Practiced interpreting values based on place value and base
+- Connected number representation to how computers store and process data
 
 ### Concepts Practiced
 
-- Digital data representation
 - Positional notation
 - Base systems
-- Valid digits in different bases
-- Place values as powers of the base
-- Base conversion
-- Decimal, binary, octal, and hexadecimal representations
-- Binary arithmetic
-- Octal arithmetic
-- Addition and subtraction in non-decimal bases
-- Carry and borrow behavior
-- Unsigned number ranges
-- Signed number ranges
-- 8-bit two's-complement representation
-
-### Core Memory Rules
-
-- In base `B`, each place value is a power of `B`.
-- Decimal uses base 10.
-- Binary uses base 2 and digits `0` and `1`.
-- Octal uses base 8 and digits `0` through `7`.
-- Hexadecimal uses base 16 and digits `0` through `9` plus `A` through `F`.
-- For decimal-to-base conversion, repeated division uses the target base.
-- In repeated division, remainders are read from last to first.
-- An unsigned 8-bit value can represent `0` through `255`.
-- An 8-bit two's-complement value can represent `-128` through `127`.
-
-### Why This Matters For Cybersecurity
-
-Number systems are part of how computers store and interpret data. Binary, hexadecimal, signed values, and two's-complement representation show up in low-level programming, memory analysis, networking, packet inspection, encoding, debugging, malware analysis, and security tooling.
+- Place value
+- Number representation
+- Connections between number systems and computer storage
 
 ### Reflection
 
-Module C1 shifted Bridge from pure discrete math into computer representation. The main idea was that numbers are not stored magically; they are encoded using positional systems. Understanding binary, octal, hexadecimal, and two's complement gives me a better foundation for later C++, memory, networking, and systems/security topics.
+This module strengthened my understanding of how values are represented in different number systems. This foundation matters for later computer architecture, memory, networking, and security topics.
 
 ---
 
-## Module C2: Hello World in C++
+### Module C2: Hello World in C++
 
 **Status:** Completed
 
-**Completed:** 2026-09-01
+**Completion Date:** 2026-09-01
 
-**Official Knowledge Check:** Highest score 3/3, 100%
+**Highest Knowledge Check Score:** 100%
 
 ### Work Completed
 
-- Completed Module C2 instructional content
-- Watched 7 instructional videos
-- Completed approximately 42 minutes 37 seconds of video content
-- Reviewed assigned Savitch reading from Chapter 1, Sections 1.1-1.4
-- Practiced tracing a first C++ program from source code to execution
-- Practiced basic input and output with `cin` and `cout`
-- Practiced identifying simple syntax errors
-- Completed C2 Knowledge Check attempts and final verification
-
-### Practice Results
-
-- Attempt 1: 2/3, 66.67%
-- Attempt 2: 3/3, 100%
-- Attempt 3: 2/3, 66.67%
-- Attempt 4: 3/3, 100%
-- Highest recorded result: 3/3, 100%
+- Watched the assigned instructional videos
+- Reviewed introductory C++ material
+- Studied the basic structure of a C++ program
+- Practiced understanding `main()`, output, syntax, and compilation basics
 
 ### Concepts Practiced
 
-- Source code
-- Object code
-- Executable files
-- Compiler role
-- Linker role
-- Loader role
-- CPU execution
-- RAM as volatile memory
-- HDD/SSD as non-volatile secondary storage
 - Basic C++ program structure
-- `#include <iostream>`
-- `using namespace std;`
-- `int main()`
-- `cout <<`
-- `cin >>`
-- `endl`
-- `return 0;`
-
-### Build And Run Flow
-
-```text
-C++ source (.cpp) -> Compiler -> Object code (.o/.obj) -> Linker -> Executable
-Executable on HDD/SSD -> Loader -> RAM -> CPU executes instructions
-```
-
-### Core Program Pattern
-
-```cpp
-#include <iostream>
-using namespace std;
-
-int main() {
-    cout << "Hello World!!!" << endl;
-    return 0;
-}
-```
-
-### Corrections Made
-
-- Separated build-time concepts from run-time concepts.
-- Clarified that compiled source becomes object code before linking into an executable.
-- Clarified that an executable is stored on HDD/SSD, loaded into RAM, and then executed by the CPU.
-- Kept `cin >>` for input separate from `cout <<` for output.
-- Reviewed simple syntax details such as braces and semicolons.
-
-### Why This Matters For Cybersecurity
-
-C2 connects programming syntax to the system underneath it. Understanding how source code becomes an executable, where a program is stored, and how it is loaded into memory is foundational for later C++, debugging, operating systems, malware analysis, secure coding, and cloud security work.
+- `main()`
+- Output with `cout`
+- Syntax
+- Compiling and running a program
 
 ### Reflection
 
-Module C2 established the first practical C++ workflow: write a small program, understand how it is compiled and linked, and trace how it runs on a computer. The biggest improvement was separating the roles of the compiler, linker, loader, RAM, CPU, and secondary storage instead of treating "running a program" as one vague step.
+This module introduced C++ as a compiled language and helped me understand the basic workflow of writing, building, and running a program. The most important takeaway was learning what the core parts of a simple C++ program do instead of only copying the format.
 
 ---
 
-## Module C3: Variables, Data Types, & Expressions
+### Module C3: Variables, Data Types, and Expressions
 
 **Status:** Completed
 
-**Completed:** 2026-09-03
+**Completion Date:** 2026-09-03
 
-**Official Knowledge Checks:** 100% on all three attempts
+**Knowledge Checks:** 100% on all 3 recorded attempts
 
-**Autograder Evidence:** Homework 1: 100/100; Homework 3: 100/100
+**Homework Results:**
+
+- C++ Homework 1: 100/100
+- C++ Homework 3: 100/100
 
 ### Work Completed
 
-- Completed Module C3 lesson material
-- Completed three C3 Knowledge Check attempts with 100% each
-- Completed Homework 1 with 100/100
-- Completed Homework 3 with 100/100
+- Completed the C3 lesson material
+- Practiced variables, identifiers, data types, assignment, expressions, and Boolean logic
 - Installed and verified Visual Studio Community for C++ development
 - Created and ran C++ Console App projects
-- Submitted only required source files to Gradescope
-- Verified additional test cases beyond the autograder examples
+- Submitted the required `.cpp` source files for homework
+- Passed additional test cases beyond the basic examples
 
 ### Concepts Practiced
 
 - Variables and identifiers
+- `int`, `float`, `double`, `char`, `bool`, and `string`
 - Declaration, assignment, and initialization
-- Core data types: `int`, `float`, `double`, `char`, `bool`, and `string`
-- Integer division and truncation
-- Modulus as remainder
+- Arithmetic operators: `+`, `-`, `*`, `/`, and `%`
+- Integer division and modulus
 - Casting and mixed-type expressions
-- Character values and ASCII
-- Escape sequences
+- Character values, ASCII, and escape sequences
 - String concatenation
-- Boolean logic
-- Relational comparisons
+- Boolean operators: `!`, `&&`, and `||`
+- Comparison operators: `==`, `!=`, `<`, `>`, `<=`, and `>=`
 - Operator precedence
-- Basic `if` / `else` control flow
+- Simple `if` / `else` control flow
 - Translating word problems into variables, formulas, and output
 
-### Core C++ Reminders
+### Homework Practice
 
-- A variable is a named memory location that stores a value.
-- A variable must be declared before it is used.
-- Identifiers can use letters, numbers, and underscores, but cannot start with a number.
-- Use meaningful variable names that describe the value being stored.
-- Integer division drops the fractional part when both operands are integers.
-- The `/` operator gives full groups, while `%` gives leftovers.
-- Casting can force a value to be treated as another type for an expression.
-- `char` values can be used as characters or as numeric ASCII values depending on the expression.
-- `=` assigns a value; `==` compares two values.
-- Parentheses are the safest way to make intended precedence clear.
+- HW1 Q1: Converted coins into dollars and cents using arithmetic, integer division, and modulus
+- HW1 Q2: Converted money into minimum coins using repeated division and modulus
+- HW1 Q3: Added and normalized days, hours, and minutes
+- HW1 Q4: Practiced arithmetic, decimal division, integer division, and modulus
+- HW3 Q1: Calculated rectangle perimeter and area
+- HW3 Q2: Determined whether an integer was even or odd using `%` and `if` / `else`
+- HW3 Q3: Found the largest of three integers without using a loop
 
-### Practice And Homework Evidence
+### Key Takeaways
 
-- Homework 1 practiced arithmetic, integer division, modulus, and value conversion problems.
-- Homework 3 practiced rectangle calculations, even/odd decisions with `%`, and finding the largest of three integers without a loop.
-- Additional tests included alternate coin totals, minute/hour carry cases, zero and negative even/odd inputs, ties, and all-negative largest-value cases.
-
-### Development Setup Notes
-
-- Visual Studio Community was installed on Windows with the Desktop development with C++ workload.
-- C++ projects were created as Console Apps.
-- Source files were saved with the required `.cpp` filenames.
-- Programs were run with Start Without Debugging.
-- Only required source files were submitted, not solution files, executables, project folders, or build-output folders.
-
-### Why This Matters For Cybersecurity
-
-C3 builds the programming foundation needed for secure coding and systems work. Variables, types, arithmetic, casting, Boolean logic, and conditionals all show up later in input validation, memory behavior, parsing, debugging, log analysis, and security tooling.
+- `/` gives full groups when working with integers, while `%` gives the leftovers.
+- Casting is needed when I want a decimal result from values that would otherwise use integer division.
+- `char` arithmetic can produce numeric output unless I cast the result back to `char`.
+- `=` assigns a value, while `==` compares two values.
+- Parentheses help avoid operator-precedence mistakes.
+- I need to trace variable values by hand instead of relying only on the IDE.
 
 ### Reflection
 
-Module C3 moved the C++ work from recognizing a basic program into actually reasoning about data. The biggest improvements were tracing variable values by hand, knowing when division stays integer-based, using modulus for leftovers, and distinguishing assignment from comparison. The homework also made the syntax more practical because each program had to produce correct output and pass tests.
+Module C3 helped me move from simply running C++ programs to understanding how values are stored, changed, compared, and used in expressions. The homework strengthened my ability to translate word problems into variables, formulas, and output step by step. This matters for cybersecurity because secure tools and systems depend on careful handling of data, types, conditions, and program behavior.
+
+---
+
+### Module C4: Branching Statements
+
+**Status:** Completed
+
+**Completion Date:** 2026-09-05
+
+**Official Knowledge Checks:** 3/3, 100% on Attempts 1, 2, and 3
+
+**Autograder Evidence:** Homework 2: 100/100; all 21 tests passed
+
+### Work Completed
+
+- Completed Module C4 instructional content
+- Watched 13 instructional videos
+- Practiced one-way `if` statements, `if` / `else`, `else if` chains, nested branching, and `switch`
+- Completed three C4 Knowledge Check attempts with 100% each
+- Completed a 15-question mixed C4 mastery pass
+- Corrected the independent-`if` concept after review
+- Completed targeted final verification on branching and `switch` behavior
+- Wrote, compiled, manually tested, and submitted all four Homework 2 C++ files
+- Earned 100/100 on Homework 2
+
+### Practice Results
+
+- C4 Knowledge Check Attempt 1: 3/3, 100%
+- C4 Knowledge Check Attempt 2: 3/3, 100%
+- C4 Knowledge Check Attempt 3: 3/3, 100%
+- Mixed C4 mastery pass: 14/15 before correction
+- Homework 2 Autograder: 100/100
+- Homework 2 tests passed: 21/21
+
+### Concepts Practiced
+
+- One-way `if` statements
+- `if` / `else` statements
+- `else if` chains
+- Independent `if` statements
+- Nested branching
+- Boolean conditions
+- Variable updates inside branches
+- Condition order
+- Boundary checks with `>` and `>=`
+- `switch` statements
+- `case` labels
+- `break`
+- `default`
+- Fall-through behavior
+- Choosing between `if` / `else if` and `switch`
+
+### Homework Practice
+
+- HW2 Q1: Two-item discount and tax calculation using `double` values, a lower-price branch, club-card input, and tax after discounts
+- HW2 Q2: College status program using an `if` / `else if` chain and year-difference calculations
+- HW2 Q3: Quadratic equation classification using special-case branching, discriminant logic, and `sqrt()` from `<cmath>`
+- HW2 Q4: Rounding methods using a required `switch`, integer constants, and floor, ceiling, and nearest rounding logic
+
+### Core Branching Reminders
+
+- A one-way `if` statement runs only when its condition is true.
+- An `if` / `else` statement chooses exactly one of two branches.
+- An `if` / `else if` / `else` chain is checked from top to bottom, and only the first true branch runs.
+- Separate `if` statements are independent, so more than one can run.
+- Nested `if` statements place one decision inside another.
+- Braces determine which statements belong to a branch.
+- `switch` is useful for exact choices using integer-like or character values.
+- `break` exits a `switch`; without it, execution can fall through into later cases.
+- `default` handles values that do not match any listed case.
+
+### Pitfalls Corrected
+
+- Independent `if` statements behave differently from connected `if` / `else if` chains.
+- Nested branch boundaries depend on braces and indentation is not enough by itself.
+- `default` in a `switch` is not the same thing as `else`, even though both can handle remaining cases.
+- Fall-through can continue into later cases when `break` is missing.
+- Boundary operators such as `>` and `>=` can change which branch runs.
+- Sample input alone does not prove that a program works for all important cases.
+
+### Why This Matters For Cybersecurity
+
+Branching is one of the core patterns behind security tools and systems logic. Programs often need to make decisions based on input, risk level, file type, user role, error conditions, or network data. Understanding control flow makes later work with validation, automation, detection logic, and secure coding easier to reason about.
+
+### Reflection
+
+Module C4 helped me understand how C++ programs make decisions. The biggest improvement was learning to trace control flow before doing arithmetic or output prediction. I also strengthened the difference between independent `if` statements and connected `if` / `else if` chains, which matters because the same condition values can lead to different program behavior depending on the structure. Homework 2 made the concepts more practical because each program required choosing the correct branch, testing multiple cases, and verifying the result through Gradescope.
 
 ---
 
 ## Next Bridge Step
 
-Continue with the next Unit 2 C++ module. Also keep cumulative Unit 1 Discrete Math review active because the Unit 1 exam is still pending and not yet claimed as complete.
+Begin Module C5 after collecting the official overview, videos, lesson materials, reading, Knowledge Check, and Gradescope requirements. Also keep cumulative Unit 1 Discrete Math exam review active because the Unit 1 exam is still pending and not yet claimed as complete.
