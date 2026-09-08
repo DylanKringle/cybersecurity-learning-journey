@@ -2680,6 +2680,104 @@ Module C4 helped me understand how C++ programs make decisions. The biggest impr
 
 ---
 
+### Module C5: Iterative Statements
+
+**Status:** Completed
+
+**Completion Date:** 2026-09-08
+
+**Official Knowledge Checks:** 3/3, 100% on Attempts 1, 2, and 3
+
+**Autograder Evidence:** Homework 4: 100/100; Homework 5: 100/100
+
+### Work Completed
+
+- Completed Module C5 instructional content
+- Watched 10 instructional videos, about 1 hour and 15 minutes total
+- Practiced `while`, `do-while`, and `for` loops
+- Practiced increment and decrement operators
+- Practiced counters, accumulators, sentinel input, digit processing, and nested loops
+- Completed targeted review for videos 1-4 and videos 5-10
+- Completed a full C5 mastery pass and corrected missed concepts
+- Completed final verification with 5/5
+- Completed three C5 Knowledge Check attempts with 100% each
+- Completed Homework 4 and Homework 5 with verified autograder results
+
+### Practice Results
+
+- C5 Knowledge Check Attempt 1: 3/3, 100%
+- C5 Knowledge Check Attempt 2: 3/3, 100%
+- C5 Knowledge Check Attempt 3: 3/3, 100%
+- Videos 1-4 review: 48 targeted questions, with weak areas repaired
+- Videos 5-10 review: 79 total review questions by the end of the full review sequence
+- Full C5 mastery pass: 13/15 before corrections
+- Final verification: 5/5, 100%
+- Homework 4 Autograder: 100/100
+- Homework 5 Autograder: 100/100
+
+### Concepts Practiced
+
+- Iterative statements
+- `while` loops
+- `do-while` loops
+- `for` loops
+- Loop initialization, condition, body, and update
+- Infinite-loop prevention
+- Post-increment and pre-increment
+- Post-decrement and pre-decrement
+- Counters
+- Accumulators
+- Sentinel-controlled input
+- Known repetition count versus unknown repetition count
+- Digit extraction with `%`
+- Digit removal with integer division
+- Nested loops
+- Pattern printing
+- Multiplication tables
+- Testing multiple cases
+
+### Homework Practice
+
+- HW4 Q1a / Q1b: Printed the first `n` even numbers using required `while` and `for` versions
+- HW4 Q2: Built a simplified Roman numeral conversion using repeated subtraction
+- HW4 Q3: Converted decimal numbers to binary without strings, arrays, `to_string()`, or `bitset`
+- HW4 Q4a / Q4b: Calculated geometric mean with known-length input and sentinel-controlled input using `pow()`
+- HW4 Q5: Printed a 2n-line hourglass using nested loops, leading spaces, and odd star counts
+- HW4 Q6: Printed numbers with more even digits than odd digits using digit extraction and counters
+- HW5: Printed an `n x n` multiplication table using nested loops and tab-separated columns
+
+### Core Loop Reminders
+
+- A `while` loop checks its condition before the body, so it may run zero times.
+- A `do-while` loop runs the body before checking its condition, so it always runs at least once.
+- A `for` loop is natural when the number of repetitions is known.
+- A loop must update its control variable in a direction that can eventually make the condition false.
+- A counter tracks how many times something happens.
+- An accumulator keeps a running total.
+- A sentinel value tells a loop when to stop when the input length is unknown.
+- For digit problems, `% 10` gets the last digit and integer division by `10` removes the last digit.
+- In nested loops, the outer loop usually controls rows and the inner loop controls work inside each row.
+
+### Pitfalls Corrected
+
+- Traced initialization, condition, body, and update in the correct order.
+- Checked whether loop variables were moving toward stopping conditions.
+- Separated loop-control variables from counters and accumulators.
+- Corrected missed concepts from the full C5 mastery pass.
+- Reviewed nested loop structure for pattern output.
+- Noted that a stray semicolon after a loop header can create an empty loop body and cause an infinite loop.
+- Found that an extra stress test for binary conversion exposed integer overflow when binary digits were stored as a normal `int`.
+
+### Why This Matters For Cybersecurity
+
+Loops are essential for cybersecurity scripting, automation, and analysis. Security work often requires repeating checks across files, logs, users, IP addresses, alerts, or configuration entries. Understanding loop control, stopping conditions, counters, accumulators, and nested loops helps prevent unreliable scripts and makes later automation easier to reason about.
+
+### Reflection
+
+Module C5 strengthened my ability to reason through repeated program behavior instead of only reading code one line at a time. The most important improvement was learning to trace loops by following initialization, condition, body, and update in order. Homework 4 and Homework 5 made the lesson practical because the assignments required building loops that handled repeated output, digit processing, sentinel input, and nested table or pattern logic. This module also showed why testing multiple inputs matters, because a program can work for a sample case but still fail on edge cases or larger values.
+
+---
+
 ## Next Bridge Step
 
-Begin Module C5 after collecting the official overview, videos, lesson materials, reading, Knowledge Check, and Gradescope requirements. Also keep cumulative Unit 1 Discrete Math exam review active because the Unit 1 exam is still pending and not yet claimed as complete.
+Begin Module C6 after collecting the official overview, lesson materials, videos, reading, Knowledge Check, and Gradescope requirements. Continue cumulative Unit 1 Discrete Math exam review in parallel because the Unit 1 exam is still pending and not yet claimed as complete.

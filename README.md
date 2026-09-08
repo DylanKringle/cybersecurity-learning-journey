@@ -1,10 +1,10 @@
-# GitHub Sep 05 Unit 2 C4 Update Pack
+# GitHub Sep 08 Unit 2 C5 Update Pack
 
 This folder contains the clean GitHub update files for Dylan's cybersecurity learning journal.
 
 ## Files Included
 
-### `APPLY-SEP05-UNIT2-C4-UPDATE.md`
+### `APPLY-SEP08-UNIT2-C5-UPDATE.md`
 
 Instructions for applying the update, checking the diff, committing, and pushing to GitHub.
 
@@ -14,14 +14,14 @@ The updated GitHub progress file. This is the file that should replace the exist
 
 ## What This Update Covers
 
-- Bridge Unit 2 C4: Branching Statements
-- 13 instructional videos completed
-- C4 Knowledge Checks: 3/3, 100% on all three attempts
-- Homework 2: 100/100
-- Homework 2 autograder: 21/21 tests passed
-- Branching with `if`, `if` / `else`, `else if`, nested decisions, and `switch`
-- Corrected weak areas around independent `if` statements, nested blocks, fall-through, boundaries, and `switch` syntax
-- Next step updated to Module C5
+- Bridge Unit 2 C5: Iterative Statements
+- 10 instructional videos completed
+- C5 Knowledge Checks: 3/3, 100% on all three attempts
+- Homework 4: 100/100
+- Homework 5: 100/100
+- Practice with `while`, `do-while`, `for`, increment/decrement, counters, accumulators, sentinel input, digit processing, and nested loops
+- Corrected weak areas around loop tracing, stopping conditions, nested loops, and edge-case testing
+- Next step updated to Module C6
 
 ## Public GitHub Safety Check
 
@@ -36,5 +36,5 @@ This update is written for a public learning journal. It summarizes real progres
 ## Suggested Commit Message
 
 ```text
-Update Bridge C++ C4 progress
+Update Bridge C++ C5 progress
 ```
