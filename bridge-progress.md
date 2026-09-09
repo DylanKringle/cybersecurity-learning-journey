@@ -2778,6 +2778,96 @@ Module C5 strengthened my ability to reason through repeated program behavior in
 
 ---
 
+### Module C6: Functions
+
+**Status:** Completed
+
+**Completion Date:** 2026-09-09
+
+**Official Knowledge Checks:** 3/3, 100% on Attempts 1, 2, and 3
+
+**Autograder Evidence:** Homework 6: 12/12; all tests passed
+
+### Work Completed
+
+- Completed Module C6 instructional content
+- Watched 12 instructional videos, about 1 hour and 35 minutes total
+- Practiced function design, declarations, definitions, calls, parameters, arguments, and return values
+- Practiced runtime stack behavior and variable scope
+- Practiced pass by value and pass by reference
+- Practiced breaking larger programming problems into smaller helper functions
+- Completed three C6 Knowledge Check attempts with 100% each
+- Completed Homework 6 with full autograder credit
+
+### Practice Results
+
+- C6 Knowledge Check Attempt 1: 3/3, 100%
+- C6 Knowledge Check Attempt 2: 3/3, 100%
+- C6 Knowledge Check Attempt 3: 3/3, 100%
+- Homework 6 Autograder: 12/12
+- Homework 6 tests passed: all tests passed
+
+### Concepts Practiced
+
+- Functions as reusable units of code
+- Function decomposition
+- Function prototypes / declarations
+- Function definitions
+- Function calls
+- Return types
+- `void` functions
+- Parameters and arguments
+- Return values
+- Runtime stack frames
+- Local variables
+- Block scope
+- Global variables
+- Pass by value
+- Pass by reference
+- Reference parameters using `&`
+- Reusing helper functions instead of duplicating logic
+- Efficiency through saved intermediate results
+
+### Homework Practice
+
+- HW6 Q1: Implemented `fib(int n)` using iterative state updates for Fibonacci numbers
+- HW6 Q2: Built reusable `printShiftedTriangle(...)` and `printPineTree(...)` functions with nested loops
+- HW6 Q3: Implemented `eApprox(int n)` using a running factorial and sum in linear time
+- HW6 Q4: Implemented `printDivisors(int num)` in ascending order using divisor pairs and square-root-range iteration
+
+### Core Function Reminders
+
+- A function packages a task into a reusable unit with a name, inputs, and optional output.
+- `main()` should coordinate the overall program flow while helper functions handle smaller tasks.
+- A declaration tells the compiler that a function exists.
+- A definition contains the actual function body.
+- A call runs the function with specific arguments.
+- Parameters are placeholders; arguments are the actual values passed into a function call.
+- A function call creates a stack frame, and returning from the function removes that frame.
+- Local variables belong to their own function or block.
+- Pass by value gives a function a copy.
+- Pass by reference gives a function access to the original variable.
+
+### Pitfalls Corrected
+
+- Traced return values carefully when multiple functions interacted.
+- Separated declaration, definition, and call instead of treating them as the same idea.
+- Practiced reading function headers left-to-right: return type, name, parameter list.
+- Distinguished parameters from arguments.
+- Distinguished local variables from globals and block-scoped variables.
+- Used pass by reference only when the caller's original variable needed to change.
+- Reused intermediate results in efficiency-sensitive problems instead of recomputing the same values.
+
+### Why This Matters For Cybersecurity
+
+Functions make programs easier to test, debug, reuse, and reason about. In cybersecurity scripting and tool building, functions help separate tasks such as parsing input, validating data, checking conditions, processing files, and producing output. Clear function design also reduces repeated logic, which lowers the chance of mistakes in security-sensitive code.
+
+### Reflection
+
+Module C6 helped me move from writing one large block of code toward organizing programs into smaller reusable pieces. The biggest improvement was understanding how function calls work through parameters, return values, scope, and the runtime stack. Homework 6 made this practical by requiring helper functions and efficient problem-solving instead of repeated logic. This is an important step toward writing code that is easier to test, explain, and maintain.
+
+---
+
 ## Next Bridge Step
 
-Begin Module C6 after collecting the official overview, lesson materials, videos, reading, Knowledge Check, and Gradescope requirements. Continue cumulative Unit 1 Discrete Math exam review in parallel because the Unit 1 exam is still pending and not yet claimed as complete.
+Begin Module C7 after collecting the official overview, lesson materials, videos, Knowledge Check, and Gradescope requirements. Continue cumulative Unit 1 Discrete Math exam review in parallel because the Unit 1 exam is still pending and not yet claimed as complete.

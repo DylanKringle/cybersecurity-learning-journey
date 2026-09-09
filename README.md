@@ -31,9 +31,11 @@ Recent verified progress:
 - Completed NYU Bridge Unit 2, Module C3: Variables, Data Types, and Expressions
 - Completed NYU Bridge Unit 2, Module C4: Branching Statements
 - Completed NYU Bridge Unit 2, Module C5: Iterative Statements
-- Completed C5 Knowledge Checks with 3/3, 100% on all three attempts
+- Completed NYU Bridge Unit 2, Module C6: Functions
+- Completed C6 Knowledge Checks with 3/3, 100% on all three attempts
 - Completed C++ Homework 4 with 100/100
 - Completed C++ Homework 5 with 100/100
+- Completed C++ Homework 6 with 12/12, all tests passed
 - Completed Python Module 2: Control Flow
 - Completed Python Module 3 review with an overall score of 9.8/10
 - Practiced beginner Linux commands in Ubuntu
@@ -41,7 +43,7 @@ Recent verified progress:
 
 ## Current Focus
 
-- NYU Tandon Bridge: begin Unit 2, Module C6
+- NYU Tandon Bridge: begin Unit 2, Module C7
 - Continue cumulative Unit 1 Discrete Math exam review
 - Python programming foundations
 - Linux command-line practice
