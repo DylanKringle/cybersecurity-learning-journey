@@ -2868,6 +2868,96 @@ Module C6 helped me move from writing one large block of code toward organizing 
 
 ---
 
+### Module C7: Static Arrays
+
+**Status:** Completed
+
+**Completion Date:** 2026-09-10
+
+**Official Knowledge Check Highest Score:** 3/3, 100%
+
+**Knowledge Check Attempts:** Attempt 1: 3/3; Attempt 2: 2/3; Attempt 3: 3/3
+
+### Work Completed
+
+- Completed Module C7 instructional content
+- Watched 9 instructional videos, about 1 hour and 7 minutes total
+- Reviewed memory representation for static arrays
+- Practiced array properties, zero-based indexing, bounds, and safe access
+- Practiced array declaration, initialization, and element assignment
+- Reviewed the above-average problem as a multi-pass array example
+- Completed assigned lesson materials, lesson videos, and Knowledge Check attempts
+- Corrected the missed Attempt 2 concepts around memory spacing, multi-dimensional array wording, and contiguous storage
+
+### Practice Results
+
+- C7 Knowledge Check Attempt 1: 3/3, 100%
+- C7 Knowledge Check Attempt 2: 2/3, 66.67%
+- C7 Knowledge Check Attempt 3: 3/3, 100%
+- Overall highest-attempt grade: 3/3, 100%
+
+### Concepts Practiced
+
+- Static arrays
+- Fixed physical array size
+- Same-type elements
+- Contiguous memory
+- Zero-based indexing
+- Valid indexes from `0` through `n - 1`
+- Out-of-bounds access
+- Undefined behavior
+- Array names and base addresses
+- Address calculation using base address, index, and element size
+- Named constants for array size
+- Initializer lists
+- Zero-initialized remaining elements
+- Individual element assignment
+- Index variables versus stored values
+- Looping through arrays
+- Multi-pass algorithms
+- Physical capacity versus actual used size
+
+### Core Static Array Reminders
+
+- A static array stores multiple values of the same type in one fixed-size structure.
+- Static arrays do not automatically grow after declaration.
+- If an array has size `n`, the valid indexes are `0` through `n - 1`.
+- An index equal to the array size is already out of bounds.
+- Negative indexes are also out of bounds.
+- Out-of-bounds access does not resize the array and can cause undefined behavior.
+- The array name evaluates to the address where the array begins.
+- For an `int` that uses 4 bytes, adjacent elements are 4 bytes apart in memory.
+- A named constant can be used for the physical array size.
+- Initializer lists are used at declaration; individual elements can be changed later.
+- The index `i` is different from the value `arr[i]`.
+
+### Above-Average Problem Pattern
+
+- Read the grades and store them in an array.
+- Calculate the class average.
+- Loop through the stored grades again.
+- Print only the grades that are strictly greater than the average.
+- Use the actual number of students, not the full physical array capacity, to control the loops.
+
+### Pitfalls Corrected
+
+- Reviewed that contiguous storage means array elements sit next to each other in memory.
+- Corrected memory-spacing reasoning using index and element size.
+- Reinforced that static array physical size must be supplied at declaration.
+- Separated the index variable from the value stored at that index.
+- Used `i < size` to avoid the off-by-one mistake of accessing index `size`.
+- Remembered that an array's physical capacity can be larger than the amount of data currently used.
+
+### Why This Matters For Cybersecurity
+
+Arrays are one of the basic ways programs store and process repeated data. In cybersecurity, array-style thinking shows up when handling logs, packet fields, byte buffers, scan results, user records, or repeated configuration values. Understanding bounds and memory layout also matters because unsafe access and memory mistakes can lead to unreliable programs and security vulnerabilities.
+
+### Reflection
+
+Module C7 helped me understand arrays as fixed-size collections stored in memory, not just as a list of values. The biggest improvement was connecting indexes, values, physical size, and memory addresses. I also practiced why bounds matter: using index `size` or a negative index is outside the valid array range and can produce undefined behavior. The above-average example made the lesson practical because it showed why arrays are useful when data must be stored and revisited later.
+
+---
+
 ## Next Bridge Step
 
-Begin Module C7 after collecting the official overview, lesson materials, videos, Knowledge Check, and Gradescope requirements. Continue cumulative Unit 1 Discrete Math exam review in parallel because the Unit 1 exam is still pending and not yet claimed as complete.
+Begin Module C8 after collecting the official overview, lesson materials, videos, and assessment requirements. Continue cumulative Unit 1 Discrete Math exam review in parallel because the Unit 1 exam is still pending and not yet claimed as complete.

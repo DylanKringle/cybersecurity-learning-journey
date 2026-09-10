@@ -32,7 +32,8 @@ Recent verified progress:
 - Completed NYU Bridge Unit 2, Module C4: Branching Statements
 - Completed NYU Bridge Unit 2, Module C5: Iterative Statements
 - Completed NYU Bridge Unit 2, Module C6: Functions
-- Completed C6 Knowledge Checks with 3/3, 100% on all three attempts
+- Completed NYU Bridge Unit 2, Module C7: Static Arrays
+- Completed C7 Knowledge Check with a highest score of 3/3, 100%
 - Completed C++ Homework 4 with 100/100
 - Completed C++ Homework 5 with 100/100
 - Completed C++ Homework 6 with 12/12, all tests passed
@@ -43,7 +44,7 @@ Recent verified progress:
 
 ## Current Focus
 
-- NYU Tandon Bridge: begin Unit 2, Module C7
+- NYU Tandon Bridge: begin Unit 2, Module C8
 - Continue cumulative Unit 1 Discrete Math exam review
 - Python programming foundations
 - Linux command-line practice
